@@ -1,11 +1,15 @@
 from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from pdt.core import *
 
-ROOT=Path(__file__).resolve().parents[1]
 RES=ROOT/'results'; FIG=ROOT/'figures'
 RES.mkdir(exist_ok=True); FIG.mkdir(exist_ok=True)
 
