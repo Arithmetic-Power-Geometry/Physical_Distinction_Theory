@@ -6,6 +6,7 @@ The repository follows the manuscript's status discipline.
 - **PDT no-go:** CEU+CER do not force BQDC / Euclidean geometry.
 - **Conditional PDT theorem:** CEU+CER+RDE, with finite dimensionality, closed reversible group and maximal-pair coverage, yield an ellipsoid / Euclidean ball `B^n`.
 - **PDT no-go / local dimension-selection:** for every `n>=2`, the Euclidean ball `B^n` satisfies the current local CEU/CER/RDE structure; therefore those local assumptions alone cannot select `n=3`.
+- **Imported/known metric-entropy result + PDT operational corollary:** for a Euclidean `B^n`, resolution-scaled distinction capacity obeys `K_R(epsilon)=n log2(1/epsilon)+O(1)`, so the asymptotic capacity slope identifies an already-existing metric dimension `n`; this does **not** select `n=3`.
 - **PDT no-go:** local data do not determine a unique composite.
 - **Imported reconstruction:** `B^n -> B^3` only after external composite assumptions.
 - **Conditional probability theorem:** `F(q)=q` under normalized positive orthogonal additivity and noncontextual dependence on `Q_D`.
@@ -15,4 +16,4 @@ The repository follows the manuscript's status discipline.
 - **Exact PDT dynamical identity:** total distinction tensor includes both `dot G_R` and state-flow terms.
 - **Identifiability theorem:** same environmental microscopic inputs give the same controlled-dephasing coherence in PDT bookkeeping and standard microscopic QM.
 - **Real-data status:** three public sources processed; none meets the complete decisive same-input blind criterion.
-- **Open:** native composition law, native dimension selection, a richer operational statistic that exactly identifies mixed-record coherence without importing the microscopic overlap, same-input new physical prediction, gravity/capacity law.
+- **Open:** native composition law, native dimension selection (a physical reason the operational capacity slope must equal 3), a richer operational statistic that exactly identifies mixed-record coherence without importing the microscopic overlap, same-input new physical prediction, gravity/capacity law.
