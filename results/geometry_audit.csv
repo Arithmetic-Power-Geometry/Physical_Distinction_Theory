@@ -1,0 +1,6 @@
+p,CEU_antipodal_midpoint,CER_radial_representation,parallelogram_defect,euclidean
+1.25,True,True,2.062866266041592,False
+1.5,True,True,1.039684199579492,False
+2.0,True,True,8.881784197001252e-16,True
+3.0,True,True,-0.8251978960639174,False
+4.0,True,True,-1.1715728752538097,False
