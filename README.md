@@ -1,49 +1,47 @@
-# Physical Distinction Theory (PDT) — Reproducibility Package
+# Physical Distinction Theory (PDT) — Theorem-Audit Reproducibility Package
 
 **Copyright (C) 2026 Mohammad Amir Khusru Akhtar**  
 Licensed under the **Apache License 2.0**.
 
-This repository accompanies the manuscript **“Physical Distinction Theory: Resource-Bounded Distinction Capacity as a Common Operational Substrate for Quantum Structure, Classical Records, Causal Geometry, and Gravitational Thermodynamics.”**
+Companion repository for **“Physical Distinction Theory: Quadratic Distinction Conservation, Quantum Bounds, Resource-Bounded Capacity, and the Route to Causal Geometry.”**
 
-## What this software does
+## What is implemented
 
-The package implements reproducible numerical stress tests for the operational quantities used in the manuscript. It includes:
+- resource-bounded finite-code distinction capacity;
+- Helstrom discrimination, trace distance, entropy and depolarizing channels;
+- explicit classical-local and PR-box foil models showing that broad A1–A6 operational axioms do not isolate quantum correlations;
+- Balanced Quadratic Distinction Conservation / parallelogram-law audits across non-Hilbertian p-norm foils;
+- conditional Hilbertian CHSH/Tsirelson bound checks;
+- equal-orthogonal-refinement audit selecting Born exponent q=2 within the continuous power-law family;
+- compatible complex-structure J audit;
+- homogeneous capacity–volume, screen-capacity and Planck localization/collapse scaling pipelines;
+- 14 automated tests, heavy deterministic reproduction, manuscript table export and GitHub Actions CI.
 
-- finite-code resource-bounded distinction-capacity calculations;
-- binary Helstrom discrimination and trace-distance utilities;
-- data-processing audits under depolarizing channels;
-- CHSH numerical search in the standard qubit/singlet realization;
-- a redundant-record/decoherence toy model;
-- a causal-diamond curvature/capacity scaling toy model;
-- entropy-versus-distinction comparisons;
-- automated tests and a one-command reproduction workflow.
+## Scientific-status firewall
 
-## What the numerical results mean
+The software distinguishes analytic/conditional results from open claims. The Tsirelson theorem is conditional on the quadratic distinction law plus bounded bilinear correlations; the Born result is conditional on the stated refinement assumptions. Capacity–volume is a conditional measure theorem. The exact horizon coefficient `1/(4 ln 2)` is **not** claimed as derived from PDT first principles.
 
-The software does **not** numerically prove a new theory of quantum gravity. In particular, the CHSH computation verifies consistency with the standard quantum Tsirelson value; it is not a derivation of that bound from PDT axioms. The causal-diamond calculation is a falsifiable scaling-model pipeline check, not experimental evidence. These distinctions match the manuscript's novelty audit.
-
-## One-click reproduction
+## One-command verification
 
 ```bash
 python -m pip install -r requirements.txt
-pytest -q
-python scripts/reproduce_all.py
+python scripts/verify_all.py
 ```
 
-or run the full verification gate:
+The verification gate runs pytest, regenerates results/figures, exports LaTeX tables, and checks the headline numerical invariants.
 
-```bash
-PYTHONPATH=. python scripts/verify_all.py
-```
+## Audited reference run
 
-Outputs are written to `results/` and `figures/`.
+- 14/14 tests passed.
+- 5,000 random depolarizing-channel pairs: 0 data-processing violations.
+- 2,000,000 planar standard-quantum CHSH samples: best `2.8281077683` versus `2√2 = 2.8284271247`.
+- exact classical deterministic CHSH maximum: `2`.
+- canonical PR-box CHSH: `4`.
+- sampled ℓ2 parallelogram maximum defect: `2.13e-14` (roundoff scale).
+- numerical Born-refinement minimizer: `q = 2.0000000029`; objective at q=2 ≈ `5.88e-32`.
+- canonical complex-structure residuals: zero to floating-point precision.
 
-## Audited local results
-
-- 6/6 automated tests passed.
-- 500 random depolarizing-channel data-processing trials: 0 violations.
-- 120,000 random planar CHSH settings: best value 2.8278349577; quantum Tsirelson value 2.8284271247; sampling gap 0.0005921670.
-- 36 capacity/noise configurations generated.
+Generated outputs are written to `results/`, `figures/`, and `generated_latex/`.
 
 ## License
 
