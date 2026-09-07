@@ -4,7 +4,7 @@ Copyright (C) 2026 Mohammad Amir Khusru Akhtar
 
 Licensed under the Apache License 2.0.
 
-This repository contains the final reproducible software package for Physical Distinction Theory (PDT) and the **Akhtar Distinction Dynamics Equation (ADDE)**. The package implements the complete computational chain used for testing and comparison: finite-resource distinction primitives, BQDC and polarization, elementary reconstruction checks, Born weighting, CHSH/Tsirelson tests, resource-restricted norms and canonical geometry, Stinespring global distinction conservation, complementary-channel records, microscopic record overlap, deterministic and Poisson record dynamics, ADDE and multi-constraint ADDE, dynamical distinction geometry, non-Markovian backflow, distinction entropy, Landauer bounds, hypothesis-testing distinction divergence, operational distinction free energy, conditional causal-geometry calculations, and model benchmarking.
+This repository is a direct, reproducible testing and comparison implementation of Physical Distinction Theory (PDT) and the **Akhtar Distinction Dynamics Equation (ADDE)**. It contains no manuscript-production material.
 
 ## Canonical Akhtar Distinction Dynamics Equation
 
@@ -20,37 +20,33 @@ For deterministic independent pure environment records,
 \Gamma_A=-\nu\ln|\kappa|=-\frac{\nu}{2}\ln(1-D_E^2).
 \]
 
-The zero-record limit \(\Gamma_A=0\) reduces exactly to von Neumann/Schrödinger evolution.
+When \(\Gamma_A=0\), the equation reduces exactly to von Neumann/Schrödinger evolution.
 
-## Included package
+## Implemented coverage
 
-`Physical_Distinction_Theory_Software.zip` contains the full Python package, equation registry, tests, reproduction scripts, benchmark outputs, public-dataset registry, and GitHub Actions workflow.
+The software implements and tests finite-resource distinction primitives; codebook capacity; decision values and Bregman regret; BQDC and polarization; finite-group invariant geometry; erasure/radial reconstruction checks; Bloch states; Born probabilities; CHSH/Tsirelson; restricted operational norms; resource kernels; ellipsoid tensors; Stinespring dilation; complementary channels; global trace-distinction conservation; local contraction; microscopic environment-record overlap; record bits; pure-record distinguishability; deterministic, weak-record and Poisson rates; ADDE; multi-constraint ADDE; distinction generators; directional contraction; non-Markovian backflow; distinction entropy; conditional Landauer cost; entropy-production defect; operational hypothesis-testing divergence; measured distinction free energy; hidden free-energy gap; conditional small-causal-diamond calculations; horizon-capacity calculator; and four-model dynamical comparison.
 
-## Reproduce
+## Install and verify
 
 ```bash
-unzip Physical_Distinction_Theory_Software.zip -d pdt_software
-cd pdt_software
-python -m pip install -e . pytest
-python scripts/verify_all.py
+python -m pip install -r requirements.txt
+pytest -q
+python pdt_lab.py
 ```
 
-## Comparison models
+## Baselines
 
-The benchmark suite compares:
+Every dynamical comparison uses four roles:
 
-- Schrödinger/von Neumann evolution — closed-system null baseline;
-- GKLS/Lindblad — Markovian open-system baseline;
-- time-dependent-rate non-Markovian baseline;
-- PDT/ADDE — environmental-record-based dynamics.
+1. Schrödinger/von Neumann — closed-system null baseline.
+2. GKLS/Lindblad — Markovian open-system baseline.
+3. Time-dependent-rate non-Markovian baseline.
+4. PDT/ADDE — environmental-record-based dynamics.
 
-In the built-in controlled-record benchmark PDT/ADDE uses independently specified \(\nu\) and \(D_E\) and therefore uses **zero fitted decay parameters**.
+In the controlled-record benchmark PDT/ADDE receives \(\nu\) and \(D_E\) independently and therefore has zero fitted decay parameters.
 
 ## Public benchmark registry
 
-The package includes download metadata for:
+The source includes download metadata for NPL 2023 (*Modelling non-Markovian noise in driven superconducting qubits*, DOI `10.5281/zenodo.8363718`) and KIT 2026 (*Probing the memory of a superconducting qubit environment*, associated DOI `10.48550/arXiv.2603.11889`).
 
-- NPL 2023, *Modelling non-Markovian noise in driven superconducting qubits*, DOI `10.5281/zenodo.8363718`;
-- KIT 2026, *Probing the memory of a superconducting qubit environment*, associated DOI `10.48550/arXiv.2603.11889`.
-
-The decisive PDT test requires independent measurement of environment-record quantities rather than inferring the decay rate from the same system curve being predicted.
+A decisive PDT experiment requires independent measurement of environment-record variables rather than estimating \(\Gamma_A\) from the same system coherence curve being predicted.
