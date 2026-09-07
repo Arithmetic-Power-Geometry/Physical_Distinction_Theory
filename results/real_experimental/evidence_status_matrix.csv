@@ -1,0 +1,4 @@
+dataset,real_experiment,system_coherence,independent_environment_record,time_decay,zero_fit_record_prediction_attempted,decisive_ADDE_rate_test,reason
+QWPD photonic qubits,True,True,True,False,True,False,"Independent C and D exist, but source reports mixed detector states; exact pure-record equality assumptions fail."
+NPL superconducting qubits,True,True,False,True,False,False,"Excellent open-system dynamics data, but no independent conditional environment record in public CSV."
+Ramsey atom-array experiment,True,True,False,True,False,False,"Real Ramsey visibility data, but no independent environment-record observable in public archive."
