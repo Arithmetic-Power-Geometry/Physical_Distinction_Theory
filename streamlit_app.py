@@ -17,6 +17,7 @@ from pdt_lab import (
     total_tensor_identity_residual,
     tsirelson_bound,
 )
+from pdt_dimension import dimension_audit
 
 st.set_page_config(page_title="PDT Breakthrough Lab", layout="wide")
 st.title("Physical Distinction Theory — Breakthrough Laboratory")
@@ -29,6 +30,7 @@ page = st.sidebar.radio(
         "Research dashboard",
         "Geometry no-go",
         "Dimension selection audit",
+        "Operational dimension",
         "Total distinction tensor",
         "Environmental records",
         "Same-input test design",
@@ -51,7 +53,7 @@ if page == "Research dashboard":
     )
     st.metric("Current decisive PDT-specific experiments", 0)
     st.metric("Current real-data audits", 3)
-    st.warning("Cycle 001 result: CEU+CER+RDE are satisfied by Euclidean balls B^n for every n>=2, so purely local axioms cannot select n=3. Composite/interventional structure is required.")
+    st.warning("Local CEU+CER+RDE structure cannot select n=3: every Euclidean ball B^n passes. Resolution-scaled codebook growth can identify an existing n, but that is standard metric-entropy mathematics and does not explain why n=3.")
 
 elif page == "Geometry no-go":
     st.subheader("CEU + CER does not force Euclidean geometry")
@@ -90,6 +92,17 @@ elif page == "Dimension selection audit":
     st.dataframe(audit, use_container_width=True)
     st.success("PROVED / NO-GO: all n>=2 satisfy the same local structure. A PDT-native n=3 theorem must add a dimension-sensitive composite or interventional principle.")
     st.caption("The random audit checks the constructive proof numerically; it is not a substitute for the proof.")
+
+elif page == "Operational dimension":
+    st.subheader("Resolution-scaled distinction capacity")
+    st.write("A single capacity value does not determine geometry, but the asymptotic growth of distinguishable codebooks with improving resolution can identify an already-existing finite metric dimension.")
+    n = st.slider("Candidate metric dimension n", 2, 12, 3)
+    eps_values = st.multiselect("Resolution values epsilon", [0.25, 0.1, 0.03, 0.01, 0.003, 0.001], default=[0.25, 0.1, 0.03, 0.01, 0.003])
+    audit = dimension_audit(ns=(n,), epsilons=eps_values)
+    st.dataframe(audit, use_container_width=True)
+    if not audit.empty:
+        st.line_chart(audit.set_index("epsilon")[["dimension_ratio_lower", "dimension_ratio_upper"]])
+    st.info("STATUS: IMPORTED/KNOWN metric-entropy mathematics + PDT operational corollary. The ratio tends to n as epsilon→0, but this does not select n=3 or constitute new quantum mechanics.")
 
 elif page == "Total distinction tensor":
     st.subheader("Exact total distinction tensor identity")
@@ -150,6 +163,7 @@ else:
             ["CEU+CER do not force Euclidean geometry", "PROVED / counterfamily"],
             ["CEU+CER+RDE => Euclidean ball", "CONDITIONAL"],
             ["CEU+CER+RDE uniquely select n=3", "FALSIFIED / all B^n pass"],
+            ["Resolution-scaled capacity identifies existing metric dimension", "IMPORTED/KNOWN + PDT corollary"],
             ["PDT-native n=3 with an additional composite principle", "OPEN"],
             ["Born weighting", "CONDITIONAL"],
             ["Tsirelson bound in bilinear Euclidean sector", "CONDITIONAL"],
