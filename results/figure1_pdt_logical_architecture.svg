@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<style>text{font-family:Arial,sans-serif;font-size:18px}.box{fill:white;stroke:black;stroke-width:2}.a{stroke:black;stroke-width:2;fill:none;marker-end:url(#m)}.d{stroke-dasharray:8 6}.dot{stroke-dasharray:2 7}</style>
+<defs><marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="black"/></marker></defs>
+<rect class="box" x="40" y="70" width="150" height="70" rx="8"/><text x="115" y="100" text-anchor="middle">physical</text><text x="115" y="125" text-anchor="middle">distinction</text>
+<rect class="box" x="260" y="70" width="150" height="70" rx="8"/><text x="335" y="100" text-anchor="middle">resource</text><text x="335" y="125" text-anchor="middle">window</text>
+<rect class="box" x="480" y="70" width="170" height="70" rx="8"/><text x="565" y="100" text-anchor="middle">state-resolved</text><text x="565" y="125" text-anchor="middle">geometry</text>
+<rect class="box" x="760" y="70" width="150" height="70" rx="8"/><text x="835" y="100" text-anchor="middle">Euclidean</text><text x="835" y="125" text-anchor="middle">B^n</text><text x="705" y="52" text-anchor="middle" font-size="16">CEU+CER+RDE</text>
+<rect class="box" x="730" y="280" width="220" height="80" rx="8"/><text x="840" y="310" text-anchor="middle">B^3 / quantum</text><text x="840" y="338" text-anchor="middle">elementary system</text><text x="930" y="225" font-size="16">classification</text>
+<rect class="box" x="475" y="285" width="180" height="70" rx="8"/><text x="565" y="315" text-anchor="middle">environmental</text><text x="565" y="340" text-anchor="middle">records</text>
+<rect class="box" x="245" y="280" width="190" height="80" rx="8"/><text x="340" y="310" text-anchor="middle">ADDE + total</text><text x="340" y="338" text-anchor="middle">distinction tensor</text>
+<rect class="box" x="25" y="280" width="180" height="80" rx="8"/><text x="115" y="310" text-anchor="middle">resource-relative</text><text x="115" y="338" text-anchor="middle">thermodynamics</text>
+<rect class="box" x="455" y="450" width="220" height="75" rx="8"/><text x="565" y="480" text-anchor="middle">spacetime / gravity</text><text x="565" y="507" text-anchor="middle">frontier</text>
+<path class="a" d="M190 105 H250"/><path class="a" d="M410 105 H470"/><path class="a d" d="M650 105 H750"/><path class="a" style="stroke-width:4" d="M835 140 V270"/>
+<path class="a" d="M730 320 H665"/><path class="a" d="M475 320 H445"/><path class="a d" d="M245 320 H215"/><path class="a dot" d="M565 355 V440"/>
+</svg>

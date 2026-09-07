@@ -1,5 +1,10 @@
-name: PDT verification
-on: [push, pull_request, workflow_dispatch]
+name: PDT manuscript-synchronized verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -10,9 +15,14 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install --upgrade pip
       - run: pip install -r requirements.txt
-      - run: PYTHONPATH=. pytest -q
-      - run: python pdt_lab.py
-      - run: python scripts/real_experimental_benchmark.py
+      - name: Run theorem and regression tests
+        run: PYTHONPATH=. pytest -q
+      - name: Refresh public experimental audit
+        run: python scripts/real_experimental_benchmark.py
+      - name: Generate all manuscript tables and figures
+        run: python scripts/generate_results.py
+      - name: Core smoke test
+        run: python pdt_lab.py
       - uses: actions/upload-artifact@v4
         with:
           name: pdt-results

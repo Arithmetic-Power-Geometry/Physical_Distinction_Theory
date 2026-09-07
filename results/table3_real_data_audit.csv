@@ -1,0 +1,4 @@
+Dataset,Observable audit,Main result,Status
+Photonic qubit + quantum which-path detector,Independent system coherence and detector distinguishability,"Pure-record zero-fit RMSE 0.338286; MAE 0.268612","Not decisive: detector records are mixed/imperfect; a mixed same-input microscopic baseline is required."
+NPL driven superconducting qubits,"1728 raw rows; 558 reconstructed X/Y coherence traces","Median RMSE: Schrodinger 0.561710; GKLS 0.216393; non-Markovian 0.183937","Not decisive: no independent environment record in the public file."
+Ramsey experimental archive,11 visibility-delay points,"Schrodinger RMSE 0.221700; fitted GKLS 0.165523; fitted gamma=0.00558546","Not decisive: no independent environment record."

@@ -1,52 +1,63 @@
-# Physical Distinction Theory — Computational Laboratory
+# Physical Distinction Theory - Reproducibility Laboratory
 
-Copyright (C) 2026 Mohammad Amir Khusru Akhtar
-
+Copyright (C) 2026 Mohammad Amir Khusru Akhtar  
 Licensed under the Apache License 2.0.
 
-This repository is a direct, reproducible testing and comparison implementation of Physical Distinction Theory (PDT) and the **Akhtar Distinction Dynamics Equation (ADDE)**. It contains no manuscript-production material.
+This repository is synchronized with the submission-ready manuscript **Physical Distinction Theory: From Resource-Bounded Discrimination to Quantum Geometry, Open-System Dynamics, and Thermodynamic Monotones**.
 
-## Canonical Akhtar Distinction Dynamics Equation
+The implementation keeps PDT-native/no-go results, conditional theorems, established quantum-information identities, and open frontier statements explicitly separated.
 
-\[
-\dot\rho=-\frac{i}{\hbar}[H,\rho]+\Gamma_A(t)(\mathcal E_R-I)[\rho],
-\qquad
-\Gamma_A(t)=-\frac{d}{dt}\ln|\kappa_{\rm tot}(t)|.
-\]
-
-For deterministic independent pure environment records,
-
-\[
-\Gamma_A=-\nu\ln|\kappa|=-\frac{\nu}{2}\ln(1-D_E^2).
-\]
-
-When \(\Gamma_A=0\), the equation reduces exactly to von Neumann/Schrödinger evolution.
-
-## Implemented coverage
-
-The software implements and tests finite-resource distinction primitives; codebook capacity; decision values and Bregman regret; BQDC and polarization; finite-group invariant geometry; erasure/radial reconstruction checks; Bloch states; Born probabilities; CHSH/Tsirelson; restricted operational norms; resource kernels; ellipsoid tensors; Stinespring dilation; complementary channels; global trace-distinction conservation; local contraction; microscopic environment-record overlap; record bits; pure-record distinguishability; deterministic, weak-record and Poisson rates; ADDE; multi-constraint ADDE; distinction generators; directional contraction; non-Markovian backflow; distinction entropy; conditional Landauer cost; entropy-production defect; operational hypothesis-testing divergence; measured distinction free energy; hidden free-energy gap; conditional small-causal-diamond calculations; horizon-capacity calculator; and four-model dynamical comparison.
-
-## Install and verify
+## Reproduce and test
 
 ```bash
 python -m pip install -r requirements.txt
-pytest -q
+PYTHONPATH=. pytest -q
+python scripts/real_experimental_benchmark.py
+python scripts/generate_results.py
 python pdt_lab.py
 ```
 
-## Baselines
+## Canonical manuscript-synchronized dynamics
 
-Every dynamical comparison uses four roles:
+The total distinction tensor is
 
-1. Schrödinger/von Neumann — closed-system null baseline.
-2. GKLS/Lindblad — Markovian open-system baseline.
-3. Time-dependent-rate non-Markovian baseline.
-4. PDT/ADDE — environmental-record-based dynamics.
+\[
+\mathfrak A_R^{\rm tot}
+=-\frac12\left(\dot G_R+L^T G_R+G_RL\right).
+\]
 
-In the controlled-record benchmark PDT/ADDE receives \(\nu\) and \(D_E\) independently and therefore has zero fitted decay parameters.
+The older expression `-0.5*dot(G_R)` is retained only as the **resource/metric-motion component**; it is not the total dynamical tensor.
 
-## Public benchmark registry
+For the controlled-record sector,
 
-The source includes download metadata for NPL 2023 (*Modelling non-Markovian noise in driven superconducting qubits*, DOI `10.5281/zenodo.8363718`) and KIT 2026 (*Probing the memory of a superconducting qubit environment*, associated DOI `10.48550/arXiv.2603.11889`).
+\[
+\dot\rho=-\frac{i}{\hbar}[H_{\rm eff},\rho]
++\Gamma_A(t)(\mathcal E_R-I)[\rho],
+\qquad
+\Gamma_A=-\frac{d}{dt}\ln|\chi_{\rm tot}|.
+\]
 
-A decisive PDT experiment requires independent measurement of environment-record variables rather than estimating \(\Gamma_A\) from the same system coherence curve being predicted.
+The phase of `chi` is handled by `H_eff`. A same-input comparison is mandatory: when PDT bookkeeping and standard microscopic quantum mechanics receive the same environment state and controlled unitaries, they predict the same controlled-dephasing coherence factor.
+
+## Generated manuscript outputs
+
+`python scripts/generate_results.py` writes manuscript-facing outputs into `results/`:
+
+- `table1_core_numerical_audit.csv`
+- `table2_synthetic_model_comparison.csv`
+- `table3_real_data_audit.csv`
+- `table4_proof_status_matrix.csv`
+- `figure1_pdt_logical_architecture.svg`
+- `figure2_synthetic_rmse.svg`
+- `geometry_audit.csv`
+- `total_tensor_verification.csv`
+- `mixed_record_envelope_example.csv`
+- `summary.json`
+
+The real-data audit remains deliberately conservative:
+
+`N_real=3`, `N_independent_record=1`, `N_time_decay=2`, `N_decisive=0`.
+
+## Scientific status
+
+This repository supports a resource-relative foundations framework with proved no-go statements, conditional rigidity/probability/correlation results, exact record and dynamical identities, resource-relative monotones, and explicit falsification rules. It does **not** claim a completed replacement for quantum mechanics or gravity, and currently available public datasets are **not** treated as decisive PDT-specific experimental confirmation.
