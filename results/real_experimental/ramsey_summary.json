@@ -1,0 +1,12 @@
+{
+  "dataset": "Ramsey experimental data, Zenodo 15797402",
+  "source": "https://zenodo.org/records/15797402/files/Ramsey.zip?download=1",
+  "sha256": "506b83ec63b0934dc813c630625402bd81070ed3529ff3c81af66c0208f0fec7",
+  "n_delay_points": 11,
+  "schrodinger_RMSE": 0.2216997359458509,
+  "GKLS_RMSE": 0.16552300261427058,
+  "fitted_gamma": 0.005585457386533512,
+  "independent_environment_record_in_public_archive": false,
+  "PDT_zero_parameter_claim_allowed": false,
+  "interpretation": "Cross-platform real coherence diagnostic only. Distinction exposure computed from visibility is descriptive and may not be used to claim blind prediction."
+}
