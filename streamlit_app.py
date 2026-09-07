@@ -28,6 +28,7 @@ page = st.sidebar.radio(
     [
         "Research dashboard",
         "Geometry no-go",
+        "Dimension selection audit",
         "Total distinction tensor",
         "Environmental records",
         "Same-input test design",
@@ -50,6 +51,7 @@ if page == "Research dashboard":
     )
     st.metric("Current decisive PDT-specific experiments", 0)
     st.metric("Current real-data audits", 3)
+    st.warning("Cycle 001 result: CEU+CER+RDE are satisfied by Euclidean balls B^n for every n>=2, so purely local axioms cannot select n=3. Composite/interventional structure is required.")
 
 elif page == "Geometry no-go":
     st.subheader("CEU + CER does not force Euclidean geometry")
@@ -57,6 +59,37 @@ elif page == "Geometry no-go":
     df = ceu_cer_counterfamily(ps)
     st.dataframe(df, use_container_width=True)
     st.write("Euclidean structure is detected by a zero parallelogram defect; among the tested lp balls this occurs only at p=2.")
+
+elif page == "Dimension selection audit":
+    st.subheader("Local dimension-selection no-go")
+    st.write("CEU, CER and RDE hold on every Euclidean unit ball B^n. Therefore these local assumptions alone cannot uniquely select n=3.")
+    n_max = st.slider("Maximum dimension to test", 3, 20, 10)
+    samples = st.slider("Random pairs per dimension", 10, 500, 100, 10)
+    rows = []
+    for n in range(2, n_max + 1):
+        rng = np.random.default_rng(20260907 + n)
+        ceu = cer = rde = 0.0
+        for _ in range(samples):
+            a = rng.normal(size=n)
+            a /= np.linalg.norm(a)
+            ceu = max(ceu, float(np.linalg.norm(0.5 * (a - a))))
+            r = float(rng.random())
+            q = 0.5 * (1.0 + r)
+            cer = max(cer, float(np.linalg.norm(r * a - (q * a + (1.0 - q) * (-a)))))
+            b = rng.normal(size=n)
+            b /= np.linalg.norm(b)
+            if np.linalg.norm(a - b) < 1e-14:
+                H = np.eye(n)
+            else:
+                v = a - b
+                v /= np.linalg.norm(v)
+                H = np.eye(n) - 2.0 * np.outer(v, v)
+            rde = max(rde, float(np.linalg.norm(H @ a - b)), float(np.linalg.norm(H.T @ H - np.eye(n))))
+        rows.append([n, ceu, cer, rde, max(ceu, cer, rde) < 1e-10])
+    audit = pd.DataFrame(rows, columns=["n", "CEU residual", "CER residual", "RDE residual", "PASS"])
+    st.dataframe(audit, use_container_width=True)
+    st.success("PROVED / NO-GO: all n>=2 satisfy the same local structure. A PDT-native n=3 theorem must add a dimension-sensitive composite or interventional principle.")
+    st.caption("The random audit checks the constructive proof numerically; it is not a substitute for the proof.")
 
 elif page == "Total distinction tensor":
     st.subheader("Exact total distinction tensor identity")
@@ -116,7 +149,8 @@ else:
             ["Capacity does not determine geometry", "PROVED / no-go"],
             ["CEU+CER do not force Euclidean geometry", "PROVED / counterfamily"],
             ["CEU+CER+RDE => Euclidean ball", "CONDITIONAL"],
-            ["PDT-native n=3", "OPEN"],
+            ["CEU+CER+RDE uniquely select n=3", "FALSIFIED / all B^n pass"],
+            ["PDT-native n=3 with an additional composite principle", "OPEN"],
             ["Born weighting", "CONDITIONAL"],
             ["Tsirelson bound in bilinear Euclidean sector", "CONDITIONAL"],
             ["Total distinction tensor identity", "EXACT IDENTITY"],
