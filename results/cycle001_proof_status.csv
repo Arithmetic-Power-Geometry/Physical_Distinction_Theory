@@ -1,0 +1,10 @@
+claim,status,evidence,next_gate
+Capacity does not determine geometry,PROVED,Existing manuscript counterexamples,Retain as boundary theorem
+CEU+CER force Euclidean geometry,FALSIFIED,lp counterfamily,No further promotion
+CEU+CER+RDE imply Euclidean ball,CONDITIONAL,Group-invariant metric argument under stated assumptions,Audit assumptions against GPT prior art
+CEU+CER+RDE uniquely select n=3,FALSIFIED,All Euclidean B^n satisfy local structure,Require dimension-sensitive composite/interventional principle
+Fine-resolution Euclidean distinction-capacity slope identifies n,CONDITIONAL / IMPORTED-KNOWN,Standard packing-covering squeeze,Do not claim novelty
+PDT-native composition selects n=3,OPEN,None yet,Construct and attack candidate principles
+Controlled-record PDT differs from standard QM under same complete inputs,NOT ESTABLISHED,Existing same-input identity,Need independent PDT law
+Total distinction tensor identity,PROVED / EXACT IDENTITY,Algebraic identity plus numerical residual audit,Search for nontrivial monotonicity consequence
+Gravity derivation,OPEN,None,Do not promote without independent theorem
