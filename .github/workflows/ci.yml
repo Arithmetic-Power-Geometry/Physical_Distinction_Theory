@@ -12,8 +12,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: PYTHONPATH=. pytest -q
       - run: python pdt_lab.py
-      - run: python scripts/inspect_real_datasets.py
-      - run: python scripts/probe_secondary_data.py
+      - run: python scripts/real_experimental_benchmark.py
       - uses: actions/upload-artifact@v4
         with:
           name: pdt-results
