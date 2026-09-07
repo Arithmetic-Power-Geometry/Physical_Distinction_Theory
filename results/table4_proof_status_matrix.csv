@@ -1,0 +1,16 @@
+Status,Statement,Required assumptions,Failure condition
+PDT no-go theorem,Scalar capacity does not determine geometry,Non-isometric equal-capacity models,Scalar capacity alone uniquely fixes local geometry
+PDT no-go theorem,CEU+CER do not imply BQDC,Radial l_p counterfamily,Counterfamily invalid under stated CEU/CER definitions
+Conditional PDT theorem,CEU+CER+RDE => B^n,"Finite dimension; closed reversible group; maximal-pair coverage; RDE",All assumptions hold but body is non-ellipsoidal
+Imported theorem,B^n => B^3 under composite conditions,External local-tomographic reversible-interaction classification,No claim outside imported theorem hypotheses
+PDT no-go theorem,Local data do not fix unique composite,Inequivalent composites with same locals,Unique-composition theorem from strictly local data
+Conditional theorem,Quadratic weight => Born form,"Noncontextual F(Q_D); positivity; normalized orthogonal additivity",Counterexample inside assumptions
+Conditional theorem,Euclidean bilinear correlations => 2sqrt(2),"Separate affinity; centering; ||T||_op<=1",Violation of bounded bilinear representation
+Exact PDT identity,Total distinction tensor,"Differentiable G_R, X_t; Xdot=LX",Product-rule failure
+Exact controlled-sector identity,c'=c chi,"Controlled unitary; initial product structure",Persistent violation inside domain
+Imported inequality + PDT use,|chi|<=f_E<=sqrt(1-D_E^2),Uhlmann/Fuchs-van de Graaf hypotheses,Counterexample to standard fidelity inequalities
+Exact sector representation,ADDE time-local form,"Nonzero differentiable overlap; phase in H_eff",Finite-time map mismatch in domain
+Identifiability theorem,Same-input microscopic QM gives same chi,Same environment state and controlled unitaries,Different result under same microscopic model
+Computational evidence,Numerical audits,Correct implementation and tolerance,Test/CI failure
+Real-data stress test,"Three public sources; no decisive case",Published public data as processed,Qualifying fully blind same-input dataset found
+Open frontier,PDT-specific composition/prediction/gravity,Not yet proved,Remains open until proof/experiment
