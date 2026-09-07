@@ -1,14 +1,22 @@
 {
-  "max_random_chsh": 2.8276978422281154,
-  "tsirelson_bound": 2.8284271247461903,
-  "stinespring_global_distinction_residual": 0.0,
-  "local_contraction_gap": 0.3699999999999999,
-  "biased_bit_entropy_H2_0.01": 0.08079313589591118,
-  "record_example": {
-    "nu": 1.3,
-    "D_E": 0.55,
-    "kappa": 0.8351646544245033,
-    "exact_gamma": 0.23416429743630066,
-    "weak_gamma": 0.19662500000000005
+  "paper_tables_generated": 4,
+  "paper_figures_generated": 2,
+  "evidence_counts": {
+    "N_real": 3,
+    "N_independent_record": 1,
+    "N_time_decay": 2,
+    "N_decisive": 0
+  },
+  "tensor_max_abs_identity_residual": 4.440892098500626e-16,
+  "table1": {
+    "Maximum random planar CHSH value (100,000 samples)": "2.8276978422",
+    "Tsirelson bound": "2.8284271247",
+    "Stinespring global-distinction residual": "0.0",
+    "Local contraction gap in amplitude-damping audit": "0.3700000000",
+    "Biased-bit entropy H2(0.01)": "0.0807931359 bits",
+    "Controlled-record example (nu, D_E)": "(1.3, 0.55)",
+    "Derived kappa": "0.8351646544",
+    "Exact Gamma_A": "0.2341642974",
+    "Weak-record approximation": "0.1966250000"
   }
 }
