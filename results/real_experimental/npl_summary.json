@@ -1,0 +1,13 @@
+{
+  "dataset": "NPL experimental driven superconducting qubits (Zenodo 8363718)",
+  "source": "https://zenodo.org/records/8363718/files/modelling_non_markovian_noise_in_driven_superconducting_qubits_experiment_results.csv?download=1",
+  "sha256": "3917448673855c2e6a7276c078f8f53de5450e9ffb2bef90f2d129b5b72d31a7",
+  "raw_rows": 1728,
+  "usable_XY_traces": 558,
+  "median_schrodinger_RMSE": 0.5617104365948555,
+  "median_GKLS_RMSE": 0.21639260590293877,
+  "median_nonmarkovian_RMSE": 0.18393709325544677,
+  "independent_environment_record_in_public_file": false,
+  "PDT_zero_parameter_claim_allowed": false,
+  "important_identifiability_result": "For a constant dephasing rate inferred from the same system trace, ADDE and GKLS are mathematically identical on this observable. Such a fit is not evidence for PDT-specific prediction."
+}
