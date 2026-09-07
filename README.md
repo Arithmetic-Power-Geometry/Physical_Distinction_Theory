@@ -1,59 +1,56 @@
-# Physical Distinction Theory (PDT) — Theorem-Audit Reproducibility Package
+# Physical Distinction Theory — Computational Laboratory
 
-**Copyright (C) 2026 Mohammad Amir Khusru Akhtar**  
-Licensed under the **Apache License 2.0**.
+Copyright (C) 2026 Mohammad Amir Khusru Akhtar
 
-Companion repository for **“Physical Distinction Theory: Quadratic Distinction Conservation, Quantum Bounds, Resource-Bounded Capacity, and the Route to Causal Geometry.”**
+Licensed under the Apache License 2.0.
 
-## What is implemented
+This repository contains the final reproducible software package for Physical Distinction Theory (PDT) and the **Akhtar Distinction Dynamics Equation (ADDE)**. The package implements the complete computational chain used for testing and comparison: finite-resource distinction primitives, BQDC and polarization, elementary reconstruction checks, Born weighting, CHSH/Tsirelson tests, resource-restricted norms and canonical geometry, Stinespring global distinction conservation, complementary-channel records, microscopic record overlap, deterministic and Poisson record dynamics, ADDE and multi-constraint ADDE, dynamical distinction geometry, non-Markovian backflow, distinction entropy, Landauer bounds, hypothesis-testing distinction divergence, operational distinction free energy, conditional causal-geometry calculations, and model benchmarking.
 
-- resource-bounded finite-code distinction capacity;
-- Helstrom discrimination, trace distance, entropy and depolarizing channels;
-- explicit classical-local and PR-box foil models showing that broad A1–A6 operational axioms do not isolate quantum correlations;
-- Balanced Quadratic Distinction Conservation / parallelogram-law audits across non-Hilbertian p-norm foils;
-- conditional Hilbertian CHSH/Tsirelson bound checks;
-- equal-orthogonal-refinement audit selecting Born exponent q=2 within the continuous power-law family;
-- compatible complex-structure J audit;
-- homogeneous capacity–volume, screen-capacity and Planck localization/collapse scaling pipelines;
-- 14 automated tests, heavy deterministic reproduction, manuscript table export and GitHub Actions CI.
+## Canonical Akhtar Distinction Dynamics Equation
 
-## Breakthrough theorem-development record
+\[
+\dot\rho=-\frac{i}{\hbar}[H,\rho]+\Gamma_A(t)(\mathcal E_R-I)[\rho],
+\qquad
+\Gamma_A(t)=-\frac{d}{dt}\ln|\kappa_{\rm tot}(t)|.
+\]
 
-The canonical next-generation derivation work is stored in [`theory_breakthrough/`](theory_breakthrough/). It contains:
+For deterministic independent pure environment records,
 
-- the current quantum-reconstruction proof chain;
-- the no-go theorem showing that one-bit scalar capacity alone cannot determine Euclidean/BQDC geometry;
-- the resource-sufficiency / data-processing route from a state-resolved distinction regret to rank-two ball rigidity;
-- a proof-status matrix separating PDT derivations from imported reconstruction theorems and open claims.
+\[
+\Gamma_A=-\nu\ln|\kappa|=-\frac{\nu}{2}\ln(1-D_E^2).
+\]
 
-This folder is the working scientific-status record to consult before strengthening manuscript claims.
+The zero-record limit \(\Gamma_A=0\) reduces exactly to von Neumann/Schrödinger evolution.
 
-## Scientific-status firewall
+## Included package
 
-The software distinguishes analytic/conditional results from open claims. The Tsirelson theorem is conditional on the quadratic distinction law plus bounded bilinear correlations; the Born result is conditional on the stated refinement assumptions. Capacity–volume is a conditional measure theorem. The exact horizon coefficient `1/(4 ln 2)` is **not** claimed as derived from PDT first principles.
+`Physical_Distinction_Theory_Software.zip` contains the full Python package, equation registry, tests, reproduction scripts, benchmark outputs, public-dataset registry, and GitHub Actions workflow.
 
-## One-command verification
+## Reproduce
 
 ```bash
-python -m pip install -r requirements.txt
+unzip Physical_Distinction_Theory_Software.zip -d pdt_software
+cd pdt_software
+python -m pip install -e . pytest
 python scripts/verify_all.py
 ```
 
-The verification gate runs pytest, regenerates results/figures, exports LaTeX tables, and checks the headline numerical invariants.
+## Comparison models
 
-## Audited reference run
+The benchmark suite compares:
 
-- 14/14 tests passed.
-- 5,000 random depolarizing-channel pairs: 0 data-processing violations.
-- 2,000,000 planar standard-quantum CHSH samples: best `2.8281077683` versus `2√2 = 2.8284271247`.
-- exact classical deterministic CHSH maximum: `2`.
-- canonical PR-box CHSH: `4`.
-- sampled ℓ2 parallelogram maximum defect: `2.13e-14` (roundoff scale).
-- numerical Born-refinement minimizer: `q = 2.0000000029`; objective at q=2 ≈ `5.88e-32`.
-- canonical complex-structure residuals: zero to floating-point precision.
+- Schrödinger/von Neumann evolution — closed-system null baseline;
+- GKLS/Lindblad — Markovian open-system baseline;
+- time-dependent-rate non-Markovian baseline;
+- PDT/ADDE — environmental-record-based dynamics.
 
-Generated outputs are written to `results/`, `figures/`, and `generated_latex/`.
+In the built-in controlled-record benchmark PDT/ADDE uses independently specified \(\nu\) and \(D_E\) and therefore uses **zero fitted decay parameters**.
 
-## License
+## Public benchmark registry
 
-Apache-2.0. See `LICENSE` and `NOTICE`.
+The package includes download metadata for:
+
+- NPL 2023, *Modelling non-Markovian noise in driven superconducting qubits*, DOI `10.5281/zenodo.8363718`;
+- KIT 2026, *Probing the memory of a superconducting qubit environment*, associated DOI `10.48550/arXiv.2603.11889`.
+
+The decisive PDT test requires independent measurement of environment-record quantities rather than inferring the decay rate from the same system curve being predicted.
