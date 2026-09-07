@@ -1,0 +1,14 @@
+{
+  "data_processing_trials": 500,
+  "data_processing_violations": 0,
+  "chsh_best": 2.8278349577119224,
+  "tsirelson": 2.8284271247461903,
+  "chsh_gap": 0.0005921670342678986,
+  "capacity_rows": 36,
+  "causal_scaling_max_relative_spread": 0.0,
+  "notes": [
+    "CHSH computation is a consistency check within standard qubit quantum mechanics; it is not a derivation of the Tsirelson bound from PDT axioms.",
+    "Causal-diamond capacity scaling is a toy model used to test the proposed L^2 structure; it is not experimental evidence.",
+    "Finite-code capacity is a reproducible operational proxy for the proposed resource-bounded distinction capacity."
+  ]
+}
