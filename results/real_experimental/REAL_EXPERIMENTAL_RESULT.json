@@ -1,0 +1,47 @@
+{
+  "real_datasets_executed": 3,
+  "independent_record_dataset_count": 1,
+  "time_decay_dataset_count": 2,
+  "datasets_meeting_all_decisive_conditions": 0,
+  "decisive_condition": "real time-resolved coherence + independently measured environment distinction variable + rate fixed before seeing target coherence + no fitted decay parameter",
+  "scientific_conclusion": "The public-data audit does NOT yet establish the decisive PDT-specific experimental claim. One real photonic dataset supplies independently measured record/coherence observables but violates the pure-record applicability condition; two real time-resolved datasets lack an independent environment record. This is a negative/qualification result, not a failed theory test. A dedicated blind controlled-dephasing experiment is still required.",
+  "qwpd": {
+    "dataset": "Wang et al. 2021 quantum which-path detector, photonic qubits",
+    "source": "https://mdpi-res.com/d_attachment/entropy/entropy-23-00122/article_deploy/entropy-23-00122-s001.pdf",
+    "n_points": 20,
+    "environment_record_measured_independently": true,
+    "system_coherence_measured_independently": true,
+    "fitted_parameters_in_pure_record_prediction": 0,
+    "pure_record_assumption_satisfied_by_experiment": false,
+    "reason": "Source paper reports imperfect entanglement and mixed detector states, especially at high D.",
+    "zero_fit_pure_record_RMSE": 0.3382858601477846,
+    "zero_fit_pure_record_MAE": 0.2686120312740624,
+    "max_C2_plus_D2_from_reconstructed_average_counts": 1.0886068486834386,
+    "interpretation": "Real independent record/coherence stress test. It is not a decisive test of the exact pure-record equality because its purity hypothesis is known to fail. It does demonstrate why the mixed-record PDT branch needs the full conditional environment pair rather than D alone."
+  },
+  "npl": {
+    "dataset": "NPL experimental driven superconducting qubits (Zenodo 8363718)",
+    "source": "https://zenodo.org/records/8363718/files/modelling_non_markovian_noise_in_driven_superconducting_qubits_experiment_results.csv?download=1",
+    "sha256": "3917448673855c2e6a7276c078f8f53de5450e9ffb2bef90f2d129b5b72d31a7",
+    "raw_rows": 1728,
+    "usable_XY_traces": 558,
+    "median_schrodinger_RMSE": 0.5617104365948555,
+    "median_GKLS_RMSE": 0.21639260590293877,
+    "median_nonmarkovian_RMSE": 0.18393709325544677,
+    "independent_environment_record_in_public_file": false,
+    "PDT_zero_parameter_claim_allowed": false,
+    "important_identifiability_result": "For a constant dephasing rate inferred from the same system trace, ADDE and GKLS are mathematically identical on this observable. Such a fit is not evidence for PDT-specific prediction."
+  },
+  "ramsey": {
+    "dataset": "Ramsey experimental data, Zenodo 15797402",
+    "source": "https://zenodo.org/records/15797402/files/Ramsey.zip?download=1",
+    "sha256": "506b83ec63b0934dc813c630625402bd81070ed3529ff3c81af66c0208f0fec7",
+    "n_delay_points": 11,
+    "schrodinger_RMSE": 0.2216997359458509,
+    "GKLS_RMSE": 0.16552300261427058,
+    "fitted_gamma": 0.005585457386533512,
+    "independent_environment_record_in_public_archive": false,
+    "PDT_zero_parameter_claim_allowed": false,
+    "interpretation": "Cross-platform real coherence diagnostic only. Distinction exposure computed from visibility is descriptive and may not be used to claim blind prediction."
+  }
+}
