@@ -1,0 +1,14 @@
+{
+  "dataset": "Wang et al. 2021 quantum which-path detector, photonic qubits",
+  "source": "https://mdpi-res.com/d_attachment/entropy/entropy-23-00122/article_deploy/entropy-23-00122-s001.pdf",
+  "n_points": 20,
+  "environment_record_measured_independently": true,
+  "system_coherence_measured_independently": true,
+  "fitted_parameters_in_pure_record_prediction": 0,
+  "pure_record_assumption_satisfied_by_experiment": false,
+  "reason": "Source paper reports imperfect entanglement and mixed detector states, especially at high D.",
+  "zero_fit_pure_record_RMSE": 0.3382858601477846,
+  "zero_fit_pure_record_MAE": 0.2686120312740624,
+  "max_C2_plus_D2_from_reconstructed_average_counts": 1.0886068486834386,
+  "interpretation": "Real independent record/coherence stress test. It is not a decisive test of the exact pure-record equality because its purity hypothesis is known to fail. It does demonstrate why the mixed-record PDT branch needs the full conditional environment pair rather than D alone."
+}
