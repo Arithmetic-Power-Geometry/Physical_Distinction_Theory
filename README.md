@@ -17,6 +17,17 @@ Companion repository for **“Physical Distinction Theory: Quadratic Distinction
 - homogeneous capacity–volume, screen-capacity and Planck localization/collapse scaling pipelines;
 - 14 automated tests, heavy deterministic reproduction, manuscript table export and GitHub Actions CI.
 
+## Breakthrough theorem-development record
+
+The canonical next-generation derivation work is stored in [`theory_breakthrough/`](theory_breakthrough/). It contains:
+
+- the current quantum-reconstruction proof chain;
+- the no-go theorem showing that one-bit scalar capacity alone cannot determine Euclidean/BQDC geometry;
+- the resource-sufficiency / data-processing route from a state-resolved distinction regret to rank-two ball rigidity;
+- a proof-status matrix separating PDT derivations from imported reconstruction theorems and open claims.
+
+This folder is the working scientific-status record to consult before strengthening manuscript claims.
+
 ## Scientific-status firewall
 
 The software distinguishes analytic/conditional results from open claims. The Tsirelson theorem is conditional on the quadratic distinction law plus bounded bilinear correlations; the Born result is conditional on the stated refinement assumptions. Capacity–volume is a conditional measure theorem. The exact horizon coefficient `1/(4 ln 2)` is **not** claimed as derived from PDT first principles.
