@@ -1,0 +1,13 @@
+{
+  "cycle": 11,
+  "candidate": "Two-point isotropy + Pairwise Calibration Closure + noncommuting reversibility selects n=3 within the standard compact connected linear sphere-action classification",
+  "classification": "CONDITIONAL",
+  "mathematics_status": "IMPORTED/KNOWN",
+  "breakthrough": false,
+  "surviving_dimension": 3,
+  "tested_so_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "counterexamples_retested": ["SU(2) natural on R^4", "SU(3) natural on R^6"],
+  "exceptional_cases_retested": ["G2 on R^7", "Spin(7) on R^8"],
+  "result": "Earlier SU PCC counterexamples fail two-point isotropy; exceptional isotropic G2/Spin(7) cases fail PCC because nontrivial two-reference stabilizers remain.",
+  "open_requirement": "Derive TPI and PCC non-circularly from PDT primitives or find a complete-classification counterexample."
+}
