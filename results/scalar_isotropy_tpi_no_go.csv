@@ -1,0 +1,6 @@
+m,real_dimension,same_norm,same_real_angle,same_scalar_distance,complex_inner_y_abs,complex_inner_z_abs,tpi_fails,classification
+2,4,True,True,True,0.0,0.6,True,FALSIFIED_ROUTE
+3,6,True,True,True,0.0,0.6,True,FALSIFIED_ROUTE
+4,8,True,True,True,0.0,0.6,True,FALSIFIED_ROUTE
+5,10,True,True,True,0.0,0.6,True,FALSIFIED_ROUTE
+6,12,True,True,True,0.0,0.6,True,FALSIFIED_ROUTE
