@@ -1,0 +1,19 @@
+{
+  "candidate": "TPI+PCC+NCR dimension filter",
+  "classification": "CONDITIONAL",
+  "historical_novelty": "NOT_CLAIMED",
+  "mathematics": "IMPORTED/KNOWN group-action and stabilizer classification",
+  "operational_axioms": [
+    "Two-Point Isotropy (TPI)",
+    "Pairwise Calibration Closure (PCC)",
+    "Noncommuting connected reversibility (NCR)"
+  ],
+  "audited_real_dimensions": [2,3,4,5,6,7,8,9,10,11,12],
+  "exceptional_actions_checked": [
+    {"group":"G2","space":"R^7","pair_stabilizer":"SU(2)","pcc":false},
+    {"group":"Spin(7)","space":"R^8","pair_stabilizer":"SU(3)","pcc":false}
+  ],
+  "surviving_dimension": 3,
+  "breakthrough_candidate": false,
+  "blocking_issue": "TPI and PCC are not yet derived non-circularly from PDT primitives."
+}
