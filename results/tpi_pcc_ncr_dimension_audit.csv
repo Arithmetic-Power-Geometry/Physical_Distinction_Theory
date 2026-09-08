@@ -1,0 +1,14 @@
+family,real_dimension,pair_stabilizer,pair_stabilizer_dimension,pcc,noncommuting,survives_TPI_PCC_NCR
+SO(2),2,SO(0),0,True,False,False
+SO(3),3,SO(1),0,True,True,True
+SO(4),4,SO(2),1,False,True,False
+SO(5),5,SO(3),3,False,True,False
+SO(6),6,SO(4),6,False,True,False
+SO(7),7,SO(5),10,False,True,False
+SO(8),8,SO(6),15,False,True,False
+SO(9),9,SO(7),21,False,True,False
+SO(10),10,SO(8),28,False,True,False
+SO(11),11,SO(9),36,False,True,False
+SO(12),12,SO(10),45,False,True,False
+G2,7,SU(2),3,False,True,False
+Spin(7),8,SU(3),8,False,True,False
