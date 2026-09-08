@@ -1,0 +1,13 @@
+n,nontrivial_normed_cross_product,jacobi_compatible_standard_model,status
+1,false,false,excluded by known cross-product classification
+2,false,false,excluded by known cross-product classification
+3,true,true,passes known algebraic filter
+4,false,false,excluded by known cross-product classification
+5,false,false,excluded by known cross-product classification
+6,false,false,excluded by known cross-product classification
+7,true,false,fails Jacobi in octonionic model
+8,false,false,excluded by known cross-product classification
+9,false,false,excluded by known cross-product classification
+10,false,false,excluded by known cross-product classification
+11,false,false,excluded by known cross-product classification
+12,false,false,excluded by known cross-product classification
