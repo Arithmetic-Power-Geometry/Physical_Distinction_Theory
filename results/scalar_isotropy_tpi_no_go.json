@@ -1,0 +1,12 @@
+{
+  "result": "scalar_isotropy_does_not_imply_TPI",
+  "status": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "family": "SU(m) on C^m ~= R^(2m)",
+  "dimensions_audited": [4, 6, 8, 10, 12],
+  "analytic_scope": "all m >= 2",
+  "witness_parameter": 0.6,
+  "statement": "Sphere transitivity plus isotropic scalar Euclidean distinguishability does not imply Two-Point Isotropy because the stabilizer may preserve additional invariants invisible to the scalar metric.",
+  "novelty_claim": "none; standard group-action mathematics used as PDT kill test",
+  "next_open_problem": "derive an operational completeness principle that rules out latent stabilizer invariants without assuming TPI"
+}
