@@ -1,0 +1,13 @@
+n,state_entropy_slope,control_entropy_slope,slope_margin,osc,ncr,selected
+1,1,0,1,True,False,False
+2,2,1,1,True,False,False
+3,3,3,0,True,True,True
+4,4,6,-2,False,True,False
+5,5,10,-5,False,True,False
+6,6,15,-9,False,True,False
+7,7,21,-14,False,True,False
+8,8,28,-20,False,True,False
+9,9,36,-27,False,True,False
+10,10,45,-35,False,True,False
+11,11,55,-44,False,True,False
+12,12,66,-54,False,True,False
