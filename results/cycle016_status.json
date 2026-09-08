@@ -1,0 +1,25 @@
+{
+  "cycle": 16,
+  "result": "Multi-branch Gram compatibility no-go",
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "FALSIFIED"
+  ],
+  "falsified_claim": "Pairwise-valid controlled-record revelation/coherence budgets imply a globally compatible multi-branch record model.",
+  "proved_condition": "For pure conditional records, the coherence matrix is a unit-diagonal positive-semidefinite Gram matrix. For three branches: 1-|g12|^2-|g23|^2-|g31|^2+2 Re(g12 g23 g31) >= 0.",
+  "adversarial_witness": {
+    "g12": 0.9,
+    "g23": 0.9,
+    "g31": -0.9,
+    "pairwise_magnitudes_valid": true,
+    "gram_determinant": -2.888,
+    "globally_compatible": false
+  },
+  "equal_magnitude_pi_phase_threshold": 0.5,
+  "dimensions_audited": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "trials_per_dimension": 300,
+  "breakthrough_candidate": false,
+  "novelty_claim": "none; Gram positivity and multipath coherence constraints are established prior art",
+  "implication": "Future PDT composite/resource laws must enforce global PSD compatibility, not only independent pairwise bounds."
+}
