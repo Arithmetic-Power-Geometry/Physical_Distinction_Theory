@@ -1,0 +1,17 @@
+{
+  "cycle": 13,
+  "candidate": "resource-coarse-graining same-input prediction route",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "FALSIFIED"],
+  "breakthrough_candidate": false,
+  "statement": "If a declared resource window changes only the accessible readout by the same stochastic post-processing of a fixed microscopic QM experiment, PDT and QM accessible outcome probabilities are identical. A same-input quantitative deviation therefore requires an additional physical or probabilistic modification, not resource quotienting alone.",
+  "corollary": "Total-variation distinguishability cannot increase under stochastic readout coarse-graining.",
+  "dimensions_audited": "1-12",
+  "randomized_stress_test": true,
+  "prior_art_status": "underlying stochastic post-processing/data-processing mathematics established; no historical novelty claimed",
+  "files": [
+    "pdt_resource_coarse_graining.py",
+    "tests/test_pdt_resource_coarse_graining.py",
+    "docs/cycle013_resource_coarse_graining_no_go.md",
+    "results/cycle013_resource_coarse_graining_audit.csv"
+  ]
+}
