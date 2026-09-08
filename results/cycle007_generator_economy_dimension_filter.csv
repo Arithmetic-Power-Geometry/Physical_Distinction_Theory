@@ -1,0 +1,13 @@
+n,distinction_dim,generator_dim,generator_economy,noncommuting_reversibility,selected
+1,1,0,true,false,false
+2,2,1,true,false,false
+3,3,3,true,true,true
+4,4,6,false,true,false
+5,5,10,false,true,false
+6,6,15,false,true,false
+7,7,21,false,true,false
+8,8,28,false,true,false
+9,9,36,false,true,false
+10,10,45,false,true,false
+11,11,55,false,true,false
+12,12,66,false,true,false
