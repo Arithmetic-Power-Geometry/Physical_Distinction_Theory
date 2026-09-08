@@ -1,0 +1,6 @@
+group,real_dimension,sphere_dimension,base_size,connected,noncommuting,sphere_transitive,pcc,higher_than_3,counterexample
+SU(2),4,3,1,true,true,true,true,true,true
+SU(3),6,5,2,true,true,true,true,true,true
+SU(4),8,7,3,true,true,true,false,true,false
+SU(5),10,9,4,true,true,true,false,true,false
+SU(6),12,11,5,true,true,true,false,true,false
