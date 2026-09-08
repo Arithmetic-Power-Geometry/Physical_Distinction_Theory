@@ -1,0 +1,14 @@
+{
+  "cycle": 14,
+  "result": "Affine-Mixture Lock No-Go",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "FALSIFIED"],
+  "breakthrough_candidate": false,
+  "claim": "If PDT prediction probabilities are affine under classical preparation mixing and agree with QM on all pure states, they agree with QM on every mixed state. Uniform pure-state error <= epsilon implies mixed-state error <= epsilon.",
+  "scope": "finite-dimensional density operators; fixed outcome/effect and fixed resource window",
+  "dimensions_numerically_audited": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "higher_dimension_test": "unit tests sample convex mixtures through dimension 100",
+  "max_fixed_seed_identity_residual": 7.771561172376096e-16,
+  "robust_epsilon": 0.01,
+  "novelty": "No novelty claimed for convex-affine quantum probability mathematics; PDT use is as a same-input kill test.",
+  "surviving_requirement_for_deviation": "A genuine same-input PDT deviation must alter pure-state predictions, mixture affinity/preparation equivalence, microscopic state/effect assignment, dynamics, or measurement law."
+}
