@@ -1,0 +1,13 @@
+dimension,memory_case,same_process_equal,resource_postprocess_equal,status
+1,nonzero,TRUE,TRUE,PROVED_NO_GO
+2,nonzero,TRUE,TRUE,PROVED_NO_GO
+3,nonzero,TRUE,TRUE,PROVED_NO_GO
+4,nonzero,TRUE,TRUE,PROVED_NO_GO
+5,nonzero,TRUE,TRUE,PROVED_NO_GO
+6,nonzero,TRUE,TRUE,PROVED_NO_GO
+7,nonzero,TRUE,TRUE,PROVED_NO_GO
+8,nonzero,TRUE,TRUE,PROVED_NO_GO
+9,nonzero,TRUE,TRUE,PROVED_NO_GO
+10,nonzero,TRUE,TRUE,PROVED_NO_GO
+11,nonzero,TRUE,TRUE,PROVED_NO_GO
+12,nonzero,TRUE,TRUE,PROVED_NO_GO
