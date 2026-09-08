@@ -23,7 +23,8 @@ def test_pairwise_plus_noncommuting_selects_three():
 
 def test_two_reference_stabilizer_dimensions():
     for n in range(1, 20):
-        expected = max(0, (n - 2) * (n - 3) // 2)
+        m = max(0, n - min(n, 2))
+        expected = m * (m - 1) // 2
         assert pointwise_stabilizer_dimension(n, 2) == expected
 
 
