@@ -1,0 +1,4 @@
+case,fibre,count,tv_diameter,minimax_error_lower_bound,exactly_sufficient,status
+constant_prediction,same,2,0.0,0.0,true,PROVED
+constant_prediction,other,1,0.0,0.0,true,PROVED
+maximally_split_binary,same-output,2,1.0,0.5,false,PROVED_NO_GO
