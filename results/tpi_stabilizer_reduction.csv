@@ -1,0 +1,12 @@
+n,latitude_dimension,stabilizer_sphere_candidate,post_global_obstruction,survives_TPI_PCC,note
+2,0,false,false,false,"connected one-point stabilizer cannot act transitively on S^0"
+3,1,true,true,true,"H is diffeomorphic to S^1; no dimension obstruction"
+4,2,false,false,false,"S^(n-2) is not a connected Lie group"
+5,3,true,false,false,"H would be S^3 and dim(G)=7; compact simply connected G of dimension 7 is impossible"
+6,4,false,false,false,"S^(n-2) is not a connected Lie group"
+7,5,false,false,false,"S^(n-2) is not a connected Lie group"
+8,6,false,false,false,"S^(n-2) is not a connected Lie group"
+9,7,false,false,false,"S^(n-2) is not a connected Lie group"
+10,8,false,false,false,"S^(n-2) is not a connected Lie group"
+11,9,false,false,false,"S^(n-2) is not a connected Lie group"
+12,10,false,false,false,"S^(n-2) is not a connected Lie group"
