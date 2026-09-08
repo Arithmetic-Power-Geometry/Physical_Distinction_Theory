@@ -1,0 +1,13 @@
+{
+  "result": "sphere_transitivity_plus_PCC_plus_noncommutativity_does_not_select_n3",
+  "classification": "FALSIFIED",
+  "mathematics": "IMPORTED/KNOWN",
+  "pdt_implication": "PROVED_NO_GO",
+  "breakthrough": false,
+  "counterexamples": [
+    {"group": "SU(2)", "real_dimension": 4, "sphere_dimension": 3, "base_size": 1},
+    {"group": "SU(3)", "real_dimension": 6, "sphere_dimension": 5, "base_size": 2}
+  ],
+  "surviving_requirement": "derive a stronger reversible-group principle than sphere transitivity, or another independent axiom excluding these proper transitive subgroups without encoding n=3 by hand",
+  "prior_art": "Montgomery-Samelson/Borel classification of compact connected transitive sphere actions"
+}
