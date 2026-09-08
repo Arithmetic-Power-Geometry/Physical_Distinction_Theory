@@ -1,0 +1,22 @@
+{
+  "result_id": "PDT-CYCLE011-ORBIT-COMPLETENESS",
+  "title": "Scalar orbit-completeness is equivalent to TPI",
+  "classification": [
+    "PROVED",
+    "FALSIFIED_DERIVATION_ROUTE",
+    "IMPORTED_KNOWN_MATHEMATICS"
+  ],
+  "breakthrough_candidate": false,
+  "claim": "For a fixed reference x, if the declared scalar distinction s_x is invariant under the stabilizer G_x, then saying that s_x completely separates G_x-orbits is equivalent to saying G_x is transitive on each s_x level set (TPI relative to s_x).",
+  "counterfamily": {
+    "group": "SU(m) on C^m ~= R^(2m)",
+    "m_min": 2,
+    "witness": "x=e1, y=e2, z=i*a*e1+sqrt(1-a^2)*e2, 0<a<1",
+    "same_scalar": "Re<x,y>=Re<x,z>=0 and ||x-y||^2=||x-z||^2=2",
+    "different_stabilizer_invariant": "<x,y>=0 but <x,z>=i*a",
+    "audited_real_dimensions": [4, 6, 8, 10, 12]
+  },
+  "consequence": "Operational completeness of the existing Euclidean scalar cannot independently derive TPI; it either fails, assumes TPI in equivalent language, or requires richer invariants that invalidate the scalar-only TPI inference.",
+  "novelty_claim": "none",
+  "next_target": "Derive collapse of all stabilizer-invariant operational information to the PDT distinction scalar from independent composition/resource/calibration primitives, and stress it against unitary, symplectic and exceptional sphere actions."
+}
