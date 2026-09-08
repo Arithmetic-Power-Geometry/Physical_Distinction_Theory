@@ -1,0 +1,22 @@
+{
+  "cycle": 12,
+  "result": "TPI_PCC_stabilizer_sphere_reduction",
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN"
+  ],
+  "breakthrough_candidate": false,
+  "statement": "For a compact connected effective reversible Lie group acting transitively on S^(n-1), TPI plus PCC imply n=3.",
+  "logic": [
+    "TPI+PCC makes the one-point stabilizer H act freely and transitively on S^(n-2)",
+    "therefore H is diffeomorphic to S^(n-2)",
+    "connected sphere Lie groups leave n=3 or n=5",
+    "n=5 would require a compact simply connected Lie group G of dimension 7",
+    "low-dimensional compact simple-Lie-group classification rules out dimension 7"
+  ],
+  "edge_correction": "For connected TPI, n=2 is already excluded because a connected stabilizer cannot act transitively on S^0; a separate NCR assumption is unnecessary for this edge case.",
+  "open_dependency": "Derive TPI and PCC from PDT-native primitive distinction/resource/composition principles without circularly importing three-dimensional structure.",
+  "audited_dimensions": [2,3,4,5,6,7,8,9,10,11,12],
+  "surviving_dimensions": [3]
+}
