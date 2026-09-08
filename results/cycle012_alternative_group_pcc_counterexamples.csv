@@ -1,0 +1,9 @@
+m,real_state_dimension_n,group,dim_group,minimal_reference_states,pairwise_calibration_possible,noncommuting,higher_dim_PCC_counterexample
+1,2,SU(1),0,0,true,false,false
+2,4,SU(2),3,1,true,true,true
+3,6,SU(3),8,2,true,true,true
+4,8,SU(4),15,3,false,true,false
+5,10,SU(5),24,4,false,true,false
+6,12,SU(6),35,5,false,true,false
+7,14,SU(7),48,6,false,true,false
+8,16,SU(8),63,7,false,true,false
