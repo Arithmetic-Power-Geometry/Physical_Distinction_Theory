@@ -1,0 +1,17 @@
+group,real_dimension,two_point_isotropic,pair_stabilizer_dimension,pcc,noncommuting,survives_filter
+SO(1),1,true,0,true,false,false
+SO(2),2,true,0,true,false,false
+SO(3),3,true,0,true,true,true
+SO(4),4,true,1,false,true,false
+SO(5),5,true,3,false,true,false
+SO(6),6,true,6,false,true,false
+SO(7),7,true,10,false,true,false
+SO(8),8,true,15,false,true,false
+SO(9),9,true,21,false,true,false
+SO(10),10,true,28,false,true,false
+SO(11),11,true,36,false,true,false
+SO(12),12,true,45,false,true,false
+G2,7,true,3,false,true,false
+Spin(7),8,true,8,false,true,false
+SU(2) natural,4,false,0,true,true,false
+SU(3) natural,6,false,0,true,true,false
