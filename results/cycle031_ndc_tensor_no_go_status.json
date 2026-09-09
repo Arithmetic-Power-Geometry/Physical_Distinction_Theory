@@ -1,0 +1,20 @@
+{
+  "cycle": 31,
+  "result": "Universal NDC is incompatible with ordinary tensor-product closure for every nontrivial NDC system.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "assumptions": [
+    "finite-dimensional real Euclidean distinction spaces",
+    "nontrivial binary normed vector-cross-product structure (NDC)",
+    "ordinary tensor composition with dimension dim(V tensor W)=dim(V)dim(W)",
+    "the same NDC axiom is demanded of composite distinction spaces"
+  ],
+  "classical_ndc_dimensions": [3, 7],
+  "exact_witnesses": [
+    {"local_dimensions": [3, 3], "composite_dimension": 9, "composite_ndc": false},
+    {"local_dimensions": [3, 7], "composite_dimension": 21, "composite_ndc": false},
+    {"local_dimensions": [7, 7], "composite_dimension": 49, "composite_ndc": false}
+  ],
+  "consequence": "Cycle030 NDC+JSC may only be interpreted as an irreducible/single-system conditional filter unless PDT supplies a different composition rule or a factor-relative product. Universal NDC under standard tensor composition is falsified.",
+  "novelty_note": "The dimension classification and tensor-product dimension multiplication are standard mathematics. No novelty is claimed for those ingredients."
+}
