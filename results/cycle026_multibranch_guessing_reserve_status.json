@@ -1,0 +1,9 @@
+{
+  "cycle": 26,
+  "result": "Multi-branch guessing-reserve balance",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "For any cq ensemble and common CPTP evolution on SE, with G_SE=P_guess(X|SE), G_S=P_guess(X|S), R=G_SE-G_S, and L=G_SE(s)-G_SE(t)>=0, G_S(t)-G_S(s)=R(s)-R(t)-L. Hence Delta G_S<=R(s); for common reversible evolution L=0.",
+  "numerics": "Exact commuting/classical audit: dimensions 1-12 plus 16,24,32,48; 200 fixed-seed trials each; random priors, multi-branch channels, common stochastic maps, reversible permutations.",
+  "prior_art": "Operational meaning P_guess=2^{-H_min} is established (Koenig, Renner, Schaffner, IEEE TIT 2009); data processing is standard. PDT reserve bookkeeping is a conditional corollary, not historical novelty."
+}
