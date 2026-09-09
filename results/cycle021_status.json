@@ -1,0 +1,19 @@
+{
+  "cycle": 21,
+  "result": "dimension-limited exact record identification",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "For k equiprobable density operators on a d-dimensional Hilbert space and any k-outcome POVM, P_success <= min(1,d/k), hence P_error >= max(0,1-d/k).",
+  "proof_basis": "rho_i <= I and sum_i M_i = I imply (1/k) sum_i Tr(M_i rho_i) <= Tr(I_d)/k=d/k.",
+  "sharpness": "For k=q*d, repeat each orthonormal basis state q times and choose POVM effects |j><j|/q; then P_success=d/k exactly.",
+  "stress_tests": {
+    "dimensions": "1..12",
+    "labels": "k=d+3",
+    "random_trials_per_dimension": 300,
+    "random_seed": 260909,
+    "maximum_observed_violation": 1.110223024625157e-16,
+    "interpretation": "floating-point roundoff only"
+  },
+  "pdt_boundary": "A same-input PDT prediction above d/k must change the physical state space, effect set, probability law, add side resources/copies, or otherwise modify the microscopic experiment; reinterpretation alone cannot exceed the bound.",
+  "novelty": "No historical novelty claimed; standard minimum-error quantum-state-discrimination / POVM mathematics."
+}
