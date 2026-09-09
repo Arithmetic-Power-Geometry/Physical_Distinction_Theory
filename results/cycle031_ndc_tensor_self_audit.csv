@@ -1,0 +1,13 @@
+n,self_tensor_dimension,local_nontrivial_ndc,self_tensor_nontrivial_ndc,status
+1,1,false,false,TRIVIAL_LOCAL
+2,4,false,false,LOCAL_FORBIDDEN
+3,9,true,false,UNIVERSAL_NDC_FAILS_ON_SELF_TENSOR
+4,16,false,false,LOCAL_FORBIDDEN
+5,25,false,false,LOCAL_FORBIDDEN
+6,36,false,false,LOCAL_FORBIDDEN
+7,49,true,false,UNIVERSAL_NDC_FAILS_ON_SELF_TENSOR
+8,64,false,false,LOCAL_FORBIDDEN
+9,81,false,false,LOCAL_FORBIDDEN
+10,100,false,false,LOCAL_FORBIDDEN
+11,121,false,false,LOCAL_FORBIDDEN
+12,144,false,false,LOCAL_FORBIDDEN
