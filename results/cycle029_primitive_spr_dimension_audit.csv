@@ -1,0 +1,13 @@
+n,so_dimension,primitive_count,max_primitive_rank,primitive_spr,ncr,primitive_spr_plus_ncr,unique_n3
+1,0,0,0,True,False,False,False
+2,1,1,2,True,False,False,False
+3,3,3,2,True,True,True,False
+4,6,6,2,True,True,True,False
+5,10,10,2,True,True,True,False
+6,15,15,2,True,True,True,False
+7,21,21,2,True,True,True,False
+8,28,28,2,True,True,True,False
+9,36,36,2,True,True,True,False
+10,45,45,2,True,True,True,False
+11,55,55,2,True,True,True,False
+12,66,66,2,True,True,True,False
