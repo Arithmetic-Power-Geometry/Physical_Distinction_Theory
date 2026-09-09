@@ -1,0 +1,27 @@
+{
+  "cycle": 35,
+  "result": "Resource-quotient product theorem and local-to-global composition no-go",
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "proved": [
+    "For product-generated accessibility, (V/N) tensor (W/M) is canonically isomorphic to (V tensor W)/(N tensor W + V tensor M).",
+    "The product-accessible quotient dimension is q_A q_B.",
+    "Local resource quotients alone do not determine the composite when independent global effects are not fixed."
+  ],
+  "smallest_witness": {
+    "dim_V": 2,
+    "dim_W": 2,
+    "local_null_dimensions": [1, 1],
+    "local_quotient_dimensions": [1, 1],
+    "product_only_composite_quotient_dimension": 1,
+    "linear_global_effect_extensions": [2, 3, 4]
+  },
+  "audit": "exact dimension sweep n=1..12 for symmetric/asymmetric local dimensions and null-space edge cases",
+  "novelty": "No historical novelty claimed for quotient-tensor/local-tomography mathematics; PDT-specific consequence only.",
+  "open_after_cycle": [
+    "derive a PDT-native rule selecting globally accessible composite effects",
+    "derive n=3 without imported reconstruction assumptions",
+    "derive or falsify a same-input deviation from standard QM",
+    "derive an experimentally distinctive PDT inequality"
+  ]
+}
