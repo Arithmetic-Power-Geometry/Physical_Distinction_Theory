@@ -1,0 +1,21 @@
+{
+  "cycle": 28,
+  "title": "Universal SPR is not stable under standard tensor composition",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "target_falsified": "Universal Single-Plane Reversibility (SPR) applied to the full composite generator matrix under ordinary tensor-product composition",
+  "theorem": "If A has rank r on subsystem A and subsystem B has dimension d_B, then rank(A tensor I_B)=r d_B. Hence a rank-2 local single-plane generator becomes rank 2 d_B on the composite and violates rank<=2 for every d_B>=2.",
+  "scope": {
+    "local_dimensions_tested": "2..12",
+    "spectator_dimensions_tested": "1..12",
+    "exact_formula_checked": "rank(A tensor I)=rank(A) rank(I)",
+    "higher_dimension_formula_tests": "spectator dimensions through 100 in unit tests",
+    "degenerate_case": "rank-0 generator remains rank 0"
+  },
+  "implication": "Cycle027 SPR+NCR selects n=3 only for an irreducible single-system distinction space. Universal SPR cannot simultaneously be required on ordinary tensor-product composite spaces unless 'elementary' is factor-relative or the composition rule is changed.",
+  "possible_repair": "Factor-local SPR: divide lifted support rank by spectator multiplicity, rank(A tensor I_B)/d_B=rank(A). This is composition-compatible for local lifts but does not by itself provide a new n=3 derivation.",
+  "novelty": "No novelty claim. The decisive step uses the standard Kronecker rank identity.",
+  "prior_art": [
+    "Zhang, H. (2013), On the Kronecker Products and Their Applications, Journal of Applied Mathematics, Article 296185."
+  ]
+}
