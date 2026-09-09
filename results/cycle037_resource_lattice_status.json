@@ -1,0 +1,28 @@
+{
+  "cycle": 37,
+  "result": "resource-lattice revelation modularity",
+  "statement": "For finite-dimensional accessible effect subspaces E_R,E_S, with join E_R+E_S and meet E_R intersect E_S, d(join)+d(meet)=d(R)+d(S). Equivalently, resource-relative accessible quotient dimension is a modular rank on the lattice of linear effect subspaces.",
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "pdt_specific_role": "resource-refinement and distinction-revelation bookkeeping; consistency/kill test",
+  "novelty_claim": false,
+  "same_input_qm_deviation": false,
+  "dimension_selection": false,
+  "stress_tests": {
+    "deterministic_dimensions": "n=1..12",
+    "random_integer_families": "20 pairs per n in unit tests",
+    "edge_cases": ["identical resources", "nested resources", "redundant effects", "mismatched ambient dimensions"]
+  },
+  "prior_art_boundary": [
+    "Grassmann dimension formula for subspaces",
+    "modular lattice of vector subspaces",
+    "linear matroid rank/submodularity"
+  ],
+  "breakthrough_candidate": false,
+  "remaining_targets": [
+    "PDT-native composition law",
+    "non-circular PDT-native n=3 selection",
+    "same-input PDT-vs-QM quantitative deviation",
+    "experimentally distinctive inequality",
+    "non-imported gravity/capacity law"
+  ]
+}
