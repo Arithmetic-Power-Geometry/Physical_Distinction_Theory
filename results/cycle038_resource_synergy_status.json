@@ -1,0 +1,17 @@
+{
+  "cycle": 38,
+  "result": "Predictive/resource revelation based on mutual information is not universally modular or submodular; XOR/parity gives pure synergy.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "smallest_witness": {
+    "sources": 2,
+    "target": "Y = X1 XOR X2",
+    "I_Y_X1_bits": 0.0,
+    "I_Y_X2_bits": 0.0,
+    "I_Y_X1X2_bits": 1.0,
+    "submodular_residual_bits": -1.0
+  },
+  "dimension_stress": "Uniform parity families m=1..12 audited; for m>=2 each audited strict leave-one-out projection has 0 bits while the full source tuple has 1 bit. Exhaustive strict-subset tests are included through m=8.",
+  "prior_art_boundary": "Synergistic information and XOR examples are established in multivariate information theory and partial information decomposition; no historical novelty is claimed.",
+  "pdt_consequence": "Cycle 037's exact modularity is restricted to linear effect-subspace rank. A nonlinear/predictive revelation law requires an explicit synergy term or stronger structure; it cannot inherit modularity/submodularity for free."
+}
