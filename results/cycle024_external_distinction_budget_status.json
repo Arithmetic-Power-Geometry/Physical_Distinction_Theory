@@ -1,0 +1,22 @@
+{
+  "cycle": 24,
+  "result": "External distinction budget for open-system revival",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "D_S(t)-D_S(s) <= D_E(s)+C_1(s)+C_2(s)",
+  "assumptions": [
+    "finite-dimensional quantum states",
+    "trace distance as distinction measure",
+    "same joint unitary evolution after reference time s",
+    "standard partial trace subsystem restriction"
+  ],
+  "audit": {
+    "system_dimensions": "1..12",
+    "environment_dimension": 2,
+    "trials_per_dimension": 100,
+    "seed": 24024,
+    "violations": 0
+  },
+  "novelty": "No historical novelty claimed; bound belongs to established open-system information-flow literature.",
+  "same_input_consequence": "A local revival exceeding the declared external budget cannot be obtained by reinterpretation alone under identical quantum microscopic inputs."
+}
