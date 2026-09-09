@@ -1,0 +1,13 @@
+n,dim_so_n,exact_max_skew_rank,SPR_full_SO,NCR_full_SO,SPR_plus_NCR,random_observed_max_rank,rank4_witness_rank,random_SPR_violations_when_SPR_predicted
+1,0,0,True,False,False,0,,0
+2,1,2,True,False,False,2,,0
+3,3,2,True,True,True,2,,0
+4,6,4,False,True,False,4,4,0
+5,10,4,False,True,False,4,4,0
+6,15,6,False,True,False,6,4,0
+7,21,6,False,True,False,6,4,0
+8,28,8,False,True,False,8,4,0
+9,36,8,False,True,False,8,4,0
+10,45,10,False,True,False,10,4,0
+11,55,10,False,True,False,10,4,0
+12,66,12,False,True,False,12,4,0

@@ -1,0 +1,21 @@
+{
+  "cycle": 27,
+  "result": "Single-Plane Reversibility + noncommuting full SO(n) selects n=3",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "assumptions": [
+    "finite-dimensional Euclidean distinction space R^n",
+    "full connected reversible isotropy SO(n)",
+    "SPR: every infinitesimal reversible generator has rank <=2",
+    "NCR: connected reversible dynamics is non-abelian"
+  ],
+  "theorem": "SPR holds for full SO(n) iff n<=3; NCR holds iff n>=3; hence SPR+NCR iff n=3.",
+  "counterexample": "For every n>=4, blockdiag(J,J,0) is skew-symmetric of rank 4 and violates SPR.",
+  "numeric_audit": {
+    "dimensions": "1..12",
+    "trials_per_dimension": 200,
+    "seed": 2701,
+    "higher_exact_witness_dimensions": [16, 24, 32, 64, 128]
+  },
+  "novelty": "Underlying skew-symmetric canonical-form and Lie-algebra mathematics is standard. SPR is a PDT-motivated candidate axiom, not yet independently derived or experimentally established."
+}
