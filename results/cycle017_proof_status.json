@@ -1,0 +1,20 @@
+{
+  "cycle": 17,
+  "result": "Transitive linear reversibility of a finite-dimensional norm sphere forces an inner-product norm up to scale",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "dimension_selection": false,
+  "assumptions": [
+    "finite-dimensional real normed space",
+    "compact group of linear norm isometries",
+    "transitive action on the norm unit sphere"
+  ],
+  "proof_method": "Haar-average an arbitrary inner product over the compact isometry group; transitivity makes the invariant Euclidean radius constant on the norm sphere; homogeneity identifies the norms up to scale",
+  "stress_tests": {
+    "dimensions": "2..12 in CSV; unit tests through 100",
+    "norms": ["l1", "l1.5", "l2", "l3", "l4", "l10"],
+    "outcome": "only p=2 passes the two-point Euclidean-radius transitivity witness for every tested n>=2"
+  },
+  "novelty_note": "underlying compact-group/Banach-space theorem is standard; only PDT placement and executable audit are new repository work",
+  "open_boundary": "transitivity Euclideanizes geometry but does not select n=3 or force TPI for a proper transitive reversible subgroup"
+}
