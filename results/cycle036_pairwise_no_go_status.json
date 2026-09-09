@@ -1,0 +1,9 @@
+{
+  "cycle": 36,
+  "result": "Pairwise cross-product dimension-selection no-go",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "FALSIFIED"],
+  "statement": "NDC plus alternation, orthogonality, the norm identity, and the repeated-input double-cross identity cannot select n=3 because the standard 7D octonionic cross product satisfies the same package.",
+  "surviving_dimensions_under_imported_classification": [3, 7],
+  "breakthrough_candidate": false,
+  "open_target": "Derive a genuinely PDT-native three-input/sequential/composition principle that excludes n=7 without importing Jacobi/Lie structure by assumption."
+}
