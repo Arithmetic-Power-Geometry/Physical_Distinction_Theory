@@ -1,0 +1,11 @@
+{
+  "cycle": 18,
+  "result": "finite record-capacity coherence floor",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "same_input_deviation": false,
+  "statement": "For k pure record vectors in complex dimension d, the average off-diagonal squared Gram overlap is at least max(0,(k-d)/(d(k-1))).",
+  "pdt_corollary": "Average pairwise revelation proxy 1-|G_ij|^2 is at most 1-max(0,(k-d)/(d(k-1))).",
+  "prior_art": "First Welch bound (Welch, IEEE Trans. Information Theory, 1974).",
+  "audit": {"dimensions": "1..12", "trials_per_dimension": 500, "higher_exact_formula_check": "through d=100", "tolerance": 2e-12}
+}
