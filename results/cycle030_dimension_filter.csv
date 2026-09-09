@@ -1,0 +1,13 @@
+n,nontrivial_normed_cross_product,jacobi_compatible_known_model,passes_NDC_plus_JSC,status
+1,false,false,false,FALSIFIED_BY_CLASSIFICATION
+2,false,false,false,FALSIFIED_BY_CLASSIFICATION
+3,true,true,true,CONDITIONAL
+4,false,false,false,FALSIFIED_BY_CLASSIFICATION
+5,false,false,false,FALSIFIED_BY_CLASSIFICATION
+6,false,false,false,FALSIFIED_BY_CLASSIFICATION
+7,true,false,false,FALSIFIED_BY_JACOBI
+8,false,false,false,FALSIFIED_BY_CLASSIFICATION
+9,false,false,false,FALSIFIED_BY_CLASSIFICATION
+10,false,false,false,FALSIFIED_BY_CLASSIFICATION
+11,false,false,false,FALSIFIED_BY_CLASSIFICATION
+12,false,false,false,FALSIFIED_BY_CLASSIFICATION
