@@ -1,0 +1,23 @@
+{
+  "cycle": 32,
+  "title": "Tensor-closure no-go for universal finite dimension selectors",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "statement": "Under ordinary finite-dimensional tensor composition, any admissible system-dimension set S closed under composition and containing d>1 must contain d^k for all k>=1 and is therefore infinite. In particular, a universal singleton selector {3}, or any finite selector containing 3, cannot include composites as systems of the same class.",
+  "proof_type": "exact elementary integer/semigroup argument",
+  "tested_dimensions": "1-12 exhaustively for pair products; singleton fixed points checked through 256; analytic theorem covers all positive integers",
+  "edge_cases": {
+    "dimension_1": "{1} is tensor closed and is the unique positive-integer singleton fixed point",
+    "irreducible_only_rule": "not ruled out; selector may apply only to atomic/irreducible sectors",
+    "resource_quotient": "not ruled out when effective dimension is not faithful and multiplicative",
+    "alternative_direct_sum": "also defeats a globally fixed nonzero dimension because d+d>d"
+  },
+  "prior_art_boundary": "Dimension multiplicativity under tensor products and monoidal dimension functions are standard. GPT reconstruction literature treats composite-system structure and multiplicative capacities/dimensions explicitly. No novelty claim is made for the underlying theorem.",
+  "pdt_consequence": "A defensible PDT derivation of n=3 must be formulated at the irreducible/primitive sector level, or must derive a nonstandard effective composition law. It cannot assert that every composite distinction space itself has dimension exactly 3 under ordinary tensor composition.",
+  "same_input_prediction": "none produced in this cycle",
+  "open_next": [
+    "derive a PDT-native irreducibility criterion stable under composition/decomposition",
+    "test graded/factor-relative distinction products rather than universal fixed dimension",
+    "search for a same-input quantitative PDT deviation with a declared resource window"
+  ]
+}
