@@ -1,0 +1,10 @@
+{
+  "cycle": 25,
+  "result": "Exact local/inaccessible distinction reserve balance",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "Delta D_S = R_S(s)-R_S(t)-L with R_S=D_SE-D_S and L=D_SE(s)-D_SE(t)>=0; for unitary L=0",
+  "audit": {"system_dimensions":"1..12", "environment_dimension":2, "trials_per_dimension":100, "seed":25025, "violations":0, "max_abs_balance_residual":1.110223e-16},
+  "novelty": "No historical novelty claimed; trace-distance information-flow conservation is established prior art.",
+  "same_input_consequence": "Local distinction gain cannot exceed the initial inaccessible reserve under common CPTP dynamics."
+}
