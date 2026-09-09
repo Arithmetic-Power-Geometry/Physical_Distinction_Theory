@@ -1,0 +1,24 @@
+{
+  "cycle": 29,
+  "result": "Primitive-generator SPR plus NCR does not select n=3",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "claims": {
+    "coordinate_plane_basis_rank": "For every n>=2, the standard basis J_ij=E_ij-E_ji of so(n) consists entirely of rank-2 generators.",
+    "noncommuting_threshold": "For every n>=3, J_12 and J_23 are noncommuting.",
+    "dimension_selection": "Primitive SPR + NCR holds for every n>=3, so it cannot uniquely select n=3.",
+    "spectator_normalized_rank": "rank(A tensor I_m)/m = rank(A), so the factor-local normalization proposed after Cycle 028 is spectator-invariant but adds no dimension-selecting power for local lifts."
+  },
+  "status": {
+    "universal_SPR_n3_filter": "CONDITIONAL only; relies on quantifying over every Lie-algebra element",
+    "primitive_SPR_n3_filter": "FALSIFIED",
+    "factor_local_SPR_as_unique_n3_derivation": "FALSIFIED as a standalone selector"
+  },
+  "tests": {
+    "dimensions_exact": "1 through 12 in committed CSV; analytic/unit tests through 100",
+    "higher_dimensions": [24, 64],
+    "counterexample_family": "All n>=4 via coordinate-plane generating basis",
+    "randomness_required": false
+  },
+  "novelty_note": "The Lie-algebra and Givens/plane-rotation facts are standard. The PDT-specific contribution is a no-go diagnosis of the proposed dimension-selection principle, not a new Lie theorem."
+}
