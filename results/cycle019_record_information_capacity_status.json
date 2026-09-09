@@ -1,0 +1,24 @@
+{
+  "cycle": 19,
+  "result": "Finite record-information capacity",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "statement": "For k classical branch labels encoded in d-dimensional quantum record states, every measurement outcome Y obeys I(X:Y) <= chi <= min(H(X), log2 d). For uniform labels, H(X|Y) >= max(0, log2(k/d)).",
+  "consequence": "Perfect operational revelation of k equiprobable branch identities from an unchanged d-dimensional quantum record is impossible when k>d.",
+  "sharp_family": "When k is a multiple of d, repeated orthonormal-basis labels with a basis measurement attain I(X:Y)=log2 d and H(X|Y)=log2(k/d).",
+  "prior_art": [
+    "Holevo accessible-information bound",
+    "Dall'Arno, Phys. Rev. A 92, 012328 (2015), arXiv:1504.04429",
+    "Jain and Nayak, arXiv:quant-ph/0603278"
+  ],
+  "numerical_audit": {
+    "dimensions": "1..12",
+    "k_rule": "k=d+3",
+    "trials_per_dimension": 300,
+    "seed": 1909,
+    "observed_violations_of_chi_le_log2d": 0,
+    "note": "d=1 entropy residual is floating-point zero within machine precision"
+  },
+  "same_input_prediction": "No new PDT-vs-QM prediction is asserted. Exceeding this ceiling under identical microscopic inputs would require a modified physical law, not resource bookkeeping.",
+  "open_next": "Seek PDT-native resource/composition constraints stronger than imported information-capacity bounds, or an explicit falsifiable new physical interaction producing a same-input deviation."
+}
