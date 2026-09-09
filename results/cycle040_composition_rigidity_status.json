@@ -1,0 +1,29 @@
+{
+  "cycle": 40,
+  "result": "Infinitesimal-independence scalar composition rigidity",
+  "status": [
+    "CONDITIONAL",
+    "IMPORTED/KNOWN"
+  ],
+  "breakthrough_candidate": false,
+  "statement": "For a C1 associative composition law F on a connected capacity domain with right identity 1 and partial_2 F(a,1)=a for every a, F(a,b)=a*b.",
+  "new_axiom_candidate": "Independent Marginal Revelation (IMR): partial_2 F(a,1)=a.",
+  "proof_method": "Differentiate associativity at the unit; IMR reduces the composition law to the ODE partial_b F(a,b)=F(a,b)/b; the unit fixes the integration constant.",
+  "cycle039_family_check": "For F_k(a,b)=ab+k(a-1)(b-1), IMR holds for every nontrivial a iff k=0.",
+  "dimension_audit": {
+    "a_min": 1,
+    "a_max": 12,
+    "k_min": 0,
+    "k_max": 5,
+    "exact_integer_associativity_triples": "all triples a,b,c in 1..12 for k=0..5 are covered by unit tests",
+    "higher_test": "product reference marginal tested through a=100; nonzero k exclusion tested through k=19"
+  },
+  "novelty_boundary": "Associative-function representation and invariant-differential methods are classical. Historical novelty is not claimed. PDT-specific novelty, if any, would have to lie in a future independent derivation or experiment establishing IMR from resource/distinction primitives.",
+  "limitations": [
+    "IMR is not yet derived from PDT primitives.",
+    "The theorem fixes only a scalar effective-capacity law, not the full composite state/effect structure.",
+    "A differentiable continuous extension of effective capacity is assumed.",
+    "The result does not derive n=3 and does not produce a same-input deviation from quantum mechanics."
+  ],
+  "next_obligation": "Derive or falsify IMR from the finite-resource PDT primitive; then test whether scalar multiplicativity plus resource constraints restricts full composite state/effect structures."
+}
