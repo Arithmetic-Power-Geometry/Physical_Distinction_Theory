@@ -1,0 +1,20 @@
+{
+  "cycle": 39,
+  "title": "Associative holism dimension-law no-go",
+  "status": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "claims": {
+    "holism_balance": "For any associative accessible-dimension composition q_AB=q_A q_B+h_AB, h_AB q_C+h_(AB),C=q_A h_BC+h_A,(BC).",
+    "nonuniqueness_family": "For every integer k>=0, F_k(a,b)=ab+k(a-1)(b-1) is positive-integer valued, commutative, associative, unital, monotone, and satisfies F_k(a,b)>=ab.",
+    "linearizing_coordinate": "T_k(q)=1+(k+1)(q-1) obeys T_k(F_k(a,b))=T_k(a)T_k(b).",
+    "consequence": "Associativity + commutativity + a trivial unit + monotonicity + faithful product lower bound do not uniquely determine a PDT composition law, even at parameter-counting level."
+  },
+  "audit": {
+    "exact_dimensions": "1..12",
+    "k_values_in_tests": "0..4",
+    "larger_unit_and_monotonicity_scan": "dimensions 1..100",
+    "distinct_family_witness": "F_k(2,2)=4+k for k=0..49"
+  },
+  "prior_art_boundary": "Local tomography K_AB=K_A K_B and failures such as real/bilocal quantum theories are established GPT/reconstruction prior art. The algebraic F_k counterfamily is used only as a PDT-specific no-go witness; historical novelty is not claimed.",
+  "remaining_open_target": "A PDT-native physical principle must constrain the admissible holistic sector itself; ordinary monoidal consistency axioms at dimension-counting level are insufficient."
+}
