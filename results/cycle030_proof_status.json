@@ -1,0 +1,28 @@
+{
+  "cycle": 30,
+  "result": "Normed Distinction Composition + Jacobi Sequential Consistency dimension filter",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "claim": "Under a real Euclidean distinction space with a nontrivial bilinear alternating orthogonal norm-compositional binary product, the known vector-cross-product classification restricts dimensions to 3 or 7; adding Jacobi identity leaves 3.",
+  "assumptions": {
+    "NDC": "binary distinction composition is bilinear, alternating, orthogonal to both inputs, and satisfies ||x×y||^2=||x||^2||y||^2-<x,y>^2",
+    "JSC": "sequential distinction composition obeys the Jacobi identity"
+  },
+  "exact_counterexample": {
+    "dimension": 7,
+    "inputs": ["e1", "e2", "e4"],
+    "jacobiator": [0,0,0,0,0,0,-3]
+  },
+  "numerical_audit": {
+    "seed": 30030,
+    "trials_per_explicit_dimension": 500,
+    "n3_max_norm_identity_residual": 1.4210854715202004e-14,
+    "n3_max_orthogonality_residual": 2.1187942970986815e-15,
+    "n3_max_jacobiator_norm": 2.6645352591003757e-15,
+    "n7_max_norm_identity_residual": 1.1368683772161603e-13,
+    "n7_max_orthogonality_residual": 9.805605636208159e-15,
+    "n7_max_jacobiator_norm": 115.5452688752578
+  },
+  "novelty_warning": "The cross-product dimension classification and 7D Jacobi failure are established mathematics. PDT novelty cannot be claimed unless NDC and especially JSC are independently derived from PDT physical/compositional principles and yield new consequences.",
+  "next_attack": "Attempt to derive JSC from operational associativity/path-independence of distinction revelation; otherwise construct PDT-consistent non-Jacobi composition showing the filter is optional."
+}
