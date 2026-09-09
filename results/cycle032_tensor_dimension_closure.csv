@@ -1,0 +1,13 @@
+dimension,self_tensor_dimension,singleton_tensor_closed,three_power_member_if_base3
+1,1,True,False
+2,4,False,False
+3,9,False,True
+4,16,False,False
+5,25,False,False
+6,36,False,False
+7,49,False,False
+8,64,False,False
+9,81,False,True
+10,100,False,False
+11,121,False,False
+12,144,False,False
