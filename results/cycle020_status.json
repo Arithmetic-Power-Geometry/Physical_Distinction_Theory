@@ -1,0 +1,21 @@
+{
+  "cycle": 20,
+  "result": "Distinction Revelation-Reset Tradeoff",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "statement": "Under the standard no-side-information Landauer reset model and unchanged d-dimensional quantum records, I(X:Y) <= min(log2 d, Q_reset/(k_B T ln 2)).",
+  "assumptions": [
+    "standard quantum measurement/Holevo framework",
+    "classical measurement record Y",
+    "energetically degenerate logical memory states",
+    "isothermal reset at T>0",
+    "no retained useful side information during reset",
+    "closed-cycle reset resource is counted"
+  ],
+  "audits": {
+    "dimensions_csv": "d=1..12 with k=d+3 at T=300 K",
+    "formula_tests": "d through 1000; k through 100"
+  },
+  "novelty": "No historical novelty claimed; Holevo and Landauer ingredients are established prior art.",
+  "open_boundary": "A same-input PDT thermodynamic deviation must explicitly change a physical resource/assumption rather than omit reset, side information, correlations, or nonequilibrium free energy."
+}
