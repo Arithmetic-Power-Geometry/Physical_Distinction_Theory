@@ -1,0 +1,23 @@
+{
+  "cycle": 22,
+  "result": "prior-weighted composite record identification bound",
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN"
+  ],
+  "breakthrough_candidate": false,
+  "theorem": "For priors p_i and record dimension D, every exact-label POVM satisfies P_success <= min(1,D*p_max). For tensor-product records D=prod_j d_j.",
+  "entropy_form": "H_min(X|measurement) >= max(0,H_min(X)-log2 D).",
+  "uniform_copy_corollary": "For m copies of a d-dimensional record and k uniform labels, P_success <= min(1,d^m/k); perfect identification requires d^m>=k.",
+  "sharpness": "When k>D and 1/k <= p_max <= 1/D, a basis-plus-tail construction attains D*p_max exactly.",
+  "stress_tests": {
+    "dimensions": "1..12",
+    "labels": "k=d+5",
+    "random_trials_per_dimension": 300,
+    "seed": 26090922,
+    "maximum_observed_violation": -0.03568380169215982
+  },
+  "prior_art": "No novelty claimed. Minimum-error quantum-state discrimination and guessing-probability/min-entropy operational interpretations are established.",
+  "pdt_boundary": "A same-input PDT claim exceeding D*p_max must change physical record dimension/composition, effects, probability law, copies/side systems, or other resources."
+}
