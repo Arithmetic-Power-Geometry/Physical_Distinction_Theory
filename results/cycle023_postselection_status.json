@@ -1,0 +1,17 @@
+{
+  "cycle": 23,
+  "result": "postselection-accounted exact-label discrimination bound",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "statement": "For conclusive effects N_i with sum_i N_i <= I_D, P(retain and correct) <= min(1,D p_max), hence P(correct|retain) <= min(1,D p_max/s).",
+  "same_input_kill_test": "Conditional postselected accuracy alone is not decisive; compare retention-weighted yield s*C under identical microscopic states and measurement resources.",
+  "dimensions_audited": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "trials_per_dimension": 300,
+  "random_seed_base": 26090923,
+  "max_observed_positive_violation": 0.0,
+  "prior_art": [
+    "Fiurasek and Jezek, Phys. Rev. A 67, 012321 (2003)",
+    "Bagan et al., Phys. Rev. A 86, 040303(R) (2012)",
+    "Nakahira, Usuda and Kato, Phys. Rev. A 97, 012103 (2018)"
+  ]
+}
