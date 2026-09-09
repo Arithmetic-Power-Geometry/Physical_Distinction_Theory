@@ -1,0 +1,22 @@
+{
+  "cycle": 41,
+  "title": "Scalar composition gauge no-go",
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "For a C1 associative scalar law F with two-sided identity 1 and phi(x)=partial_2 F(x,1)>0, L(x)=integral_1^x du/phi(u) satisfies L(F(a,b))=L(a)+L(b).",
+  "pdt_consequence": "An uncalibrated smooth scalar composition law is not invariant physical novelty; it is additive after a monotone calibration coordinate. PDT composition novelty must fix the operational calibration independently or reside in non-scalar global distinction structure.",
+  "representative_family": "F_k(a,b)=ab+k(a-1)(b-1), k>=0",
+  "representative_linearizer": "L_k(x)=log(1+(k+1)(x-1))/(k+1)",
+  "audit_grid": {
+    "dimensions": "1..12",
+    "k": "0..12",
+    "locally_recomputed_worst_additive_residual": 6.661338147750939e-16
+  },
+  "limitations": [
+    "Requires C1 regularity and positive marginal speed.",
+    "Does not determine the full composite state/effect space.",
+    "Does not imply a same-input PDT-vs-QM deviation.",
+    "Underlying associativity representation is classical prior art."
+  ],
+  "next_target": "Derive an operationally fixed calibration and admissible global distinction structure from PDT primitives, or prove that candidate derivations are insufficient."
+}
