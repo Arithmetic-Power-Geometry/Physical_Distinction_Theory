@@ -1,0 +1,34 @@
+{
+  "cycle": 48,
+  "target": "resource-refinement/revelation/conservation laws",
+  "results": [
+    {
+      "id": "PDT-II-048-A",
+      "title": "Resource-refinement monotonicity for total-variation distinction",
+      "classification": ["PROVED", "IMPORTED/KNOWN"],
+      "statement": "For every stochastic coarse-graining K, D_TV(Kp,Kq) <= D_TV(p,q)."
+    },
+    {
+      "id": "PDT-II-048-B",
+      "title": "Sharp revelation-increment bound",
+      "classification": ["PROVED", "IMPORTED/KNOWN"],
+      "statement": "For nested resource records, 0 <= Delta = D_fine-D_coarse <= 1-D_coarse; both bounds are sharp."
+    },
+    {
+      "id": "PDT-II-048-C",
+      "title": "Conservation of accessible distinction under arbitrary refinement",
+      "classification": ["FALSIFIED"],
+      "statement": "The equality D_fine = D_coarse for all refinements is false.",
+      "smallest_counterexample": {
+        "fine_outcomes": 2,
+        "p": [1, 0],
+        "q": [0, 1],
+        "coarse_graining": "merge both outcomes",
+        "D_fine": 1,
+        "D_coarse": 0
+      }
+    }
+  ],
+  "breakthrough_candidate": false,
+  "next_strong_target": "Derive a non-tautological PDT-native total-distinction exchange/conservation law including controlled environmental records, or falsify that route."
+}
