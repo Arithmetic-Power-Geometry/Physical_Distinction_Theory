@@ -1,0 +1,11 @@
+{
+  "cycle": 47,
+  "result": "DECISIVE FALSIFICATION",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "claim": "The nuclear-norm-capped CHSH-matching composite is not a viable full qubit composite because it excludes the two-qubit singlet correlation tensor T=-I_3.",
+  "smallest_decisive_dimension": 3,
+  "C_op_M3_max": 3,
+  "C_cap_M3_max": 2,
+  "singlet_abs_M3": 3,
+  "breakthrough_candidate": false
+}
