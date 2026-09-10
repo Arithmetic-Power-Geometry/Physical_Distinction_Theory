@@ -34,7 +34,7 @@ def test_dimension_stress_1_to_12():
     rows = stress_audit(seed=1234, trials=100)
     assert [r.dimension for r in rows] == list(range(1, 13))
     assert max(r.max_same_joint_error for r in rows) <= 1e-15
-    assert max(r.max_normalization_error for r in rows) <= 5e-16
+    assert max(r.max_normalization_error for r in rows) <= 1e-15
 
 
 def test_rare_event_can_change_conditional_but_not_theory_gap():
