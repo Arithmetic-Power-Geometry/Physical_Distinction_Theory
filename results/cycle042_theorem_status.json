@@ -1,0 +1,15 @@
+{
+  "cycle": 42,
+  "title": "Tsirelson-compatible correlator composite nonuniqueness",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "claim_falsified": "Euclidean local geometry + local tomography + local O(n) symmetry + exact CHSH Tsirelson value uniquely determine the centered correlator composite.",
+  "surviving_statement": "For every n>=3, C_op={T:||T||_op<=1} and C_cap={T:||T||_op<=1, ||T||_*<=2} are distinct convex O(n)xO(n)-invariant centered binary-correlation bodies. Both contain every product correlator ab^T with ||a||,||b||<=1 and both attain CHSH=2*sqrt(2).",
+  "smallest_decisive_dimension": 3,
+  "counterexample": "I_3 is in C_op because ||I_3||_op=1 but not in C_cap because ||I_3||_*=3>2.",
+  "common_chsh_witness": "Rank-two partial isometry aligned with the canonical CHSH coefficient; singular values (1,1,0,...), operator norm 1, nuclear norm 2, CHSH value 2*sqrt(2).",
+  "audit_dimensions": [2,12],
+  "random_product_trials_per_dimension": 200,
+  "scope_warning": "This is a centered binary-correlator-sector no-go. It does not by itself prove that C_cap has a unique or unrestricted full GPT state/effect extension.",
+  "prior_art_boundary": "Tsirelson's CHSH bound, GPT tensor-product nonuniqueness, and norm duality are established mathematics. No historical novelty is claimed for those ingredients."
+}
