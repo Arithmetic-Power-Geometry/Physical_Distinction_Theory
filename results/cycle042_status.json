@@ -1,0 +1,11 @@
+{
+  "cycle": 42,
+  "result": "Jordan self-composition local-tomography dimension filter",
+  "status": ["CONDITIONAL", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "For K in {R,C,H}, with d=dim_R K, H_2(K) local systems and standard H_4(K) self-composites, local tomography implies d=2 and hence Bloch/distinction dimension n=3.",
+  "proof_identity": "4+6d=(2+d)^2 iff d(2-d)=0",
+  "dimension_scan": "n=1..12 audited; route applies only to the division-algebra bit subfamily n=2,3,5, with n=9 explicitly outside the assumed H4(K) EJA matrix route.",
+  "prior_art_boundary": "Established Jordan/GPT reconstruction and composite theory; no historical novelty claim.",
+  "open_dependency": "PDT has not derived local tomography or the standard Jordan matrix composite rule from distinction/resource primitives."
+}
