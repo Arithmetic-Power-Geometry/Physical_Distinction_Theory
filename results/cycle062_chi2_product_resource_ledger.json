@@ -1,0 +1,20 @@
+{
+  "claim": "For independent full-support finite binary experiments, 1+chi2 composes multiplicatively; under local stochastic resource restrictions the induced log(1+chi2) resource loss is exactly additive.",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "PDT STRUCTURAL BRIDGE"],
+  "breakthrough_candidate": false,
+  "exact_identities": {
+    "product": "C_AB = C_A + C_B + C_A*C_B",
+    "factorized": "1+C_AB = (1+C_A)(1+C_B)",
+    "local_resource_loss": "Delta_AB = Delta_A*(1+C_B_prime) + Delta_B*(1+C_A_prime) + Delta_A*Delta_B",
+    "log_budget": "K=log(1+C); K_AB=K_A+K_B; local resource losses in K add exactly"
+  },
+  "prior_art_boundary": "K=log(1+chi2) is Renyi divergence of order 2, whose product additivity and data-processing behavior are established information theory. No historical novelty is claimed for these identities.",
+  "audit": {
+    "exact_arithmetic": true,
+    "dimensions_1_to_12": {"trials_per_dimension": 200, "failures": 0},
+    "higher_dimensions": {"dimensions": [16,24,32,48,64,96,128], "trials_per_dimension": 50, "failures": 0},
+    "total_trials": 2750,
+    "total_failures": 0
+  },
+  "status": "PASS"
+}
