@@ -1,0 +1,22 @@
+alphabet_dimension,samples,lower_bound_failures,upper_bound_failures,max_lower_violation,max_upper_violation
+1,200,0,0,0,0
+2,200,0,0,0,0
+3,200,0,0,0,0
+4,200,0,0,0,0
+5,200,0,0,0,0
+6,200,0,0,0,0
+7,200,0,0,0,0
+8,200,0,0,0,0
+9,200,0,0,0,0
+10,200,0,0,0,0
+11,200,0,0,0,0
+12,200,0,0,0,0
+
+# higher_dimension_checks
+alphabet_dimension,samples,lower_bound_failures,upper_bound_failures
+16,50,0,0
+24,50,0,0
+32,50,0,0
+48,50,0,0
+64,50,0,0
+96,50,0,0
