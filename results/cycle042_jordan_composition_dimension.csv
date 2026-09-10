@@ -1,0 +1,4 @@
+algebra,d,bloch_dimension,local_order_dimension,expected_locally_tomographic_composite_dimension,standard_matrix_composite_dimension,tomography_gap,locally_tomographic
+R,1,2,3,9,10,1,false
+C,2,3,4,16,16,0,true
+H,4,5,6,36,28,-8,false
