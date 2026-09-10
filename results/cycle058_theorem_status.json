@@ -1,0 +1,18 @@
+{
+  "cycle": 58,
+  "target": "PDT-II composition law novelty boundary",
+  "result": "Finite augmented likelihood-ratio profile is a canonical representative of a binary statistical experiment up to Blackwell equivalence.",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "FALSIFIED"],
+  "falsified_claim": "The classical augmented profile (s, mu) by itself is a PDT-native breakthrough composition law.",
+  "breakthrough_candidate": false,
+  "proof_status": "algebraic proof recorded in docs/cycle058_binary_profile_blackwell_boundary.md",
+  "audit": {
+    "exact_dimensions": "1-12",
+    "trials_each": 200,
+    "higher_dimensions": [16,24,32,48,64,96,128],
+    "higher_trials_each": 50,
+    "failures": 0
+  },
+  "surviving_open_target": "Derive a genuinely PDT-native nonclassical distinction/state-effect object and composition law not reducible to a classical binary statistical experiment.",
+  "novelty_claim": false
+}
