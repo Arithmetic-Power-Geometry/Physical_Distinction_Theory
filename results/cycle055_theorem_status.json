@@ -1,0 +1,23 @@
+{
+  "cycle": 55,
+  "target": 1,
+  "result": "Exact finite full-support binary distinction-profile composition under independent products",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "PDT structural candidate"],
+  "breakthrough_candidate": false,
+  "theorem": "mu_{P tensor R | Q tensor S} = mu_{P|Q} multiplicative-convolution mu_{R|S}",
+  "scalar_recovery": "TV(P,Q)=1/2 integral |lambda-1| d mu_{P|Q}(lambda)",
+  "stress_test": {
+    "dimensions_exact_200_trials_each": [1,2,3,4,5,6,7,8,9,10,11,12],
+    "higher_dimensions_exact_50_trials_each": [16,24,32,48,64],
+    "profile_failures": 0,
+    "tv_recovery_failures": 0,
+    "arithmetic": "Fraction exact rational"
+  },
+  "prior_art_boundary": "Likelihood-ratio distributions, binary statistical experiments, and f-divergence representations are established mathematics; no historical novelty claimed.",
+  "open": [
+    "singular-support extension",
+    "resource-map action on profiles",
+    "nonclassical PDT analogue",
+    "PDT-native unique physical composite"
+  ]
+}
