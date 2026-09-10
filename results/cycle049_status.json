@@ -1,0 +1,36 @@
+{
+  "cycle": 49,
+  "target": 4,
+  "title": "Exact revelation accounting under deterministic resource coarse-graining",
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "hypotheses": [
+    "finite probability distributions p and q",
+    "deterministic resource coarse-graining represented by a partition of fine outcomes",
+    "operational distinction measured by total variation"
+  ],
+  "theorem": "TV(p,q)-TV(Kp,Kq)=sum_j min(P_j,N_j), where P_j and N_j are the positive and negative masses of p-q inside coarse cell j",
+  "equality_condition": "TV(Kp,Kq)=TV(p,q) iff every coarse cell is sign-pure with respect to p-q, ignoring zero entries",
+  "smallest_full_hiding_witness": {
+    "p": [1, 0],
+    "q": [0, 1],
+    "partition": [0, 0],
+    "fine_tv": 1,
+    "coarse_tv": 0,
+    "hidden_cancellation": 1
+  },
+  "stress_test": {
+    "dimensions": "1..12",
+    "trials_per_dimension": 200,
+    "arithmetic": "exact rational",
+    "max_identity_error": 0,
+    "equality_condition_failures": 0
+  },
+  "prior_art_boundary": "Underlying identity is standard total-variation/Jordan signed-measure mathematics. No historical novelty claimed.",
+  "surviving_PDT_claim": "With an explicitly declared fine reference partition, accessible distinction plus unresolved within-cell likelihood-contrast cancellation equals fine distinction. This is an accounting identity, not a new physical conservation substance.",
+  "open_next": [
+    "extend accounting to genuinely stochastic resource kernels with non-circular hidden variables",
+    "derive a PDT-native physical principle fixing the admissible resource map",
+    "seek a falsifiable consequence not already implied by standard statistical decision theory"
+  ]
+}
