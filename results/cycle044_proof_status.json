@@ -1,0 +1,29 @@
+{
+  "cycle": 44,
+  "title": "Affine effect absorption theorem",
+  "status": ["PROVED", "IMPORTED/KNOWN", "PDT-SPECIFIC NO-GO"],
+  "breakthrough_candidate": false,
+  "claim": "For each fixed resource context R, every bounded affine probability functional on finite-dimensional quantum density matrices is Tr(E_R rho) for a unique quantum effect 0<=E_R<=I. Thus any affine resource-dependent probability deviation is operationally a changed effective effect, not a free-standing new probability rule.",
+  "hypotheses": [
+    "finite-dimensional complex Hilbert space",
+    "ordinary density-matrix state space",
+    "preparation-mixture affinity",
+    "probabilities in [0,1]"
+  ],
+  "escape_coordinates": [
+    "break preparation-mixture affinity/equivalence",
+    "change microscopic state assignment",
+    "change physical measurement/effect assignment",
+    "change dynamics/process",
+    "change probability framework/contextual structure"
+  ],
+  "audit": {
+    "dimensions": "1..12",
+    "random_samples_per_dimension": 40,
+    "seed": 4401,
+    "maximum_observed_affine_residual": 2.220446049250313e-16,
+    "nonlinear_purity_correction_affinity_violation_witnessed_for_dimensions": "2..12"
+  },
+  "novelty_boundary": "Underlying convex/Riesz/effect representation mathematics is standard. Historical novelty is not claimed.",
+  "research_consequence": "Target (3) must identify which physical or operational premise changes; a same-state same-effect affine correction is impossible."
+}
