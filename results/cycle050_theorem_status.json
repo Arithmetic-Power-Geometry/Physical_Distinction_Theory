@@ -1,0 +1,19 @@
+{
+  "cycle": 50,
+  "target": 4,
+  "title": "Exact stochastic revelation accounting",
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "pdt_role": "operational corollary",
+  "breakthrough_candidate": false,
+  "theorem": "For every finite probability pair p,q and column-stochastic K, TV(p,q)-TV(Kp,Kq) equals one half the sum over outputs of incoming absolute signed mass minus absolute net signed mass.",
+  "equality_condition": "TV is preserved iff each output receives nonzero contribution from at most one sign class of p-q.",
+  "stress_test": {
+    "dimensions": "1..12",
+    "trials_per_dimension": 200,
+    "arithmetic": "exact rational Fraction",
+    "identity_failures": 0,
+    "equality_condition_failures": 0
+  },
+  "novelty_boundary": "Total-variation data processing, signed-measure/Jordan-decomposition structure, and triangle-equality conditions are established mathematics; no historical novelty claimed.",
+  "open_next": "derive a non-tautological PDT-native hidden/environment distinction quantity and exchange law"
+}
