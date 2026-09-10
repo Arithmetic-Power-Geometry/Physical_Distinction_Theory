@@ -1,0 +1,34 @@
+{
+  "cycle": 60,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN mathematics"
+  ],
+  "claim_falsified": "The current PDT composition/resource laws, even together with Euclidean isotropy, TPI and noncommuting connected reversibility, force PCC or n=3.",
+  "smallest_decisive_countermodel_dimension": 4,
+  "total_failures": 0,
+  "dimensions_1_to_12": [
+    {"dimension":1,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":false,"TPI":false,"PCC":true},
+    {"dimension":2,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":false,"TPI":true,"PCC":true},
+    {"dimension":3,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":true},
+    {"dimension":4,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":5,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":6,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":7,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":8,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":9,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":10,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":11,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":12,"trials":200,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false}
+  ],
+  "higher_dimensions": [
+    {"dimension":16,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":24,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":32,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":48,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":64,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":96,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false},
+    {"dimension":128,"trials":50,"rotation_failures":0,"projection_failures":0,"product_log_likelihood_failures":0,"SO_n_noncommuting":true,"TPI":true,"PCC":false}
+  ]
+}
