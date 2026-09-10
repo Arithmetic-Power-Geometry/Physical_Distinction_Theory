@@ -1,0 +1,21 @@
+{
+  "cycle": 41,
+  "target": "PDT-native composition law",
+  "result": "Local tomography plus multiplicative vector dimension and product-state preservation do not determine a unique composite state/effect structure.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "smallest_decisive_witness": {
+    "n_fiducial_binary_settings": 2,
+    "local_vector_dim": 3,
+    "locally_tomographic_composite_dim": 9,
+    "minimal_tensor_CHSH_bound": 2,
+    "maximal_tensor_PR_CHSH": 4
+  },
+  "dimension_audit": {
+    "exact_range": [1, 12],
+    "separation_for_all_n_ge_2": true,
+    "extension": "The PR witness embeds for arbitrary n>=2 by leaving extra settings uniform."
+  },
+  "prior_art_boundary": "Minimal/maximal GPT tensor products and PR-box/boxworld correlations are established prior art. No historical novelty is claimed for those mathematical constructions.",
+  "surviving_requirement": "A PDT-native composite theory must derive additional order/positivity/effect structure; local tomography alone cannot select a unique physical composite or Bell inequality."
+}
