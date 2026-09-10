@@ -1,0 +1,18 @@
+{
+  "cycle": 61,
+  "target": 4,
+  "classification": ["PROVED", "IMPORTED/KNOWN"],
+  "claim": "For finite full-support binary experiments under nested stochastic resource channels, Pearson chi-square distinction decomposes exactly into accessible distinction plus unresolved conditional likelihood-ratio variance, and revelation losses telescope exactly across the resource filtration.",
+  "audit": {
+    "arithmetic": "exact rational",
+    "dimensions_exact": [1,2,3,4,5,6,7,8,9,10,11,12],
+    "trials_per_exact_dimension": 200,
+    "dimensions_higher": [16,24,32,48,64],
+    "trials_per_higher_dimension": 50,
+    "identity_failures": 0,
+    "conditional_variance_failures": 0,
+    "nested_conservation_failures": 0
+  },
+  "breakthrough_candidate": false,
+  "novelty_note": "Underlying theorem is established conditional-expectation/law-of-total-variance/f-divergence mathematics; PDT contribution here is bookkeeping/constraint integration only."
+}
