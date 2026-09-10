@@ -1,0 +1,16 @@
+{
+  "cycle": 53,
+  "target": "PDT-II target (1): composition",
+  "result": "No universal scalar law D_AB = F(D_A,D_B) can reproduce total-variation distinction under all ordinary independent products.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "witness": {
+    "D_A": "1/4",
+    "D_B_case_A": "1/4",
+    "D_B_case_B": "1/4",
+    "D_AB_case_A": "7/16",
+    "D_AB_case_B": "1/4"
+  },
+  "breakthrough_candidate": false,
+  "reason_not_breakthrough": "Underlying product-total-variation non-tensorization is established/anticipated in probability literature; full PDT-native composition remains open.",
+  "surviving_target": "Composition must retain richer likelihood/evidence/overlap structure rather than close on one scalar distinction coordinate."
+}
