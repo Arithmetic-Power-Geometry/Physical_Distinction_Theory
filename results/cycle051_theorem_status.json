@@ -1,0 +1,36 @@
+{
+  "cycle": 51,
+  "target": "PDT-II target (1): PDT-native composition law",
+  "result": "Independent-product total-variation composition bounds",
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "PDT operational corollary",
+    "FALSIFIED naive additivity",
+    "FALSIFIED naive multiplicativity"
+  ],
+  "breakthrough_candidate": false,
+  "hypotheses": [
+    "finite probability records",
+    "independent product composition",
+    "operational distinction equals total variation"
+  ],
+  "theorem": "max(d1,d2) <= D(P1 tensor P2, Q1 tensor Q2) <= d1+d2-d1*d2",
+  "k_factor_upper": "D(tensor_i P_i,tensor_i Q_i) <= 1-product_i(1-d_i)",
+  "sharpness": "upper bound attained by binary nested-support witnesses for arbitrary d1,d2 in [0,1]",
+  "small_counterexamples": {
+    "additivity": "d1=1/2,d2=1/4 gives D_AB=5/8 != 3/4",
+    "multiplicativity": "d2=0 with identical second factor gives D_AB=d1>0 != d1*d2"
+  },
+  "stress_audit": {
+    "exact_rational_dimensions": "1..12",
+    "samples_per_dimension": 200,
+    "lower_bound_failures": 0,
+    "upper_bound_failures": 0,
+    "higher_dimensions": [16,24,32,48,64,96],
+    "higher_samples_each": 50,
+    "higher_failures": 0
+  },
+  "prior_art": "Total-variation overlap/coupling/data-processing and product-measure bounds are established probability/statistics; no historical novelty claimed.",
+  "surviving_open_problem": "derive a specifically PDT physical composite/state/effect structure or a new PDT-specific equality/inequality beyond universal independent-record bounds"
+}
