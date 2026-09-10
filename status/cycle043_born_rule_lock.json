@@ -1,0 +1,20 @@
+{
+  "cycle": 43,
+  "result": "Born-rule same-input lock",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "PDT-SPECIFIC NO-GO"],
+  "breakthrough_candidate": false,
+  "statement": "For complex Hilbert dimension >=3, normalized additive noncontextual probability measures on all projections are Born-form by Gleason. With generalized-measurement consistency, Gleason-type results extend the lock to dimension 2. If PDT additionally fixes the same microscopic quantum state and same effects as QM and the resource window does not physically modify the experiment, no same-input probability deviation remains under these hypotheses.",
+  "projective_dimension_threshold": 3,
+  "povm_dimension_threshold": 2,
+  "tested_audit_dimensions": [1, 12],
+  "test_stress_upper_dimension": 100,
+  "required_escape_coordinates_for_future_deviation": [
+    "changed state or dynamics",
+    "changed event/effect structure",
+    "contextual probability",
+    "non-additive/nonstandard probability law",
+    "resource interaction physically modifying experiment"
+  ],
+  "novelty_note": "Gleason and POVM Gleason-type mathematics are established prior art; no historical novelty claimed.",
+  "open_next": "Construct and stress-test one explicit escape-coordinate law, beginning with the weakest physically defensible resource-dependent modification, against normalization, convexity, no-signaling, composition, sequential measurement and empirical constraints."
+}
