@@ -1,0 +1,25 @@
+{
+  "cycle": 46,
+  "target": "PDT-native composition law",
+  "result": "Biaffine scalar composition classification no-go",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "Every separately affine symmetric scalar composition law with identity 1 is F_k(a,b)=ab+k(a-1)(b-1); every F_k is associative.",
+  "falsified_route": "symmetry + unit + separate affinity + associativity + monotonicity + product-sector preservation uniquely imply multiplication",
+  "smallest_witness": {
+    "local_capacities": [2, 2],
+    "family_output": "4+k",
+    "surviving_k_under_product_lower_bound": "k>=0"
+  },
+  "stress_tests": {
+    "dimensions": "a,b,c in 1..12",
+    "parameters": "k in 0..11",
+    "arithmetic": "exact integer/rational",
+    "associativity_failures": 0,
+    "unit_failures": 0,
+    "symmetry_failures": 0,
+    "product_lower_bound_failures_for_tested_k": 0
+  },
+  "novelty_boundary": "Underlying algebra is elementary/classical; only the PDT-specific no-go interpretation is asserted.",
+  "next_target": "derive or falsify a PDT-native law for the global effect/distinction sector rather than another scalar regularity axiom"
+}
