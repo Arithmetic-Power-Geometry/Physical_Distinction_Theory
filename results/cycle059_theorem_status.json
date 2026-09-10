@@ -1,0 +1,10 @@
+{
+  "cycle": 59,
+  "target": 1,
+  "title": "Reference-weighted quantum likelihood spectrum is not operationally sufficient",
+  "status": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "smallest_explicit_dimension": 4,
+  "statement": "There exist faithful quantum state pairs (rho_theta,sigma) with identical sigma-weighted spectral measure of L_theta=sigma^{-1/2}rho_theta sigma^{-1/2} but different trace distance. Therefore that one-dimensional spectral profile cannot be a sufficient PDT-native quantum composition object.",
+  "surviving_requirement": "A viable nonclassical PDT distinction/composition object must retain noncommutative orientation/compatibility information beyond a scalar or one-dimensional weighted spectrum."
+}
