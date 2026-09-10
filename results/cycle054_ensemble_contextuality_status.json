@@ -1,0 +1,29 @@
+{
+  "cycle": 54,
+  "target": 3,
+  "title": "Ensemble-contextual nonlinear same-input escape vs remote-steering no-signalling",
+  "classifications": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN"
+  ],
+  "breakthrough_candidate": false,
+  "exact_witness": {
+    "state": "rho_B = I/2",
+    "effect": "E = |0><0|",
+    "ensembles": {
+      "Z": ["|0>", "|1>"],
+      "X": ["|+>", "|->"]
+    },
+    "response": "g(x)=x^2",
+    "P_Z": "1/2",
+    "P_X": "1/4"
+  },
+  "falsified_claim": "A remotely selectable ensemble-decomposition-sensitive nonlinear local probability rule can provide a same-local-input PDT deviation while retaining standard steering and no-signalling.",
+  "surviving_boundary": "Any viable PDT deviation must explicitly change a physical coordinate such as dynamics, admissible effects, global state/composition, steering structure, or another independently testable law.",
+  "prior_art": [
+    "Hughston-Jozsa-Wootters remote ensemble theorem (1993)",
+    "Polchinski nonlinear QM/EPR signalling obstruction (1991)",
+    "Simon-Buzek-Gisin no-signalling and quantum dynamics (2001)"
+  ]
+}
