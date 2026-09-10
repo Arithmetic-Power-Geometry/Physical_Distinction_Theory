@@ -1,0 +1,28 @@
+{
+  "cycle": 57,
+  "target": 1,
+  "result": "singular-support repair of likelihood-ratio distinction profile",
+  "classifications": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "falsified_statement": "The full-support Q-weighted likelihood-ratio profile and TV recovery formula extend unchanged to arbitrary singular supports.",
+  "smallest_counterexample": {
+    "P": [0, 1],
+    "Q": [1, 0],
+    "naive_profile_TV": "1/2",
+    "true_TV": "1"
+  },
+  "surviving_theorem": {
+    "singular_mass": "s(P||Q)=P({i:Q_i=0})",
+    "tv_recovery": "TV(P,Q)=1/2[s + integral |lambda-1| dmu]",
+    "product_singular_mass": "s_AB=1-(1-s_A)(1-s_B)",
+    "regular_profile_composition": "mu_AB=mu_A multiplicative-convolution mu_B"
+  },
+  "audit": {
+    "dimensions": "1..12",
+    "trials_per_dimension": 200,
+    "arithmetic": "exact rational",
+    "tv_recovery_failures": 0,
+    "profile_composition_failures": 0
+  },
+  "novelty_note": "Uses standard Lebesgue/Radon-Nikodym singular-vs-absolutely-continuous decomposition ideas; no historical mathematical novelty claimed."
+}
