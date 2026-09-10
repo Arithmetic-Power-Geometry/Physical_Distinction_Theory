@@ -1,0 +1,13 @@
+n,rank_probed,C_op_bound,C_cap_bound,separated
+1,1,1,1,False
+2,2,2,2,False
+3,3,3,2,True
+4,3,3,2,True
+5,3,3,2,True
+6,3,3,2,True
+7,3,3,2,True
+8,3,3,2,True
+9,3,3,2,True
+10,3,3,2,True
+11,3,3,2,True
+12,3,3,2,True
