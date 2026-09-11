@@ -1,0 +1,28 @@
+{
+  "cycle": 69,
+  "claim": "No dimension-independent finite trace-word cutoff can be operator-complete across all finite dimensions.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+  "finite_dimension_audit": [
+    {"dimension": 1, "status": "DEGENERATE", "reason": "single-state spectrum fixed by trace"},
+    {"dimension": 2, "cutoff": 1, "perturbation_relative_factor": 0.0001, "max_moment_error": 0.0, "determinant_gap": 2.2222222222229027e-05, "max_coordinate_probability_gap": 6.668000533599505e-05, "status": "NUMERIC_WITNESS"},
+    {"dimension": 3, "cutoff": 2, "perturbation_relative_factor": 0.0001, "max_moment_error": 8.326672684688674e-16, "determinant_gap": 2.7777777777647505e-06, "max_coordinate_probability_gap": 0.00010000003599958118, "status": "NUMERIC_WITNESS"},
+    {"dimension": 4, "cutoff": 3, "perturbation_relative_factor": 0.0001, "max_moment_error": 1.5543122344752192e-15, "determinant_gap": 2.3999999998773267e-07, "max_coordinate_probability_gap": 0.00011992825866030676, "status": "NUMERIC_WITNESS"},
+    {"dimension": 5, "cutoff": 4, "perturbation_relative_factor": 0.0001, "max_moment_error": 1.582067810090848e-15, "determinant_gap": 1.5802469135431547e-08, "max_coordinate_probability_gap": 0.00020000225006325256, "status": "NUMERIC_WITNESS"},
+    {"dimension": 6, "cutoff": 5, "perturbation_relative_factor": 0.0001, "max_moment_error": 5.551115123125783e-16, "determinant_gap": 8.394923212225907e-10, "max_coordinate_probability_gap": 0.0002863009739613731, "status": "NUMERIC_WITNESS"},
+    {"dimension": 7, "cutoff": 6, "perturbation_relative_factor": 0.0001, "max_moment_error": 1.3877787807814457e-16, "determinant_gap": 3.7352899303319303e-11, "max_coordinate_probability_gap": 0.0005001334881443442, "status": "NUMERIC_WITNESS"},
+    {"dimension": 8, "cutoff": 7, "perturbation_relative_factor": 0.0001, "max_moment_error": 6.661338147750939e-16, "determinant_gap": 1.429224713727085e-12, "max_coordinate_probability_gap": 0.0007732179418653007, "status": "NUMERIC_WITNESS"},
+    {"dimension": 9, "cutoff": 8, "perturbation_relative_factor": 0.0001, "max_moment_error": 1.6653345369377348e-15, "determinant_gap": 4.7956823470344244e-14, "max_coordinate_probability_gap": 0.0014080367028354995, "status": "NUMERIC_WITNESS"},
+    {"dimension": 10, "cutoff": 9, "perturbation_relative_factor": 0.0001, "max_moment_error": 8.881784197001252e-16, "determinant_gap": 1.4326369164130038e-15, "max_coordinate_probability_gap": 0.0024135846317250714, "status": "NUMERIC_WITNESS"},
+    {"dimension": 11, "cutoff": 10, "perturbation_relative_factor": 0.0001, "max_moment_error": 7.355227538141662e-16, "determinant_gap": 3.856314337632054e-17, "max_coordinate_probability_gap": 0.00493888641615059, "status": "NUMERIC_WITNESS"},
+    {"dimension": 12, "cutoff": 11, "perturbation_relative_factor": 1e-05, "max_moment_error": 7.771561172376096e-16, "determinant_gap": 9.444994992345978e-20, "max_coordinate_probability_gap": 0.0007074539954246978, "status": "NUMERIC_WITNESS"}
+  ],
+  "higher_dimension_embedding_audit": [
+    {"dimension": 16, "cutoff": 6, "max_moment_error": 2.220446049250313e-16, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 24, "cutoff": 6, "max_moment_error": 7.28583859910259e-17, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 32, "cutoff": 6, "max_moment_error": 7.632783294297951e-17, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 48, "cutoff": 6, "max_moment_error": 7.632783294297951e-17, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 64, "cutoff": 6, "max_moment_error": 2.220446049250313e-16, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 96, "cutoff": 6, "max_moment_error": 2.220446049250313e-16, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"},
+    {"dimension": 128, "cutoff": 6, "max_moment_error": 7.28583859910259e-17, "max_coordinate_probability_gap": 0.0004001067905154837, "status": "NUMERIC_EMBEDDED_WITNESS"}
+  ]
+}
