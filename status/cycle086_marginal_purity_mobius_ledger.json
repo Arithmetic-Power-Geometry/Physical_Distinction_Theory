@@ -1,0 +1,21 @@
+{
+  "cycle": 86,
+  "title": "Marginal-purity Möbius ledger",
+  "targets": [1, 4],
+  "status": ["PROVED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+  "breakthrough_candidate": false,
+  "proved": [
+    "F(T)=sum_{S subseteq T} C_S for normalized marginal purity F and labelled orthogonal subset-sector weights C",
+    "C_S=sum_{T subseteq S}(-1)^(|S|-|T|)F(T) by Boolean-lattice Möbius inversion",
+    "proper marginal purities determine every proper labelled subset-sector weight"
+  ],
+  "open_after_cycle": [
+    "PDT-native physical constraint on sector distributions or flows",
+    "non-circular PDT-native n=3 selection",
+    "same-input quantitative deviation from QM under a declared resource window",
+    "experimentally distinctive PDT inequality",
+    "gravity/capacity law only if independently derivable"
+  ],
+  "novelty": "Known mathematical infrastructure; no PDT breakthrough claim.",
+  "cycle084_boundary": "The top-order sector is not fixed by proper marginals alone; global purity closes the quadratic ledger."
+}
