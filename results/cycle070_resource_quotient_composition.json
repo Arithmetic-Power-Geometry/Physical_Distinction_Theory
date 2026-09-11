@@ -1,0 +1,17 @@
+{
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED"
+  ],
+  "claim": "resource-restricted state functionals form an exact quotient and product states compose by tensor product on product-accessible observables",
+  "dimensions_refinement": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+  "refinement_cases": 265,
+  "product_dimension_pairs": [[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[5,1],[5,2],[5,3],[5,4],[5,5],[5,6],[6,1],[6,2],[6,3],[6,4],[6,5],[6,6]],
+  "product_cases": 288,
+  "max_restriction_error": 0.0,
+  "max_annihilator_error": 1.2490009027033011e-15,
+  "max_product_coordinate_error": 1.1102230246251565e-16,
+  "breakthrough_candidate": false,
+  "reason_not_breakthrough": "finite-dimensional quotient/dual-space and operator-system restriction/tensor-product mathematics are established prior art"
+}
