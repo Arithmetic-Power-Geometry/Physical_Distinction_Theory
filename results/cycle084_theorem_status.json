@@ -1,0 +1,28 @@
+{
+  "cycle": 84,
+  "target": "PDT-II (1) composition law",
+  "results": [
+    {
+      "name": "Proper-marginal nonidentifiability of global quadratic distinction",
+      "status": "PROVED",
+      "statement": "For rho_c=1/2(|0^N><0^N|+|1^N><1^N|)+c(|0^N><1^N|+h.c.), all proper marginals are independent of c for d>=2,N>=2, while E_{d^N}(rho_c)=d^N(1/2+2c^2)-1."
+    },
+    {
+      "name": "Universal proper-subsystem closure",
+      "status": "FALSIFIED",
+      "statement": "No universal composition map using only all proper subsystem states or ledgers can reconstruct the full quadratic distinction ledger for arbitrary multipartite states."
+    },
+    {
+      "name": "GHZ quantum-marginal mechanism",
+      "status": "IMPORTED/KNOWN",
+      "statement": "Global-state nonuniqueness from lower-order marginals, including GHZ-type exceptions, is established quantum-marginal prior art."
+    },
+    {
+      "name": "Dimension and party stress audit",
+      "status": "NUMERICALLY SUPPORTED",
+      "statement": "Dense checks d=2..6 plus exact-formula sweeps d=2..12,16,24,32,48,64,96,128 and N=2..12 agree with the theorem; d=1 is degenerate."
+    }
+  ],
+  "breakthrough_candidate": false,
+  "next_surviving_target": "Derive an independent PDT-native law governing irreducible N-body sector data rather than reconstructing it from proper marginals."
+}
