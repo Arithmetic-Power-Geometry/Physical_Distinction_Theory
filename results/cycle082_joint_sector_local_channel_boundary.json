@@ -1,0 +1,38 @@
+{
+  "breakthrough_candidate": false,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED"
+  ],
+  "cycle": 82,
+  "dense_unital_regression_cases": 28,
+  "max_depolarizing_scaling_residual": 5.551115123125783e-17,
+  "qubit_reset_after": 1.0,
+  "qubit_reset_before": 0.0,
+  "reset_records": [
+    {"after": 0.0, "before": 0.0, "dimension": 1},
+    {"after": 1.0, "before": 0.0, "dimension": 2},
+    {"after": 4.0, "before": 0.0, "dimension": 3},
+    {"after": 9.0, "before": 0.0, "dimension": 4},
+    {"after": 16.0, "before": 0.0, "dimension": 5},
+    {"after": 25.0, "before": 0.0, "dimension": 6},
+    {"after": 36.0, "before": 0.0, "dimension": 7},
+    {"after": 49.0, "before": 0.0, "dimension": 8},
+    {"after": 64.0, "before": 0.0, "dimension": 9},
+    {"after": 81.0, "before": 0.0, "dimension": 10},
+    {"after": 100.0, "before": 0.0, "dimension": 11},
+    {"after": 121.0, "before": 0.0, "dimension": 12},
+    {"after": 225.0, "before": 0.0, "dimension": 16},
+    {"after": 529.0, "before": 0.0, "dimension": 24},
+    {"after": 961.0, "before": 0.0, "dimension": 32},
+    {"after": 2209.0, "before": 0.0, "dimension": 48},
+    {"after": 3969.0, "before": 0.0, "dimension": 64},
+    {"after": 9025.0, "before": 0.0, "dimension": 96},
+    {"after": 16129.0, "before": 0.0, "dimension": 128}
+  ],
+  "smallest_nontrivial_reset_witness_dimension": 2,
+  "tested_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "unital_monotonicity_failures": 0
+}
