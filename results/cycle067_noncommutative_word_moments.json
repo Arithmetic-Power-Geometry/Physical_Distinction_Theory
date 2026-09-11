@@ -1,0 +1,21 @@
+{
+  "cycle": 67,
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED"
+  ],
+  "breakthrough_candidate": false,
+  "tensor_factorization_cases": 1960,
+  "tensor_factorization_failures": 0,
+  "max_abs_error": 3.3306690738754696e-16,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+  "words_tested": ["r","s","rs","rrs","rsrs","rrssr","rsrssr"],
+  "separator_of_cycle066_counterfamily": {
+    "word": "rsrs",
+    "theta_0_real": 0.0303,
+    "theta_pi_real": 0.028200000000000003,
+    "absolute_gap": 0.0020999999999999977
+  },
+  "interpretation": "Complete noncommutative trace-word data retains relative operator information lost by spectra/Petz summaries and composes multiplicatively under independent tensors, but completeness belongs to established simultaneous-unitary invariant theory."
+}
