@@ -1,0 +1,34 @@
+{
+  "cycle": 87,
+  "title": "Preparation-equivalence no-go for nonlinear PDT state updates",
+  "targets": [3, 5],
+  "status": ["PROVED", "FALSIFIED", "NUMERICALLY_SUPPORTED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "proved": [
+    "Operational preparation equivalence forces deterministic state updates Phi_R to be affine on the convex state space.",
+    "If the affine update is CPTP, it is operationally an ordinary quantum channel rather than a new probability calculus.",
+    "The candidate N(rho)=rho^2/Tr(rho^2) is preparation-context dependent; for rho=diag(3/4,1/4), direct application yields diag(9/10,1/10) while ensemble-wise application yields diag(3/4,1/4)."
+  ],
+  "falsified": [
+    "A genuinely nonlinear deterministic PDT pre-measurement map can preserve unrestricted preparation equivalence and standard no-signalling semantics while yielding a same-input deviation."
+  ],
+  "numeric_audit": {
+    "dimensions": "1..12,16,24,32,48,64,96,128",
+    "nontrivial_cases": 360,
+    "preparation_equivalence_failures": 360,
+    "dimension_1": "degenerate"
+  },
+  "prior_art_boundary": [
+    "Polchinski, Phys. Rev. Lett. 66, 397 (1991), DOI 10.1103/PhysRevLett.66.397",
+    "Simon, Buzek & Gisin, Phys. Rev. Lett. 87, 170405 (2001), DOI 10.1103/PhysRevLett.87.170405",
+    "Bassi & Hejazi, Eur. J. Phys. 36, 055027 (2015), DOI 10.1088/0143-0807/36/5/055027"
+  ],
+  "open_after_cycle": [
+    "PDT-native composition law beyond known operator-sector bookkeeping",
+    "non-circular PDT-native n=3 derivation",
+    "same-input deviation based on a genuinely new physical variable/interaction rather than nonlinear relabeling",
+    "resource-refinement/revelation/conservation law with new physical content",
+    "experimentally distinctive PDT inequality",
+    "gravity/capacity law only if independently derivable"
+  ]
+}
