@@ -1,0 +1,26 @@
+{
+  "cycle": 65,
+  "target": 1,
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN"],
+  "claim_falsified": "The spectrum of Delta_{rho|sigma}=L_rho R_{sigma^{-1}} is a complete quantum operational distinction object.",
+  "witness": {
+    "dimension": 2,
+    "sigma": [0.8, 0.2],
+    "rho_spectrum": [0.7, 0.3],
+    "relative_modular_spectrum": [0.375, 0.875, 1.5, 3.5],
+    "trace_distance_commuting": 0.1,
+    "trace_distance_swapped": 0.5,
+    "separation": 0.4
+  },
+  "stress": {
+    "seed": 65011,
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+    "trials_per_dimension_2_to_12": 100,
+    "trials_per_higher_dimension": 25,
+    "dimension_1": "degenerate",
+    "spectrum_failures": 0,
+    "minimum_observed_trace_distance_spread": 0.01258416704662535
+  },
+  "breakthrough_candidate": false,
+  "reason": "The relative modular operator and associated quasi-entropy framework are established quantum information/operator-algebra machinery; this cycle establishes a PDT search boundary, not historical novelty."
+}
