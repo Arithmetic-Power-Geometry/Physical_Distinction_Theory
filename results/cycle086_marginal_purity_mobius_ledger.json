@@ -1,0 +1,25 @@
+{
+  "cycle": 86,
+  "target": "PDT-II composition/resource-revelation accounting",
+  "claim": "For labelled subset-sector weights C_S with C_empty=1 and normalized marginal purities F(T)=D_T Tr(rho_T^2), F(T)=sum_{S subseteq T} C_S and C_S=sum_{T subseteq S}(-1)^(|S|-|T|)F(T).",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+  "breakthrough_candidate": false,
+  "dense_quantum_audit": {
+    "seed": 86013,
+    "states": 66,
+    "sector_checks": 294,
+    "max_abs_residual": 3.552713678800501e-15,
+    "dimensions_and_composites": [[1], [2], [3], [4], [2,2], [2,3], [3,3], [2,2,2], [2,3,2], [3,2,2], [2,2,2,2]],
+    "state_types": ["mixed", "pure"]
+  },
+  "classical_diagonal_stress": {
+    "seed": 86012,
+    "local_qubit_counts": "n=1 through n=12",
+    "cases": 28,
+    "sector_checks": 2506,
+    "max_abs_residual": 2.232532214143919e-14,
+    "minimum_checked_sector_weight": 3.913096513485925e-10
+  },
+  "interpretation": "All proper labelled sector weights are determined by proper marginal purities. The top-order sector additionally requires the global purity; this sharpens, rather than contradicts, Cycle 084's proper-marginal no-go.",
+  "novelty_boundary": "Not promoted: multipartite Bloch/sector-length literature already relates sector lengths and reduced purities by exact transforms."
+}
