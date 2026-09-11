@@ -1,0 +1,28 @@
+{
+  "cycle": 72,
+  "target": "PDT-II (1) PDT-native composition law",
+  "status": "PROVED + FALSIFIED(pairwise truncation) + IMPORTED/KNOWN + NUMERICALLY/EXACTLY SUPPORTED",
+  "theorem": "Every finite multipartite resource functional admits a unique connected-sector decomposition indexed by nonempty party subsets through partition-lattice Mobius inversion. Connected sectors crossing an independent product cut vanish.",
+  "cycle071_identification": "Gamma_R is the two-party connected sector kappa_{AB}.",
+  "decisive_falsification": "Truncating the hierarchy at local and pairwise resource sectors cannot represent all three-party states: rho(c) has identical one- and two-party marginals for all c but connected three-party X expectation kappa_123=c.",
+  "smallest_local_dimension_for_triad_witness": 2,
+  "breakthrough_candidate": false,
+  "prior_art_boundary": "Moment/Ursell and reduced-density-matrix cumulant hierarchies are established; this cycle is a PDT structural bridge, not a historical novelty claim.",
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "c_values": ["-1","-3/4","-1/2","0","1/2","3/4","1"],
+  "pure_witness_rows": 36,
+  "mixed_witness_rows": 90,
+  "pairwise_indistinguishable_endpoint_triple_separation": "2",
+  "independent_cut_audit": {
+    "trials_per_party_count": 120,
+    "max_parties": 6,
+    "cross_cut_connected_sectors_checked": 8378,
+    "cross_cut_failures": 0,
+    "reconstruction_failures": 0
+  },
+  "local_regression": {
+    "pytest_tests": 4,
+    "pytest_failures": 0
+  },
+  "note": "The executable writes the expanded per-dimension/per-c audit when run; this committed ledger records the verified summary used for theorem status."
+}
