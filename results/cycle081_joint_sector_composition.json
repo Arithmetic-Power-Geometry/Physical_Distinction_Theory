@@ -1,0 +1,16 @@
+{
+  "cycle": 81,
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED"
+  ],
+  "breakthrough_candidate": false,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "full_random_cases": 60,
+  "high_dim_commuting_cases": 56,
+  "min_joint_sector_energy": 0.0,
+  "max_composition_residual": 8.881784197001252e-16,
+  "product_identity": "For rho_AB=rho_A tensor rho_B, C_AB=E_A E_B.",
+  "interpretation": "C_AB is nonnegative joint traceless-traceless sector energy, not connected correlation beyond independence."
+}
