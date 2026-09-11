@@ -1,0 +1,18 @@
+{
+  "cycle": 76,
+  "target": "non-circular PDT-native n=3 derivation",
+  "classification": [
+    "PROVED",
+    "NUMERICALLY SUPPORTED",
+    "FALSIFIED: current surviving axiom family entails n=3",
+    "OPEN: PDT-native dimension-selective postulate"
+  ],
+  "dimensions_tested": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+  "randomized_cases": 265,
+  "seed": 76076,
+  "max_product_composition_residual": 1.7763568394002505e-15,
+  "max_quadratic_revelation_residual": 1.9326762412674725e-12,
+  "analytic_result": "For every integer d>=1, finite-dimensional density states with quadratic Hilbert-Schmidt revelation and tensor-product independent composition satisfy the attacked axioms. Therefore those axioms do not entail d=3.",
+  "breakthrough_candidate": false,
+  "novelty_claim": false
+}
