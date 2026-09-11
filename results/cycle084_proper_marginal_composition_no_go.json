@@ -1,0 +1,51 @@
+{
+  "cycle": 84,
+  "target": "PDT-II (1) composition law; proper-marginal closure",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "NUMERICALLY SUPPORTED",
+    "IMPORTED/KNOWN"
+  ],
+  "breakthrough_candidate": "NO",
+  "claim_falsified": "Any universal composition rule that reconstructs the full quadratic distinction ledger from all proper subsystem states/ledgers alone.",
+  "surviving_theorem": "For rho_c=1/2(|0^N><0^N|+|1^N><1^N|)+c(|0^N><1^N|+h.c.), every proper marginal is independent of c, while the all-party quadratic sector changes by 2*d^N*c^2 relative to c=0.",
+  "n1_degenerate": true,
+  "dense_local_dimensions": [2,3,4,5,6],
+  "dense_tripartite_cases": 5,
+  "formula_local_dimensions": [2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "party_counts_checked_analytically": [2,3,4,5,6,7,8,9,10,11,12],
+  "analytic_dimension_party_checks": 198,
+  "max_proper_marginal_difference": 0.0,
+  "max_full_energy_formula_residual": 0.0,
+  "hidden_full_sector_increment_at_c_half": {
+    "2": 4.0,
+    "3": 13.5,
+    "4": 32.0,
+    "5": 62.5,
+    "6": 108.0,
+    "7": 171.5,
+    "8": 256.0,
+    "9": 364.5,
+    "10": 500.0,
+    "11": 665.5,
+    "12": 864.0,
+    "16": 2048.0,
+    "24": 6912.0,
+    "32": 16384.0,
+    "48": 55296.0,
+    "64": 131072.0,
+    "96": 442368.0,
+    "128": 1048576.0
+  },
+  "smallest_decisive_witness": {
+    "local_dimension": 2,
+    "parties": 3,
+    "c0": 0.0,
+    "c1": 0.5,
+    "all_proper_marginals_equal": true,
+    "full_distinction_energy_c0": 3.0,
+    "full_distinction_energy_c1": 7.0,
+    "all_party_sector_increment": 4.0
+  }
+}
