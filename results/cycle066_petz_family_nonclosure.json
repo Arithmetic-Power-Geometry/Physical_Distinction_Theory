@@ -1,0 +1,21 @@
+{
+  "cycle": 66,
+  "target": "PDT-II target (1): composition-law sufficiency",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED"],
+  "breakthrough_candidate": false,
+  "smallest_explicit_witness_dimension": 4,
+  "endpoint": {
+    "trace_distance_theta_0": 0.35437495772338456,
+    "trace_distance_theta_pi": 0.4274491615549574,
+    "separation": 0.07307420383157281,
+    "nussbaum_szkola_pair_difference": 0.0
+  },
+  "exact_characteristic_polynomials": {
+    "theta_0": "lambda^4-(47/400)lambda^2-(9/4000)lambda+1/160000",
+    "theta_pi": "lambda^4-(47/400)lambda^2-(9/4000)lambda+169/160000"
+  },
+  "stress_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "phase_samples_per_nontrivial_dimension": 65,
+  "result": "For every tested n>=4 the complete Nussbaum-Szkola pair stayed fixed to numerical precision while trace distance changed. n=1..3 are recorded as degenerate for this specific Hadamard construction, with no stronger claim.",
+  "surviving_requirement": "Any PDT-native nonclassical composition state must retain operator-level relational information beyond the full Petz-Renyi / Nussbaum-Szkola scalar family."
+}
