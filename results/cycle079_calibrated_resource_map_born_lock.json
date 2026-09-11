@@ -1,0 +1,23 @@
+{
+  "cycle": 79,
+  "classification": [
+    "PROVED",
+    "FALSIFIED(nonidentity affine resource maps under universal pure-state calibration)",
+    "NUMERICALLY SUPPORTED",
+    "IMPORTED/KNOWN BOUNDARY"
+  ],
+  "breakthrough_candidate": false,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+  "repetitions_per_dimension": 5,
+  "total_map_cases": 340,
+  "max_effect_additivity_error": 5.561946577567963e-17,
+  "max_preparation_mixing_error": 2.2458787007190695e-16,
+  "max_identity_calibration_error": 8.883072752094841e-16,
+  "calibration_failures": {
+    "identity": 0,
+    "depolarizing": 80,
+    "transpose": 80,
+    "unitary": 80
+  },
+  "theorem_note": "Effect additivity/normalization gives a density-operator representation for each fixed input state; preparation affinity gives an affine induced state map Phi_R; universal pure-state calibration forces Phi_R(P)=P on all rank-one projectors, and affine spanning then forces Phi_R=id."
+}
