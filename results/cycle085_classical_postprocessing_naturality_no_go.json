@@ -1,0 +1,35 @@
+{
+  "cycle": 85,
+  "classification": {
+    "theorem": "PROVED",
+    "postprocessing_deformation_class": "FALSIFIED",
+    "regression": "NUMERICALLY SUPPORTED",
+    "prior_art_boundary": "IMPORTED/KNOWN",
+    "breakthrough_candidate": false
+  },
+  "hypotheses": [
+    "F_n maps every finite probability simplex Delta_n to itself",
+    "F_m(Tq)=T F_n(q) for every column-stochastic classical channel T",
+    "Delta_1 contains its unique normalized point (1)",
+    "microscopic quantum input and physical measurement are unchanged; F is only an output-distribution deformation"
+  ],
+  "exact_conclusion": "F_n(q)=q for every finite n and every q in Delta_n",
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "samples_per_dimension": 20,
+  "total_random_cases": 380,
+  "nontrivial_output_cases": 347,
+  "max_identity_naturality_residual": 0.0,
+  "max_singleton_proof_residual": 0.0,
+  "nonlinear_naturality_failures": {
+    "power2": 347,
+    "sqrt": 347,
+    "exp": 347
+  },
+  "small_square_split_witness": {
+    "q": [0.75, 0.25],
+    "Tq": [0.375, 0.375, 0.25],
+    "F3_Tq": [0.4090909090909091, 0.4090909090909091, 0.18181818181818182],
+    "T_F2_q": [0.45, 0.45, 0.1],
+    "max_residual": 0.08181818181818182
+  }
+}
