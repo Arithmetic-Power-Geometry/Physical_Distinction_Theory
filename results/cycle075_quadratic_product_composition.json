@@ -1,0 +1,29 @@
+{
+  "classification": [
+    "PROVED(product composition identity)",
+    "IMPORTED/KNOWN(purity/Tsallis-2 boundary)",
+    "NUMERICALLY_SUPPORTED",
+    "FALSIFIED(nonnegative universal correlation residual)"
+  ],
+  "formula": "E_AB = E_A + E_B + E_A E_B for product states",
+  "additive_coordinate": "C=log(1+E)=log(d Tr(rho^2))",
+  "cases": 1480,
+  "failures": 0,
+  "max_abs_product_error": 1.7763568394002505e-15,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "smallest_negative_witness": {
+    "local_dimension": 2,
+    "joint_probabilities": [["0","1/5"],["1/5","3/5"]],
+    "joint_purity": "11/25",
+    "marginal_purity": "17/25",
+    "residual": "-56/625"
+  },
+  "smallest_positive_witness": {
+    "local_dimension": 2,
+    "state": "Bell pure state with maximally mixed marginals",
+    "residual": "3"
+  },
+  "embedded_negative_residual_formula": "-14 n^2 / 625 for every local dimension n>=2",
+  "embedded_positive_residual_formula": "n^2 - 1 for every local dimension n>=2",
+  "dimension_one": "DEGENERATE"
+}
