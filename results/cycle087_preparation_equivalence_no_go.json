@@ -1,0 +1,30 @@
+{
+  "cycle": 87,
+  "seed": 8701,
+  "trials_per_nontrivial_dimension": 20,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "candidate": "N(rho)=rho^2/Tr(rho^2)",
+  "nontrivial_cases": 360,
+  "preparation_equivalence_failures": 360,
+  "rows": [
+    {"d":1,"max_preparation_gap":0.0,"failures":0},
+    {"d":2,"max_preparation_gap":0.14939628770015212,"failures":20},
+    {"d":3,"max_preparation_gap":0.2215350730600023,"failures":20},
+    {"d":4,"max_preparation_gap":0.2684931633961115,"failures":20},
+    {"d":5,"max_preparation_gap":0.2839626746084227,"failures":20},
+    {"d":6,"max_preparation_gap":0.3097833742062317,"failures":20},
+    {"d":7,"max_preparation_gap":0.335870516169115,"failures":20},
+    {"d":8,"max_preparation_gap":0.3348273241047177,"failures":20},
+    {"d":9,"max_preparation_gap":0.2870527147545639,"failures":20},
+    {"d":10,"max_preparation_gap":0.3603811513282055,"failures":20},
+    {"d":11,"max_preparation_gap":0.38023267028642727,"failures":20},
+    {"d":12,"max_preparation_gap":0.2869888209706402,"failures":20},
+    {"d":16,"max_preparation_gap":0.36838813589128216,"failures":20},
+    {"d":24,"max_preparation_gap":0.222585049005531,"failures":20},
+    {"d":32,"max_preparation_gap":0.26138077398097914,"failures":20},
+    {"d":48,"max_preparation_gap":0.31188445721056474,"failures":20},
+    {"d":64,"max_preparation_gap":0.2620544334491257,"failures":20},
+    {"d":96,"max_preparation_gap":0.15640659478478372,"failures":20},
+    {"d":128,"max_preparation_gap":0.17902057376040714,"failures":20}
+  ]
+}
