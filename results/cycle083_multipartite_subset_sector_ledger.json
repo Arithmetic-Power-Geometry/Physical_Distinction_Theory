@@ -1,0 +1,39 @@
+{
+  "cycle": 83,
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED"
+  ],
+  "breakthrough_candidate": "NO",
+  "dense_bipartite_cases": 24,
+  "dense_tripartite_cases": 4,
+  "product_factorization_cases": 19,
+  "product_dimensions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "local_unitary_sector_checks": 15,
+  "max_decomposition_residual": 2.842170943040401e-14,
+  "max_reconstruction_norm": 6.297555910327939e-17,
+  "max_orthogonality_inner_product": 2.7755575615628914e-17,
+  "max_product_factorization_residual": 2.842170943040401e-14,
+  "max_local_unitary_sector_residual": 7.771561172376096e-16
+}
