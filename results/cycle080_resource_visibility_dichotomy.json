@@ -1,0 +1,35 @@
+{
+  "cycle": 80,
+  "classification": [
+    "PROVED",
+    "FALSIFIED(resource-restriction-only same-window deviation)",
+    "NUMERICALLY SUPPORTED",
+    "IMPORTED/KNOWN BOUNDARY"
+  ],
+  "breakthrough_candidate": false,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "nondegenerate_cases": 18,
+  "max_accessible_probability_gap": 0.0,
+  "max_inaccessible_witness_gap": 0.08858332371717079,
+  "records": [
+    {"d":1,"classification":"DEGENERATE","restricted_visible_error":0.0,"inaccessible_witness_gap":0.0},
+    {"d":2,"min_eigenvalue_sigma":0.3295130672907889,"epsilon":0.1252757378009092,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.08858332371717079},
+    {"d":3,"min_eigenvalue_sigma":0.18311047797095703,"epsilon":0.07167348086214151,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.050680804348864496},
+    {"d":4,"min_eigenvalue_sigma":0.12847083874555587,"epsilon":0.04906496727685634,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.034694171080161165},
+    {"d":5,"min_eigenvalue_sigma":0.14474878342521022,"epsilon":0.05117642316423454,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.036187195856302555},
+    {"d":6,"min_eigenvalue_sigma":0.09492284476302401,"epsilon":0.037428214996340824,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.026465744631620627},
+    {"d":7,"min_eigenvalue_sigma":0.10350076086466284,"epsilon":0.03659304493268516,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.025875190216165706},
+    {"d":8,"min_eigenvalue_sigma":0.05802277777071495,"epsilon":0.02366123243760035,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.01673101790785831},
+    {"d":9,"min_eigenvalue_sigma":0.058780022409589044,"epsilon":0.020816858074712376,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.014719741507627058},
+    {"d":10,"min_eigenvalue_sigma":0.04318847036530178,"epsilon":0.0201785490939989,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.014268388898872286},
+    {"d":11,"min_eigenvalue_sigma":0.06114307784802239,"epsilon":0.021617342484476807,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.015285769462005598},
+    {"d":12,"min_eigenvalue_sigma":0.050167397774522844,"epsilon":0.01773685358042401,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.012541849443630713},
+    {"d":16,"min_eigenvalue_sigma":0.033701244463920546,"epsilon":0.011915189247431906,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.008425311115980137},
+    {"d":24,"min_eigenvalue_sigma":0.02223732434069392,"epsilon":0.007862081418374672,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.00555933108517348},
+    {"d":32,"min_eigenvalue_sigma":0.01564991985099671,"epsilon":0.006521440432241426,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.004611354752742041},
+    {"d":48,"min_eigenvalue_sigma":0.010473713831190752,"epsilon":0.003703017037121158,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.002618428457797688},
+    {"d":64,"min_eigenvalue_sigma":0.008179713562547992,"epsilon":0.0028919654641206293,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.002044928390636998},
+    {"d":96,"min_eigenvalue_sigma":0.004644363936230222,"epsilon":0.001867025720421846,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.0013201865475599864},
+    {"d":128,"min_eigenvalue_sigma":0.004148235266895176,"epsilon":0.0014666226435893835,"restricted_visible_error":0.0,"inaccessible_witness_gap":0.001037058816723794}
+  ]
+}
