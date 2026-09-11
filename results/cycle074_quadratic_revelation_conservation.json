@@ -1,0 +1,21 @@
+{
+  "cases": 1480,
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "FALSIFIED(nonquadratic universal extension)"
+  ],
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "failures": 0,
+  "max_abs_telescoping_error": 5.684341886080802e-14,
+  "lp_witness": {
+    "1.0": {"whole_squared_norm": 4.0, "sum_block_squared_norms": 2.0, "gap": 2.0},
+    "1.5": {"whole_squared_norm": 2.5198420997897464, "sum_block_squared_norms": 2.0, "gap": 0.5198420997897464},
+    "2.0": {"whole_squared_norm": 2.0, "sum_block_squared_norms": 2.0, "gap": 0.0},
+    "3.0": {"whole_squared_norm": 1.5874010519681994, "sum_block_squared_norms": 2.0, "gap": -0.41259894803180064},
+    "4.0": {"whole_squared_norm": 1.4142135623730951, "sum_block_squared_norms": 2.0, "gap": -0.5857864376269049},
+    "8.0": {"whole_squared_norm": 1.189207115002721, "sum_block_squared_norms": 2.0, "gap": -0.810792884997279},
+    "inf": {"whole_squared_norm": 1.0, "sum_block_squared_norms": 2.0, "gap": -1.0}
+  }
+}
