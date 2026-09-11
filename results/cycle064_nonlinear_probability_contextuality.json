@@ -1,0 +1,29 @@
+{
+  "cycle": 64,
+  "target": 3,
+  "candidate": "completion-normalized nonlinear transform of Born weights",
+  "exact_witness": {
+    "dimension": 2,
+    "g": "x^2",
+    "same_effect_born_weight": "1/2",
+    "p_same_effect_M2": "1/2",
+    "p_same_effect_M3": "2/3",
+    "contextuality_gap": "1/6"
+  },
+  "randomized_audit": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "alphas": [0.5,1.5,2.0,3.0],
+    "total_tests": 11000,
+    "contextual_cases": 11000,
+    "noncontextual_cases": 0,
+    "maximum_observed_absolute_gap": 0.3332921470375979,
+    "seed": 64064
+  },
+  "classification": {
+    "explicit_witness": "PROVED",
+    "nonlinear_noncontextual_same_input_route": "FALSIFIED",
+    "general_effect_noncontextuality_born_lock": "IMPORTED/KNOWN",
+    "genuine_same_input_pdt_deviation": "OPEN"
+  },
+  "breakthrough_candidate": false
+}
