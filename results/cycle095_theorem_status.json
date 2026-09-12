@@ -1,0 +1,32 @@
+{
+  "cycle": 95,
+  "target": "PDT-II targets (1)/(2): composition law and non-circular dimension selection",
+  "results": [
+    {
+      "statement": "Unital bilinear positive-norm-composing alternative composition selects n=3.",
+      "status": "FALSIFIED",
+      "reason": "The octonion algebra O=R⊕R^7 satisfies those hypotheses and is alternative/norm-composing."
+    },
+    {
+      "statement": "The explicit Cayley-Dickson octonion implementation is alternative on basis pairs and nonassociative.",
+      "status": "PROVED",
+      "reason": "Exact basis identities vanish for left/right/flexible alternativity; [e1,e2,e4]=2e7."
+    },
+    {
+      "statement": "Octonion norm composition and the permitted dimensions 1,2,4,8 are new PDT mathematics.",
+      "status": "IMPORTED/KNOWN",
+      "reason": "Classical octonion/Hurwitz theory."
+    },
+    {
+      "statement": "Floating stress checks reproduce norm composition and alternativity.",
+      "status": "NUMERICALLY SUPPORTED",
+      "reason": "3000 normalized random trials; recorded residuals in cycle095 result JSON."
+    },
+    {
+      "statement": "PDT primitives force full associativity rather than alternativity/resource-indexed nonassociativity.",
+      "status": "OPEN",
+      "reason": "No independent PDT derivation yet."
+    }
+  ],
+  "breakthrough_candidate": false
+}
