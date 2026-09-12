@@ -1,0 +1,43 @@
+{
+  "cycle": 107,
+  "target": "PDT-II (1)/(2)/(5): can a universal resource-normalized three-history defect inequality force associativity, n=3, or an experimentally distinctive bound?",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "theorem": {
+    "status": "PROVED",
+    "statement": "In every normed algebra with submultiplicative norm, ||[x,y,z]|| <= 2||x||||y||||z||.",
+    "proof": "Triangle inequality gives ||(xy)z-x(yz)|| <= ||(xy)z||+||x(yz)||; submultiplicativity bounds each term by ||x||||y||||z||."
+  },
+  "sharpness": {
+    "status": "PROVED",
+    "statement": "The universal constant 2 is sharp even for the real octonions with multiplicative norm.",
+    "witness": "[e1,e2,e4]=2e7 for unit inputs."
+  },
+  "candidate_no_go": {
+    "status": "FALSIFIED",
+    "candidate": "A dimension-independent defect/resource bound obtained only from norm submultiplicativity and triangle inequality can exclude the octonionic n=7 sector or select n=3.",
+    "counterexample": "The octonions satisfy ||xy||=||x||||y|| and saturate normalized defect 2 while remaining alternative and nonassociative."
+  },
+  "exact_octonion_audit": {
+    "ordered_imaginary_basis_triples": 343,
+    "nonzero_associators": 168,
+    "saturating_triples": 168,
+    "maximum_normalized_defect": 2.0,
+    "witness_e1_e2_e4": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0],
+    "witness_normalized_defect": 2.0
+  },
+  "random_octonion_audit": {
+    "trials": 5000,
+    "seed": 107,
+    "maximum_normalized_defect": 1.9660378969055867,
+    "violations_of_universal_bound": 0
+  },
+  "dimension_stress": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "bound_constant": 2.0,
+    "dimension_selective": false
+  },
+  "prior_art_boundary": "Submultiplicative normed algebras and the multiplicative octonion norm are established mathematics. The factor-2 associator bound is an immediate standard inequality; no mathematical novelty is claimed.",
+  "pdt_consequence": "Any PDT experimentally distinctive composition inequality must contain additional PDT-native structure beyond norm submultiplicativity and triangle inequality.",
+  "next_obligation": "Derive or falsify an independently motivated PDT coupling between normalized three-history defect and a measured revelation/resource quantity, then compare any induced probability law with QM/GPT under identical microscopic inputs."
+}
