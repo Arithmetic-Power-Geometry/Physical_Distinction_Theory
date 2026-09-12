@@ -1,0 +1,46 @@
+{
+  "breakthrough_candidate": false,
+  "classification": [
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED",
+    "OPEN"
+  ],
+  "cycle": 91,
+  "dimension_audit": [
+    {"n": 1, "nonzero_axial_equivariant_alternating_map": false, "reason": "alternation is identically zero"},
+    {"n": 2, "nonzero_axial_equivariant_alternating_map": false, "reason": "Lambda^2(V)=det has no map to V tensor det without an O(2)-fixed vector"},
+    {"n": 3, "nonzero_axial_equivariant_alternating_map": true, "reason": "Hodge/cross-product axial map Lambda^2(V) -> V tensor det exists"},
+    {"n": 4, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 5, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 6, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 7, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 8, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 9, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 10, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 11, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 12, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 16, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 24, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 32, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 48, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 64, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 96, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"},
+    {"n": 128, "nonzero_axial_equivariant_alternating_map": false, "reason": "unused-index determinant+1 pi rotation kills every 3-form coefficient"}
+  ],
+  "open_pdt_obligation": "derive axial/parity-odd transformation character of primitive distinction closure from PDT primitives",
+  "reflection_witness": {
+    "axial_residual": 0.0,
+    "det_R": -1.0,
+    "polar_residual": 2.0
+  },
+  "regression": {
+    "improper_trials": 486,
+    "max_axial_covariance_residual": 6.962667462125256e-15,
+    "proper_trials": 514,
+    "trials": 1000
+  },
+  "surviving_dimensions": [3],
+  "target": "PDT-II target (2): non-circular elementary n=3 derivation",
+  "theorem": "Hom_O(n)(Lambda^2 V, V tensor det) is nonzero iff n=3 for nontrivial finite Euclidean V"
+}
