@@ -1,0 +1,63 @@
+{
+  "cycle": 98,
+  "target": "PDT-II (1)/(4): compatible refinement when defect spaces grow",
+  "breakthrough_candidate": false,
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "FALSIFIED",
+    "OPEN"
+  ],
+  "theorem": {
+    "hypotheses": "U embeds in V; q=dim(V/U). Coarse A:U->Y and refined B:V->Z are record-compatible: A=P(B|U) for some P.",
+    "balances": {
+      "revealed": "Delta revealed = inherited revelation gain + new-sector visible gain",
+      "hidden": "Delta hidden = q - inherited revelation gain - new-sector visible gain"
+    },
+    "consequences": [
+      "refined revealed rank >= coarse revealed rank",
+      "refined hidden dimension <= coarse hidden dimension + q",
+      "q=0 recovers Cycle 097 fixed-space hidden monotonicity"
+    ]
+  },
+  "canonical_dimension_stress": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "representative_new_defect_dimensions": "q in {0,1,2,min(4,n)} with duplicates removed",
+    "cases": 74,
+    "all_exact_balance_and_bound_checks_pass": true
+  },
+  "randomized_stress": {
+    "seed": 9801,
+    "trials": 400,
+    "coarse_dimension_range": [1,64],
+    "new_defect_dimension_range": [0,8],
+    "failures": 0,
+    "all_pass": true
+  },
+  "sharp_hidden_growth_witness": {
+    "coarse_dim": 2,
+    "new_defect_dim": 2,
+    "coarse_records": [[1,0],[0,1]],
+    "refined_records": [[1,0,0,0],[0,1,0,0]],
+    "coarse_hidden": 0,
+    "refined_hidden": 2,
+    "hidden_delta": 2,
+    "bound_saturated": true
+  },
+  "smallest_incompatibility_counterexample": {
+    "coarse_dim": 1,
+    "coarse_record": [[1]],
+    "purported_refined_record": [[0]],
+    "coarse_revealed_rank": 1,
+    "refined_revealed_rank": 0,
+    "falsifies": "unqualified revealed-rank monotonicity without a record-compatibility/no-erasure condition"
+  },
+  "local_cycle_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "prior_art_boundary": "The mathematical core is rank-nullity/exact-sequence linear algebra; nested vector spaces with compatible maps are standard filtration/persistence structures. No novelty is claimed for the abstract theorem.",
+  "open": "Derive from PDT primitives why physical resource refinement induces both an embedding of inherited defect spaces and a compatible record map, then test whether that structure constrains composition or yields a same-input PDT-vs-QM prediction."
+}
