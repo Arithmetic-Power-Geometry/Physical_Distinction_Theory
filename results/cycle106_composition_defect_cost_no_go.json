@@ -1,0 +1,36 @@
+{
+  "cycle": 106,
+  "target": "PDT-II (1)/(2): can natural resource axioms on composition-defect cost force associativity or n=3?",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "result": {
+    "status": "FALSIFIED",
+    "candidate": "Nonnegativity + absolute homogeneity + slotwise subadditivity + permutation symmetry of defect cost + zero cost on repeated/two-generator alternative histories forces vanishing global associator.",
+    "counterexample": "Real octonions with D(x,y,z)=||[x,y,z]||_2.",
+    "small_exact_witness": "[e1,e2,e4]=2 e7",
+    "surviving_theorem": "These cost axioms characterize a coherent seminorm-like cost on an alternating trilinear defect but do not imply that the defect vanishes."
+  },
+  "octonion_exact_audit": {
+    "ordered_imaginary_basis_triples": 343,
+    "nonzero_associators": 168,
+    "associator_span_rank": 7,
+    "repeated_argument_failures": 0,
+    "alternating_permutation_failures": 0,
+    "witness_e1_e2_e4": [0,0,0,0,0,0,0,2],
+    "witness_norm": 2.0
+  },
+  "random_cost_axiom_audit": {
+    "trials": 5000,
+    "homogeneity_failures": 0,
+    "subadditivity_failures": 0,
+    "max_triangle_excess": 0.0
+  },
+  "dimension_stress": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "fact": "Nonzero alternating trilinear defect tensors exist for every n>=3; dim Lambda^3(R^n)=n(n-1)(n-2)/6. Thus these cost axioms alone are dimension-blind."
+  },
+  "local_tests": "5/5 passed",
+  "prior_art_boundary": "Octonion alternativity/nonassociativity, alternating associators, and Artin's two-generator theorem are known mathematics; no novelty claimed.",
+  "pdt_consequence": "A PDT-native composition law capable of selecting n=3 must constrain the existence/value of three-generator defects themselves, not merely assign them a well-behaved resource cost.",
+  "next_obligation": "Derive or falsify a PDT principle coupling three-history defect to an independently measurable distinction/revelation quantity; then test whether QM obeys the same quantitative relation under identical inputs."
+}
