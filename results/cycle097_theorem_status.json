@@ -1,0 +1,36 @@
+{
+  "cycle": 97,
+  "results": [
+    {
+      "name": "Finite-record separation theorem",
+      "status": ["PROVED", "IMPORTED/KNOWN"],
+      "statement": "For fixed finite-dimensional defect space W, linear scalar records detect every nonzero defect iff their restriction to W is injective; at least dim(W) independent scalar outputs are required."
+    },
+    {
+      "name": "Subcomplete-record universal certification",
+      "status": ["FALSIFIED"],
+      "statement": "Fewer than dim(W) scalar linear records cannot universally certify absence of defects on W; a nonzero kernel direction remains."
+    },
+    {
+      "name": "Octonion record bound",
+      "status": ["PROVED", "NUMERICALLY_SUPPORTED", "IMPORTED/KNOWN"],
+      "statement": "Under the repository Cayley-Dickson convention, 512 basis associators span the full seven-dimensional imaginary octonion sector; scalar rank is zero, so seven independent scalar records are necessary and sufficient for full linear separation of this sector."
+    },
+    {
+      "name": "Resource revelation conservation",
+      "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+      "statement": "For fixed W and refinement by adding linear records, rev_R+hid_R=dim(W), rev is nondecreasing, hid nonincreasing, and Delta rev=-Delta hid."
+    },
+    {
+      "name": "Unqualified hidden-defect monotonicity when W changes",
+      "status": ["FALSIFIED"],
+      "statement": "If the admissible defect space expands with refinement, hidden dimension may increase; a compatibility condition on W_R is necessary."
+    },
+    {
+      "name": "PDT-native physical record law / same-input departure from QM",
+      "status": ["OPEN"],
+      "statement": "PDT still must derive the physically available record family and a same-input quantitative prediction rather than postulate informational completeness."
+    }
+  ],
+  "breakthrough_candidate": false
+}
