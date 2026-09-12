@@ -1,0 +1,61 @@
+{
+  "cycle": 108,
+  "targets": [
+    "(3) same-input PDT-vs-QM quantitative prediction",
+    "(5) experimentally distinctive inequalities"
+  ],
+  "classification": [
+    "PROVED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED",
+    "FALSIFIED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "theorems": {
+    "same_input_common_window_no_go": {
+      "status": "PROVED",
+      "statement": "If microscopic distributions are identical and the same stochastic resource channel K_R is applied to both, resource-limited distributions are exactly identical."
+    },
+    "tv_contraction": {
+      "status": "PROVED",
+      "statement": "For any column-stochastic K_R, TV(K_R p,K_R q) <= TV(p,q)."
+    },
+    "resource_window_only_generates_departure": {
+      "status": "FALSIFIED",
+      "statement": "A common stochastic resource coarse-graining can by itself generate or amplify a PDT-vs-QM probability difference.",
+      "reason": "Equality is preserved exactly; existing total-variation separation can only contract."
+    }
+  },
+  "smallest_masking_witness": {
+    "p": [1.0, 0.0],
+    "q": [0.0, 1.0],
+    "K": [[1.0, 1.0]],
+    "microscopic_tv": 1.0,
+    "resource_limited_tv": 0.0
+  },
+  "exact_dimension_audit": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "cases": 68,
+    "all_equal": true,
+    "max_l1_difference": 0
+  },
+  "randomized_audit": {
+    "trials": 6000,
+    "seed": 108108,
+    "dimensions_sampled": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "equal_input_output_violations_gt_1e-12": 0,
+    "max_equal_input_output_gap": 0.0,
+    "tv_contraction_violations_gt_1e-12": 0,
+    "max_tv_excess": 0.0,
+    "strict_contractions": 5688,
+    "masked_nonzero_departures_to_zero": 722
+  },
+  "pdt_consequence": "A falsifiable same-input PDT-vs-QM departure requires PDT-native microscopic dynamics/state/effect probabilities, or a resource action that is physically theory-dependent for independently justified reasons. Merely declaring a common detector/resource coarse-graining cannot supply target (3).",
+  "prior_art_boundary": "This is ordinary stochastic-map/data-processing/Blackwell-garbling mathematics. Novelty is not claimed for the theorem.",
+  "surviving_obligations": [
+    "Specify and derive a PDT-native pre-window microscopic probability law or additional operational state variable.",
+    "Apply exactly the same declared physical resource window to PDT and QM unless PDT independently predicts a different physical response of the apparatus.",
+    "Search for a parameter-free or independently calibrated probability-level inequality that differs from QM under identical microscopic inputs."
+  ]
+}
