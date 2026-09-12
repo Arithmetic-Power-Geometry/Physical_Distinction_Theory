@@ -1,0 +1,30 @@
+{
+  "cycle": 101,
+  "target_priority": [1, 2],
+  "results": [
+    {
+      "id": "PDT2-C101-R1",
+      "statement": "For a finite-dimensional unital bilinear algebra with alternating associator, global associativity is equivalent to vanishing of the associator on every unordered primitive basis triad.",
+      "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C101-R2",
+      "statement": "In the octonion n=7 counterexample, exactly 28 of 35 unordered imaginary basis triads have nonzero associator, while the 7 Fano-line triads associate; [e1,e2,e4]=2e7 is an explicit triad witness.",
+      "classification": ["PROVED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C101-R3",
+      "statement": "Under alternativity, two-generator coherence is strictly below the needed arity, while vanishing of all primitive three-history associators is sufficient only because it is a finite coefficient form of global associativity; using it without an independent PDT derivation would be circular.",
+      "classification": ["PROVED", "CONDITIONAL"],
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C101-O1",
+      "statement": "Derive or falsify a PDT-native three-history path-independence/resource law without postulating associativity in equivalent language; seek an operational cost or falsifiable inequality.",
+      "classification": ["OPEN"],
+      "breakthrough_candidate": false
+    }
+  ]
+}
