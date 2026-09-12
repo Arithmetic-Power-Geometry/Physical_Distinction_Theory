@@ -1,0 +1,35 @@
+{
+  "cycle": 105,
+  "target": "PDT-II targets (1),(2),(4): test whether minimum-cost refinement path independence selects quadratic/Euclidean geometry.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "theorems": {
+    "infimal_pushforward_functoriality": {
+      "status": "PROVED / IMPORTED-KNOWN",
+      "statement": "For arbitrary extended-real cost C and composable maps q1,q2, infimal pushforward satisfies q2_*(q1_*C)=(q2∘q1)_*C.",
+      "proof": "Both sides equal inf{C(x): q2(q1(x))=z}; partitioning the feasible x by y=q1(x) does not alter the infimum."
+    },
+    "quadratic_selection_from_path_independence": {
+      "status": "FALSIFIED",
+      "statement": "Minimum-cost quotient path independence does not imply quadratic/Hilbert geometry.",
+      "smallest_linear_nonhilbert_witness": {"space":"R^2 with l1 norm","parallelogram":{"lhs":8.0,"rhs":4.0,"residual":4.0,"inner_product_induced":false}}
+    },
+    "n3_selection_from_refinement_associativity": {"status":"FALSIFIED","statement":"Refinement associativity/path independence alone cannot select n=3, because the same law holds in every tested dimension and for arbitrary sets/costs."},
+    "pdt_native_minimum_cost_rule": {"status":"OPEN","statement":"PDT still must derive why coarse operational cost is the infimum over finer representatives. Even if derived, extra physical structure is required to select p=2/Hilbert geometry or n=3."}
+  },
+  "stress_tests": {
+    "exact_coordinate_chains": {"dimensions":[1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],"p_values":["1","1.5","2","3","inf"],"cases":755,"nonquadratic_cases":604,"violations":0},
+    "random_coordinate_numeric": {"trials":4000,"seed":105,"violations_gt_1e-12":0,"max_residual":0.0,"nonquadratic_cases":3195,"dimensions_sampled":[1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64]},
+    "random_finite_fibers": {"trials":5000,"seed":105105,"violations":0,"unreachable_fibers_checked":9248},
+    "parallelogram_table": [
+      {"p":1.0,"lhs":8.0,"rhs":4.0,"residual":4.0,"parallelogram_holds_for_this_witness":false},
+      {"p":1.5,"lhs":5.039684199579492,"rhs":4.0,"residual":1.0396841995794919,"parallelogram_holds_for_this_witness":false},
+      {"p":2.0,"lhs":4.000000000000001,"rhs":4.0,"residual":8.881784197001252e-16,"parallelogram_holds_for_this_witness":true},
+      {"p":3.0,"lhs":3.174802103936399,"rhs":4.0,"residual":-0.8251978960636008,"parallelogram_holds_for_this_witness":false},
+      {"p":"inf","lhs":2.0,"rhs":4.0,"residual":-2.0,"parallelogram_holds_for_this_witness":false}
+    ]
+  },
+  "prior_art_boundary": "Quotient norms use an infimum over representatives; iterated-infimum functoriality is elementary/standard. The Jordan-von Neumann parallelogram characterization of inner-product norms is classical. No novelty claim.",
+  "pdt_consequence": "Cycle 104 quadratic transport is a special case of a much broader infimal pushforward law. Resource path independence cannot derive Euclidean geometry, composition associativity, or n=3.",
+  "next_kill_tests": ["Search PDT primitives for an independent parallelogram/polarization/operational-interference identity; do not infer it from quotient functoriality.","Test whether a PDT-native three-history cost identity excludes l1/lp and octonionic alternatives without assuming associativity.","Same-input PDT-vs-QM prediction remains OPEN."]
+}
