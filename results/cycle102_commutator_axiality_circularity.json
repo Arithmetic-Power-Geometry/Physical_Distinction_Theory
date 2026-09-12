@@ -1,0 +1,67 @@
+{
+  "cycle": 102,
+  "target": "PDT-II targets (1)/(2): can sequential commutators non-circularly derive the axial n=3 closure?",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "candidate_claim": "Sequential composition/commutators force the determinant-twisted axial-vector closure required by the Cycle-091 n=3 selector without assuming n=3.",
+  "verdict": "FALSIFIED as a non-circular derivation route.",
+  "theorem": {
+    "statement": "For V=R^n with the standard O(n) action, skew generators and their commutators transform in so(n) ~= Lambda^2 V by A -> R A R^T. A same-dimension vector/pseudovector identification Lambda^2 V ~= V tensor det requires n(n-1)/2=n, hence positive n=3 only.",
+    "proof_core": "The commutator covariance follows by direct matrix multiplication. Dimension equality gives n(n-1)/2=n, i.e. n(n-3)=0. In n=3 the hat/Hodge identification obeys R hat(v) R^T = hat(det(R) R v), producing axial parity. For n != 3 there is no dimension-preserving identification of the full bivector generator sector with V.",
+    "logical_boundary": "Thus commutator structure supplies a bivector sector in every n; converting it to the axial vector assumed in Cycle 091 is exactly the dimension-specific step. Using that conversion to derive n=3 would be circular."
+  },
+  "dimension_ledger": [
+    {"n": 1, "dim_vector": 1, "dim_bivector_so_n": 0, "dimension_match_for_vector_identification": false},
+    {"n": 2, "dim_vector": 2, "dim_bivector_so_n": 1, "dimension_match_for_vector_identification": false},
+    {"n": 3, "dim_vector": 3, "dim_bivector_so_n": 3, "dimension_match_for_vector_identification": true},
+    {"n": 4, "dim_vector": 4, "dim_bivector_so_n": 6, "dimension_match_for_vector_identification": false},
+    {"n": 5, "dim_vector": 5, "dim_bivector_so_n": 10, "dimension_match_for_vector_identification": false},
+    {"n": 6, "dim_vector": 6, "dim_bivector_so_n": 15, "dimension_match_for_vector_identification": false},
+    {"n": 7, "dim_vector": 7, "dim_bivector_so_n": 21, "dimension_match_for_vector_identification": false},
+    {"n": 8, "dim_vector": 8, "dim_bivector_so_n": 28, "dimension_match_for_vector_identification": false},
+    {"n": 9, "dim_vector": 9, "dim_bivector_so_n": 36, "dimension_match_for_vector_identification": false},
+    {"n": 10, "dim_vector": 10, "dim_bivector_so_n": 45, "dimension_match_for_vector_identification": false},
+    {"n": 11, "dim_vector": 11, "dim_bivector_so_n": 55, "dimension_match_for_vector_identification": false},
+    {"n": 12, "dim_vector": 12, "dim_bivector_so_n": 66, "dimension_match_for_vector_identification": false},
+    {"n": 16, "dim_vector": 16, "dim_bivector_so_n": 120, "dimension_match_for_vector_identification": false},
+    {"n": 24, "dim_vector": 24, "dim_bivector_so_n": 276, "dimension_match_for_vector_identification": false},
+    {"n": 32, "dim_vector": 32, "dim_bivector_so_n": 496, "dimension_match_for_vector_identification": false},
+    {"n": 48, "dim_vector": 48, "dim_bivector_so_n": 1128, "dimension_match_for_vector_identification": false},
+    {"n": 64, "dim_vector": 64, "dim_bivector_so_n": 2016, "dimension_match_for_vector_identification": false},
+    {"n": 96, "dim_vector": 96, "dim_bivector_so_n": 4560, "dimension_match_for_vector_identification": false},
+    {"n": 128, "dim_vector": 128, "dim_bivector_so_n": 8128, "dimension_match_for_vector_identification": false}
+  ],
+  "positive_dimension_matches": [3],
+  "conjugation_covariance": {
+    "seed": 102007,
+    "dimensions": [2,3,4,5,6,7,8,9,10,11,12],
+    "trials_per_dimension": 80,
+    "proper_trials": 440,
+    "improper_trials": 440,
+    "max_conjugation_covariance_residual": 9.663762488932919e-14,
+    "violations_gt_1e-9": 0
+  },
+  "n3_hat_axial_identity": {
+    "seed": 102003,
+    "trials": 1000,
+    "proper_trials": 500,
+    "improper_trials": 500,
+    "max_hat_axial_identity_residual": 3.581313956104386e-15,
+    "violations_gt_1e-9": 0
+  },
+  "reflection_witness": {
+    "R": [[-1,0,0],[0,1,0],[0,0,1]],
+    "v": [1,0,0],
+    "det_R": -1,
+    "polar_residual_norm": 2.8284271247461903,
+    "axial_residual_norm": 0.0
+  },
+  "prior_art_boundary": "so(n) as skew matrices/exterior bivectors, conjugation under O(n), the 3D hat-map/cross-product pseudovector identity, and Hodge duality are standard mathematics. No novelty is claimed for them.",
+  "surviving_pdt_obligation": "If PDT is to derive n=3 non-circularly, it must derive an operational reason that the physically closed primitive generator sector has vector dimension n rather than the generic bivector dimension n(n-1)/2, or derive an equivalent resource/composition constraint without invoking the 3D Hodge identification."
+}
