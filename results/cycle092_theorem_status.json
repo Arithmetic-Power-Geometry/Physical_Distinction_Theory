@@ -1,0 +1,45 @@
+{
+  "cycle": 92,
+  "target": "PDT-II target (1): PDT-native composition law",
+  "results": [
+    {
+      "id": "C092-T1",
+      "statement": "For factorized bilinear maps with local exchange parities epsilon_i, the composite exchange parity is the product of epsilon_i.",
+      "status": "PROVED"
+    },
+    {
+      "id": "C092-F1",
+      "statement": "A nonzero bipartite alternating composition law can be obtained as B_A tensor B_B from alternating local closures alone.",
+      "status": "FALSIFIED",
+      "smallest_decisive_counterexample": "n=2 with B(x,y)=(x0*y1-x1*y0)e0 and z=e0 tensor e0 + e1 tensor e1; (B tensor B)(z,z)=2 e0 tensor e0 != 0"
+    },
+    {
+      "id": "C092-C1",
+      "statement": "A parity-correct nonzero factorized alternating composite can be formed from one alternating and one symmetric local factor, e.g. B tensor S + S tensor B.",
+      "status": "PROVED"
+    },
+    {
+      "id": "C092-N1",
+      "statement": "The need for paired skew/symmetric products in composability is historically novel to PDT.",
+      "status": "FALSIFIED",
+      "prior_art": [
+        "Grgin & Petersen, Commun. Math. Phys. 50 (1976) 177-188, DOI 10.1007/BF01617995",
+        "Moldoveanu, arXiv:1505.05577 (2015)",
+        "standard tensor-product commutator/anticommutator identity"
+      ]
+    },
+    {
+      "id": "C092-O1",
+      "statement": "PDT derives an independently motivated symmetric companion from its existing primitives, rather than importing the quantum Jordan product.",
+      "status": "OPEN"
+    },
+    {
+      "id": "C092-O2",
+      "statement": "A genuinely PDT-native nonfactorized composition law survives locality, associativity/grouping, quotient, resource, and same-input tests.",
+      "status": "OPEN"
+    }
+  ],
+  "dimension_audit": "n=1..12,16,24,32,48,64,96,128; n=1 degenerate, decisive B tensor B witness in every tested n>=2",
+  "multipartite_audit": "B^{tensor N} exchange parity checked analytically and frozen for N=1..12: alternating for odd N, symmetric for even N",
+  "breakthrough_candidate": false
+}
