@@ -1,0 +1,56 @@
+{
+  "cycle": 101,
+  "target": "PDT-II targets (1)/(2): finite three-history certificate after the two-generator no-go",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "theorem": {
+    "statement": "Let A be a finite-dimensional unital algebra with bilinear product and an alternative associator. If {e_i} spans its non-scalar primitive sector, then global associativity is equivalent to vanishing of [e_i,e_j,e_k] for every unordered triple i<j<k.",
+    "proof_core": "Bilinearity makes the associator trilinear. Alternativity makes it alternating, so repeated-index coefficients vanish and permutation-related coefficients differ only by sign. Hence the unordered basis-triad values determine the associator everywhere.",
+    "qualification": "This is a certification theorem. It does not derive from PDT why every primitive triad must be path-independent, and imposing all triad vanishings is equivalent to associativity under the stated hypotheses."
+  },
+  "octonion_boundary": {
+    "unordered_imaginary_basis_triads": 35,
+    "nonzero_associator_triads": 28,
+    "zero_associator_triads": 7,
+    "fraction_nonzero": 0.8,
+    "all_nonzero_squared_norms": [4],
+    "associative_fano_line_triads": [[1,2,3],[1,4,5],[1,6,7],[2,4,6],[2,5,7],[3,4,7],[3,5,6]],
+    "first_decisive_witness": {
+      "triad": [1,2,4],
+      "associator": [0,0,0,0,0,0,0,2],
+      "squared_norm": 4,
+      "nonzero": true
+    }
+  },
+  "exact_alternation": {"permutation_checks": 210, "violations": 0, "all_exact": true},
+  "exact_alternative_identities": {"checks": 98, "violations": 0, "all_exact": true},
+  "randomized_reconstruction": {
+    "seed": 101007,
+    "random_triples": 2000,
+    "max_reconstruction_residual": 5.405497935378967e-14,
+    "violations_gt_1e-9": 0
+  },
+  "dimension_certificate_ledger": [
+    {"distinction_vector_dimension_n":1,"unordered_primitive_triad_checks":0},
+    {"distinction_vector_dimension_n":2,"unordered_primitive_triad_checks":0},
+    {"distinction_vector_dimension_n":3,"unordered_primitive_triad_checks":1},
+    {"distinction_vector_dimension_n":4,"unordered_primitive_triad_checks":4},
+    {"distinction_vector_dimension_n":5,"unordered_primitive_triad_checks":10},
+    {"distinction_vector_dimension_n":6,"unordered_primitive_triad_checks":20},
+    {"distinction_vector_dimension_n":7,"unordered_primitive_triad_checks":35},
+    {"distinction_vector_dimension_n":8,"unordered_primitive_triad_checks":56},
+    {"distinction_vector_dimension_n":9,"unordered_primitive_triad_checks":84},
+    {"distinction_vector_dimension_n":10,"unordered_primitive_triad_checks":120},
+    {"distinction_vector_dimension_n":11,"unordered_primitive_triad_checks":165},
+    {"distinction_vector_dimension_n":12,"unordered_primitive_triad_checks":220},
+    {"distinction_vector_dimension_n":16,"unordered_primitive_triad_checks":560},
+    {"distinction_vector_dimension_n":24,"unordered_primitive_triad_checks":2024},
+    {"distinction_vector_dimension_n":32,"unordered_primitive_triad_checks":4960},
+    {"distinction_vector_dimension_n":48,"unordered_primitive_triad_checks":17296},
+    {"distinction_vector_dimension_n":64,"unordered_primitive_triad_checks":41664},
+    {"distinction_vector_dimension_n":96,"unordered_primitive_triad_checks":142880},
+    {"distinction_vector_dimension_n":128,"unordered_primitive_triad_checks":341376}
+  ],
+  "prior_art_boundary": "The equivalence between alternativity and an alternating associator, and the alternative/nonassociative character of the octonions, are classical. The finite basis certificate is multilinear algebra, not a historical novelty claim.",
+  "surviving_pdt_obligation": "Derive or falsify a PDT-native physical principle requiring primitive three-history path independence. Without such a derivation, the n=3 selection remains conditional; two-history coherence cannot supply it."
+}
