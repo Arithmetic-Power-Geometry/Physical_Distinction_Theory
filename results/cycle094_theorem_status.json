@@ -1,0 +1,14 @@
+{
+  "cycle": 94,
+  "target": "PDT-II target (1): minimal scalar/unit augmentation",
+  "results": [
+    {"statement":"Metric-only unitized product on R⊕V with nonzero metric coupling is nonassociative for dim(V)>=2.","status":"PROVED"},
+    {"statement":"The metric-only scalar/unit enlargement by itself provides a nontrivial associative composition law.","status":"FALSIFIED"},
+    {"statement":"For the 3D dot/cross ansatz, associativity holds iff alpha=-beta^2.","status":"PROVED"},
+    {"statement":"Dimension and coefficient stress audit through n=128 / random 3D triples.","status":"NUMERICALLY_SUPPORTED"},
+    {"statement":"Quaternion/Frobenius/Jordan mathematical core.","status":"IMPORTED/KNOWN"},
+    {"statement":"Full-SO(n) alternating closure + metric coupling + associativity selects n=3 in the minimal ansatz.","status":"CONDITIONAL"},
+    {"statement":"Derive those premises from PDT primitives and obtain a new physical consequence.","status":"OPEN"}
+  ],
+  "breakthrough_candidate": false
+}

@@ -1,0 +1,49 @@
+{
+  "cycle": 94,
+  "target": "PDT-II target (1): minimal scalar/unit augmentation",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "exact_results": {
+    "metric_only": "For A=R⊕V with (a,x)*(b,y)=(ab+alpha<x,y>, ay+bx), dim(V)>=2 and alpha!=0 imply nonassociativity.",
+    "three_dimensional_repair": "For A=R⊕R^3 with vector term beta x×y, associativity holds iff alpha=-beta^2. For beta!=0 this is quaternion multiplication up to a scaling/sign convention.",
+    "smallest_decisive_dimension": 2,
+    "smallest_witness": "x=y=e1, z=e2 gives associator vector alpha*e2"
+  },
+  "dimension_audit": [
+    {"n":1,"metric_only_witness_residual_alpha_1":0.0,"status":"ASSOCIATIVE_1D_EXCEPTION"},
+    {"n":2,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":3,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":4,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":5,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":6,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":7,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":8,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":9,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":10,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":11,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":12,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":16,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":24,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":32,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":48,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":64,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":96,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"},
+    {"n":128,"metric_only_witness_residual_alpha_1":1.0,"status":"NONASSOCIATIVE_FOR_NONZERO_ALPHA"}
+  ],
+  "coefficient_scan_n3": [
+    {"alpha":-1.0,"beta":1.0,"condition_abs":0.0,"random_assoc_max":7.53644380168212e-15,"expected_associative":true},
+    {"alpha":-4.0,"beta":2.0,"condition_abs":0.0,"random_assoc_max":2.409567650518791e-14,"expected_associative":true},
+    {"alpha":-0.25,"beta":0.5,"condition_abs":0.0,"random_assoc_max":4.010656666373001e-15,"expected_associative":true},
+    {"alpha":0.0,"beta":0.0,"condition_abs":0.0,"random_assoc_max":3.553147333202946e-15,"expected_associative":true},
+    {"alpha":1.0,"beta":0.0,"condition_abs":1.0,"random_assoc_max":19.983285529473687,"expected_associative":false},
+    {"alpha":-1.0,"beta":0.5,"condition_abs":0.75,"random_assoc_max":14.987464147105262,"expected_associative":false},
+    {"alpha":-1.0,"beta":1.25,"condition_abs":0.5625,"random_assoc_max":11.240598110328946,"expected_associative":false}
+  ],
+  "interpretation": "The scalar/unit enlargement surviving Cycle 093 is insufficient by itself if associative grouping is required. A nonzero metric scalar coupling needs an antisymmetric vector term; under the current full SO(n) route that term is available only at n=3, where associativity fixes alpha=-beta^2. This is a conditional known quaternion boundary, not PDT novelty."
+}
