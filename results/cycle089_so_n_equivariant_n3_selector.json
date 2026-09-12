@@ -1,0 +1,17 @@
+{
+  "breakthrough_candidate": false,
+  "classification": ["CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "cycle": 89,
+  "selected_nontrivial_dimensions": [3],
+  "so3_random_trials": 500,
+  "so3_max_equivariance_residual": 4.3059624662327e-15,
+  "pdt_native_axiom_derivation": "OPEN",
+  "tested_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "exact_component_counts": {
+    "n4": 4, "n5": 10, "n6": 20, "n7": 35, "n8": 56, "n9": 84,
+    "n10": 120, "n11": 165, "n12": 220, "n16": 560, "n24": 2024,
+    "n32": 4960, "n48": 17296, "n64": 41664, "n96": 142880, "n128": 341376
+  },
+  "statement": "Under full SO(n) reversible isotropy and a nonzero alternating bilinear equivariant closure B:VxV->V, the only positive dimension is n=3.",
+  "warning": "This is not yet a PDT-native derivation because the two selecting axioms have not been derived independently from PDT."
+}
