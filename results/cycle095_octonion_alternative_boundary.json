@@ -1,0 +1,64 @@
+{
+  "cycle": 95,
+  "target": "PDT-II targets (1)/(2): test alternative rather than associative scalar/unit composition",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "exact_result": {
+    "falsified_candidate": "Unital bilinear positive-norm-composing alternative composition selects distinction-vector dimension n=3.",
+    "counterexample": "Octonions O=R\u2295R^7 satisfy unital bilinearity, positive Euclidean norm composition, and alternativity, but are nonassociative.",
+    "smallest_relevant_surviving_higher_dimension": 7,
+    "basis_nonassociativity_witness": {
+      "indices": [1, 2, 4],
+      "associator": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0],
+      "expected": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0],
+      "exact_integer_match": true,
+      "norm": 2.0
+    },
+    "basis_alternativity_audit": {
+      "basis_pairs": 64,
+      "max_left_residual": 0.0,
+      "max_right_residual": 0.0,
+      "max_flexible_residual": 0.0,
+      "violations": []
+    },
+    "consequence": "If PDT weakens associative grouping to alternativity while allowing the octonionic/G2 reversible boundary, n=7 survives. Associativity or an independently derived stronger symmetry/operational principle is therefore doing indispensable selection work in the Cycle-094 n=3 route."
+  },
+  "dimension_ledger": [
+    {"distinction_vector_dimension_n": 1, "full_algebra_dimension_n_plus_1": 2, "hurwitz_normed_division_dimension_allowed": true, "note": "classical allowed case"},
+    {"distinction_vector_dimension_n": 2, "full_algebra_dimension_n_plus_1": 3, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 3, "full_algebra_dimension_n_plus_1": 4, "hurwitz_normed_division_dimension_allowed": true, "note": "classical allowed case"},
+    {"distinction_vector_dimension_n": 4, "full_algebra_dimension_n_plus_1": 5, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 5, "full_algebra_dimension_n_plus_1": 6, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 6, "full_algebra_dimension_n_plus_1": 7, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 7, "full_algebra_dimension_n_plus_1": 8, "hurwitz_normed_division_dimension_allowed": true, "note": "classical allowed case"},
+    {"distinction_vector_dimension_n": 8, "full_algebra_dimension_n_plus_1": 9, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 9, "full_algebra_dimension_n_plus_1": 10, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 10, "full_algebra_dimension_n_plus_1": 11, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 11, "full_algebra_dimension_n_plus_1": 12, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 12, "full_algebra_dimension_n_plus_1": 13, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 16, "full_algebra_dimension_n_plus_1": 17, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 24, "full_algebra_dimension_n_plus_1": 25, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 32, "full_algebra_dimension_n_plus_1": 33, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 48, "full_algebra_dimension_n_plus_1": 49, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 64, "full_algebra_dimension_n_plus_1": 65, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 96, "full_algebra_dimension_n_plus_1": 97, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"},
+    {"distinction_vector_dimension_n": 128, "full_algebra_dimension_n_plus_1": 129, "hurwitz_normed_division_dimension_allowed": false, "note": "excluded under positive-definite real normed-division-algebra hypotheses"}
+  ],
+  "random_octonion_regression": {
+    "trials": 3000,
+    "max_norm_multiplicativity_residual": 5.551115123125783e-16,
+    "max_left_alternativity_residual": 4.712832172234208e-16,
+    "max_right_alternativity_residual": 4.795373138347379e-16,
+    "max_flexible_residual": 4.1932970789410407e-16,
+    "max_generic_associator_norm": 1.9226734051912622,
+    "generic_nonassociative_cases_gt_1e-10": 3000
+  },
+  "prior_art_boundary": "Hurwitz/classical normed-division-algebra theory permits real algebra dimensions 1,2,4,8 (imaginary/vector dimensions 0,1,3,7). The octonions are the 8-dimensional alternative nonassociative case; their automorphism group is G2. These facts are imported/known, not PDT novelty.",
+  "open": "Derive from PDT primitives whether operational composition must be fully associative, merely alternative, or resource-indexed/nonassociative; then test the surviving law against composites, restricted resources and same-input experimental predictions."
+}
