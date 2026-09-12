@@ -1,0 +1,31 @@
+{
+  "cycle": 100,
+  "target_priority": [1, 2],
+  "results": [
+    {
+      "id": "PDT2-C100-R1",
+      "statement": "Every two-generated subalgebra of the octonion counterexample used here is associative; exact audits over all 21 imaginary-basis pairs show 0/1344 basis-triple associator violations.",
+      "classification": ["PROVED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C100-R2",
+      "statement": "Two-generator operational parenthesization coherence is insufficient to force global associativity or select n=3; n=7 octonions survive.",
+      "classification": ["FALSIFIED", "IMPORTED/KNOWN"],
+      "smallest_decisive_higher_dimension": 7,
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C100-R3",
+      "statement": "A genuinely three-generator associator can witness the failure: [e1,e2,e4]=2e7 in the audited convention.",
+      "classification": ["PROVED", "IMPORTED/KNOWN"],
+      "breakthrough_candidate": false
+    },
+    {
+      "id": "PDT2-C100-O1",
+      "statement": "Derive or falsify a PDT-native three-history/three-generator operational coherence law from distinction and resource primitives without assuming associativity.",
+      "classification": ["OPEN"],
+      "breakthrough_candidate": false
+    }
+  ]
+}
