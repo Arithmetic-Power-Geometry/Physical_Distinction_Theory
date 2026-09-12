@@ -1,0 +1,37 @@
+{
+  "cycle": 98,
+  "results": [
+    {
+      "statement": "Compatible-refinement creation/revelation balances",
+      "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"],
+      "detail": "For U embedded in V, q=dim(V/U), and A=P(B|U): DeltaRev=g+v and DeltaHid=q-g-v, with g>=0 and 0<=v<=q."
+    },
+    {
+      "statement": "Revealed rank is monotone under compatible refinement even when defect space grows",
+      "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"]
+    },
+    {
+      "statement": "Hidden dimension can grow by at most dim(V/U)",
+      "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN"]
+    },
+    {
+      "statement": "Revealed rank is monotone under arbitrary resource refinement",
+      "status": ["FALSIFIED"],
+      "counterexample": "U=V=R, coarse A=[1], purported refined B=[0]: rank 1 -> 0 when compatibility is dropped."
+    },
+    {
+      "statement": "Dimension/random stress",
+      "status": ["NUMERICALLY SUPPORTED"],
+      "detail": "74 canonical cases through dimension 128 and 400 randomized compatible trials passed; local unit suite 6/6."
+    },
+    {
+      "statement": "PDT-native physical derivation of defect-space embedding and record compatibility",
+      "status": ["OPEN"]
+    },
+    {
+      "statement": "Same-input PDT-vs-QM departure",
+      "status": ["OPEN"]
+    }
+  ],
+  "breakthrough_candidate": false
+}
