@@ -1,0 +1,31 @@
+{
+  "cycle": 99,
+  "results": [
+    {
+      "name": "Observation-enforcement separation theorem",
+      "status": "PROVED",
+      "statement": "Injective/separating records certify whether a composition defect is zero but do not force the defect map itself to vanish."
+    },
+    {
+      "name": "Complete records imply associative composition or n=3",
+      "status": "FALSIFIED",
+      "statement": "The octonions have a seven-dimensional associator sector fully separated by seven imaginary-coordinate records while remaining nonassociative; n=7 therefore survives complete defect visibility."
+    },
+    {
+      "name": "Octonion alternative normed-division boundary",
+      "status": "IMPORTED/KNOWN",
+      "statement": "Octonion alternativity, positive norm composition and nonassociativity are established mathematics."
+    },
+    {
+      "name": "Random complete-record stress audit",
+      "status": "NUMERICALLY SUPPORTED",
+      "statement": "All 3000 seeded random nonzero octonion associators were detected by the seven-coordinate record family."
+    },
+    {
+      "name": "PDT-native composition-defect suppression principle",
+      "status": "OPEN",
+      "statement": "PDT still needs an independently derived structural/dynamical principle that constrains composition defects rather than merely observing them."
+    }
+  ],
+  "breakthrough_candidate": false
+}

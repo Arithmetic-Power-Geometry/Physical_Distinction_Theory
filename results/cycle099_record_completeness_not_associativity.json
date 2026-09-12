@@ -1,0 +1,47 @@
+{
+  "cycle": 99,
+  "target": "PDT-II targets (1)/(2)/(4): test whether complete/separating operational records can enforce associativity and remove n=7",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "exact_result": {
+    "proved_theorem": "For any defect map delta:X->W and injective linear record map L:W->Y, L(delta(x))=0 iff delta(x)=0. Separating records provide faithful diagnosis/certification, not a law forcing delta to vanish.",
+    "falsified_candidate": "Unital bilinear positive-norm-composing alternative composition plus a tomographically complete/separating operational record family selects n=3 or enforces associativity.",
+    "counterexample": "The octonions O=R+R^7 with all seven imaginary-coordinate records: the record map is injective on the full associator span while nonzero associators remain.",
+    "consequence": "Record completeness cannot by itself supply PDT-native associative composition or select n=3. A separate physical/compositional law must constrain the defect itself."
+  },
+  "octonion_exact_audit": {
+    "basis_triples": 512,
+    "nonzero_basis_associators": 168,
+    "associator_span_rank": 7,
+    "full_record_rank_on_defect_sector": 7,
+    "missed_nonzero_basis_associators": 0,
+    "scalar_components_all_zero_exactly": true,
+    "witness_indices": [1, 2, 4],
+    "witness_associator": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0],
+    "witness_record": [0.0, 0.0, 0.0, 0.0, 0.0, 2.0],
+    "witness_record_norm": 2.0,
+    "associative_despite_separating_records": false
+  },
+  "dimension_stress": {
+    "dimensions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 24, 32, 48, 64, 96, 128],
+    "record_map": "identity on an n-dimensional defect space",
+    "result": "rank=n and nonzero defects remain nonzero records in every tested dimension; detectability does not imply defect absence"
+  },
+  "random_octonion_record_audit": {
+    "trials": 3000,
+    "seed": 9907,
+    "detected_nonzero_associators_gt_1e-10": 3000,
+    "max_scalar_component_abs": 3.3306690738754696e-16,
+    "max_record_vs_full_norm_gap": 0.0,
+    "max_associator_norm": 1.9173794093158767,
+    "min_detected_record_norm": 0.11274242452734078
+  },
+  "prior_art_boundary": "Injectivity is elementary linear algebra; octonion alternativity, norm composition and nonassociativity are classical. No novelty is claimed for those ingredients.",
+  "open": "Derive or falsify a PDT-native law that constrains composition defects themselves, such as independently motivated operational path-independence, coherent composition, or a resource-cost principle strong enough to exclude the octonionic sector without assuming associativity by fiat."
+}
