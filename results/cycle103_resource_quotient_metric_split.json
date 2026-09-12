@@ -1,0 +1,70 @@
+{
+  "cycle": 103,
+  "target": "PDT-II target (4), with consequences for (1)/(2): does the existing resource quotient itself supply Cycle-098 refinement compatibility and inherited-space structure?",
+  "classification": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "FALSIFIED", "OPEN"],
+  "breakthrough_candidate": false,
+  "results": {
+    "record_compatibility": {
+      "status": "PROVED inside the Cycle-033 linear refinement model",
+      "statement": "If refinement means row(A_coarse) subseteq row(A_fine), then A_coarse=P A_fine for some linear P, so every coarse linear record is recoverable from fine records."
+    },
+    "canonical_direction": {
+      "status": "PROVED",
+      "statement": "For N_fine subseteq N_coarse, quotient refinement canonically gives a SURJECTION V/N_fine -> V/N_coarse, not a reverse injection."
+    },
+    "quotient_only_reverse_embedding": {
+      "status": "FALSIFIED as canonical/natural without extra structure",
+      "statement": "Nested quotient data alone do not canonically select a section V/N_coarse -> V/N_fine. The R^2 shear witness is minimal.",
+      "witness": {
+        "ambient_dimension": 2,
+        "q": [[1, 0]],
+        "sample_sections": [
+          {"a": -2, "column": [1, -2]},
+          {"a": -1, "column": [1, -1]},
+          {"a": 0, "column": [1, 0]},
+          {"a": 1, "column": [1, 1]},
+          {"a": 2, "column": [1, 2]}
+        ],
+        "quotient_preserving_shear": [[1, 0], [1, 1]],
+        "qT_equals_q": true,
+        "section_0": [1, 0],
+        "shear_moves_section_0_to": [1, 1],
+        "section_is_fixed": false
+      }
+    },
+    "metric_split": {
+      "status": "PROVED, CONDITIONAL on a fixed shared positive-definite inner product",
+      "statement": "Using minimum-norm representatives, V/N is canonically relative to the metric identified with N^perp. If N_fine subseteq N_coarse then N_coarse^perp subseteq N_fine^perp, giving an isometric section i and the orthogonal split Q_fine = i(Q_coarse) direct-sum (N_coarse intersect N_fine^perp).",
+      "dimension_law": "dim Q_fine = dim Q_coarse + dim N_coarse - dim N_fine"
+    }
+  },
+  "dimension_audit": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "exact_cases": 110,
+    "all_exact_dimension_balances_hold": true,
+    "identity": "dim Q_fine = dim Q_coarse + dim N_coarse - dim N_fine"
+  },
+  "random_metric_split_audit": {
+    "trials": 500,
+    "seed": 103103,
+    "dimensions_sampled": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+    "max_embedding_reconstruction_residual": 5.557769820395421e-15,
+    "max_section_identity_residual": 1.1052433507716699e-14,
+    "max_old_new_orthogonality_residual": 2.0958069697142594e-15,
+    "violations_gt_1e-9": 0
+  },
+  "record_recoverability_audit": {
+    "trials": 400,
+    "seed": 103098,
+    "dimensions_sampled": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+    "max_A_minus_CB_residual": 0.0,
+    "violations_gt_1e-12": 0
+  },
+  "prior_art_boundary": "Orthogonal-complement decomposition, quotient spaces, split exact sequences, rank-nullity, and row-space factorization are standard linear algebra/functional analysis. No mathematical novelty is claimed.",
+  "pdt_consequence": "Cycle-098 no-erasure record compatibility is already supplied by Cycle-033's definition of genuine linear resource refinement. Its inherited-space embedding is not supplied by quotient structure alone; it is derivable if PDT commits to one fixed shared inner product/metric across the refinement chain. If the metric itself changes with resource, an additional transport/compatibility law remains OPEN.",
+  "surviving_obligations": [
+    "Derive or falsify resource-invariance/transport of the inner product rather than assuming it.",
+    "Connect quotient innovation directions to composition-defect spaces without conflating resolved state directions with admissible associator defects.",
+    "No same-input PDT-vs-QM quantitative departure follows from this splitting theorem."
+  ]
+}
