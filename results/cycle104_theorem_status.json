@@ -1,0 +1,34 @@
+{
+  "cycle": 104,
+  "breakthrough_candidate": false,
+  "items": [
+    {
+      "id": "C104-T1",
+      "claim": "For surjective Q and SPD G, H=(Q G^-1 Q^T)^-1 is the unique quotient metric making the minimum-G-norm section an isometry.",
+      "status": "PROVED",
+      "novelty": "IMPORTED/KNOWN mathematics; PDT application only"
+    },
+    {
+      "id": "C104-T2",
+      "claim": "Minimum-cost quotient metric transport is path independent under composition of surjective refinement maps.",
+      "status": "PROVED",
+      "novelty": "standard quotient/linear algebra consequence"
+    },
+    {
+      "id": "C104-F1",
+      "claim": "Independent positive-definite metrics at each resource level are automatically compatible with quotient refinement.",
+      "status": "FALSIFIED",
+      "smallest_witness": "R^2 -> R, Q=[1,0], G=I, declared H=4 vs induced H=1"
+    },
+    {
+      "id": "C104-PDT1",
+      "claim": "PDT primitives force coarse operational squared distance/cost to equal the minimum fine-resource quadratic cost over representatives.",
+      "status": "OPEN"
+    },
+    {
+      "id": "C104-N1",
+      "claim": "Cycle 104 is a breakthrough candidate.",
+      "status": "FALSIFIED"
+    }
+  ]
+}
