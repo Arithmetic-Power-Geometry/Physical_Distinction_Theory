@@ -1,0 +1,35 @@
+{
+  "cycle": 96,
+  "target": "PDT-II targets (1)/(2): scalar/unit-readout grouping consistency versus full associativity",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "exact_result": {
+    "falsified_candidate": "Unital bilinear positive-norm-composing alternative composition plus associativity of the scalar/unit readout is sufficient to exclude n=7 and select n=3.",
+    "counterexample": "Octonions O=R+R^7 have purely imaginary associators: Re((xy)z)=Re(x(yz)) for all x,y,z, while generic full associators are nonzero.",
+    "consequence": "Scalar-only grouping consistency cannot detect octonionic nonassociativity; excluding n=7 needs full operational grouping coherence or a separating family of records/effects."
+  },
+  "exact_basis_audit": {
+    "basis_triples": 512,
+    "max_abs_scalar_associator": 0.0,
+    "max_full_associator_norm": 2.0,
+    "nonzero_full_associator_basis_triples": 168,
+    "first_nonassociative_scalar_invisible_witness": {
+      "indices": [1, 2, 4],
+      "associator": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0],
+      "norm": 2.0,
+      "scalar_part": 0.0
+    }
+  },
+  "random_regression": {
+    "trials": 5000,
+    "seed": 9607,
+    "max_abs_scalar_associator": 3.3306690738754696e-16,
+    "max_full_associator_norm": 1.9360994967487146,
+    "nonzero_full_associator_cases_gt_1e-10": 5000
+  },
+  "dimension_stress_set": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "positive_normed_division_vector_dimensions": [0,1,3,7],
+  "decisive_surviving_counterexample_dimension": 7,
+  "prior_art_boundary": "Purely imaginary octonion associators and the 8-dimensional alternative normed division algebra are classical imported facts.",
+  "open": "Derive from PDT primitives whether available records/effects separate the full composition sector; scalar readouts alone leave n=7 hidden from this test."
+}
