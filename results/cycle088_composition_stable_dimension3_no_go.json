@@ -1,0 +1,21 @@
+{
+  "cycle": 88,
+  "title": "Composition-stable dimension-3 no-go",
+  "target": "PDT-II (2) non-circular PDT-native n=3 derivation",
+  "status": ["PROVED", "FALSIFIED", "NUMERICALLY_SUPPORTED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "theorem": "If allowed finite Hilbert-space dimensions are closed under independent tensor composition and contain d>1, then they contain d^k for every k>=1. Therefore no singleton {d} with d>1, in particular {3}, is tensor-composition closed.",
+  "smallest_decisive_counterexample": {"claimed_universal_dimension": 3, "two_copy_composite_dimension": 9},
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "nontrivial_singleton_closure_failures": [2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "dimension3_power_stress": [3,9,27,81,243,729,2187,6561,19683,59049,177147,531441],
+  "prime_elementary_family_examples": {
+    "2": [2,4,8,16,32,64,128,256,512,1024,2048,4096],
+    "3": [3,9,27,81,243,729,2187,6561,19683,59049,177147,531441],
+    "5": [5,25,125,625,3125,15625,78125,390625,1953125,9765625,48828125,244140625],
+    "7": [7,49,343,2401,16807,117649,823543,5764801,40353607,282475249,1977326743,13841287201],
+    "11": [11,121,1331,14641,161051,1771561,19487171,214358881,2357947691,25937424601,285311670611,3138428376721]
+  },
+  "surviving_reinterpretation": "Dimension three may still label an elementary/indecomposable system type, but tensor closure alone cannot select the elementary prime: p=2,3,5,7,11 all generate the same kind of composition-closed power family.",
+  "prior_art_boundary": "Composite-system capacity multiplication/information locality is standard in operational reconstructions; this is a consistency no-go rather than a historical novelty claim."
+}
