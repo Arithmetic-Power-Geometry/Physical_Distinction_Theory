@@ -1,0 +1,38 @@
+{
+  "breakthrough_candidate": false,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "cycle": 93,
+  "dims": [
+    {"degenerate": true, "fixed_axis_candidate_residual": null, "n": 1, "reason": "SO(1) is trivial; S(x,y)=cxy is equivariant.", "same_space_SO_n_symmetric_companion": "NONZERO_ALLOWED", "scalar_companion_max_residual": 0.0},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 2, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 4.440892098500626e-16},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 3, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 8.881784197001252e-16},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 4, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.7763568394002505e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 5, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 3.552713678800501e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 6, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.3322676295501878e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 7, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 2.220446049250313e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 8, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 3.552713678800501e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 9, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 3.1086244689504383e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 10, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 2.6645352591003757e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 11, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 3.552713678800501e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 12, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.7763568394002505e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 16, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 2.6645352591003757e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 24, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 7.105427357601002e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 32, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 8.43769498715119e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 48, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 4.440892098500626e-15},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 64, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.4210854715202004e-14},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 96, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.4210854715202004e-14},
+    {"degenerate": false, "fixed_axis_candidate_residual": 2.0, "n": 128, "reason": "stabilizer + pi-rotation argument (n>=3), and -I in SO(2)", "same_space_SO_n_symmetric_companion": "ZERO_ONLY", "scalar_companion_max_residual": 1.7763568394002505e-14}
+  ],
+  "fixed_axis_countercandidate_residual_expected": 2.0,
+  "max_scalar_companion_invariance_residual": 1.7763568394002505e-14,
+  "smallest_nondegenerate_obstruction": 2,
+  "surviving_route": "A rotationally invariant symmetric companion can be scalar-valued (<x,y>) or live in an enlarged algebra/codomain; it cannot be a nonzero same-space vector-valued symmetric product under full SO(n) isotropy.",
+  "target": "PDT-II target (1): PDT-native composition law",
+  "theorem": "For n>=2, every symmetric bilinear SO(n)-equivariant map S:R^n x R^n -> R^n is zero."
+}
