@@ -1,0 +1,23 @@
+{
+  "cycle": 96,
+  "theorems": [
+    {
+      "id": "PDT2-C096-T1",
+      "statement": "For octonions, the scalar projection of the associator vanishes while the full associator need not vanish.",
+      "status": ["PROVED", "IMPORTED/KNOWN"],
+      "witness": "[e1,e2,e4] = 2 e7 has scalar part 0 and norm 2"
+    },
+    {
+      "id": "PDT2-C096-F1",
+      "statement": "Scalar/unit-readout associativity, together with unital bilinearity, positive norm composition and alternativity, excludes n=7 and selects n=3.",
+      "status": ["FALSIFIED"],
+      "smallest_decisive_counterexample_in_current_composition-algebra family": "octonion vector sector n=7"
+    },
+    {
+      "id": "PDT2-C096-O1",
+      "statement": "PDT primitives imply a separating/tomographically complete family of records or effects that detects every nonzero associator direction.",
+      "status": ["OPEN"]
+    }
+  ],
+  "breakthrough_candidate": false
+}
