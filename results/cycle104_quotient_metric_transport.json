@@ -1,0 +1,75 @@
+{
+  "cycle": 104,
+  "target": "PDT-II target (4): derive or falsify metric transport across the resource quotient hierarchy.",
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "FALSIFIED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "results": {
+    "quotient_metric_transport": {
+      "status": "PROVED",
+      "statement": "For surjective Q and SPD fine metric G, H=(Q G^{-1} Q^T)^{-1} is the unique quotient metric for which the G-minimum-norm section S=G^{-1}Q^T H is an isometry.",
+      "identities": [
+        "Q S = I",
+        "S^T G S = H"
+      ]
+    },
+    "minimum_cost_characterization": {
+      "status": "PROVED",
+      "statement": "y^T H y = min_{Qx=y} x^T G x; the minimizer is uniquely x=Sy."
+    },
+    "path_independence": {
+      "status": "PROVED",
+      "statement": "For surjections Q1:X->Y and Q2:Y->Z, quotienting G by Q2 Q1 directly equals quotienting first by Q1 and then by Q2."
+    },
+    "arbitrary_per_level_metrics": {
+      "status": "FALSIFIED",
+      "statement": "Independent positive-definite metrics at different resource levels need not obey quotient transport, even when the quotient map itself is valid.",
+      "witness": {
+        "fine_dimension": 2,
+        "coarse_dimension": 1,
+        "Q": [[1.0, 0.0]],
+        "G_fine": [[1.0, 0.0], [0.0, 1.0]],
+        "H_induced": [[1.0]],
+        "H_independently_declared": [[4.0]],
+        "section": [[1.0], [0.0]],
+        "right_inverse_residual": 0.0,
+        "isometry_residual_for_induced_metric": 0.0,
+        "isometry_residual_for_declared_metric": 3.0,
+        "automatic_independent_metric_compatibility": false
+      }
+    },
+    "pdt_native_status": {
+      "status": "CONDITIONAL / OPEN",
+      "statement": "The transport law becomes PDT-native only if PDT independently identifies squared operational distance/cost on a coarse resource class with the minimum fine-resource quadratic cost over all representatives. That identification is not proved here."
+    }
+  },
+  "exact_dimension_chain_audit": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "cases": 87,
+    "all_path_independent": true
+  },
+  "random_transport_audit": {
+    "trials": 600,
+    "seed": 104104,
+    "dimensions_sampled": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64],
+    "max_right_inverse_residual": 1.6113943162946846e-13,
+    "max_isometry_residual": 1.7517739693299513e-11,
+    "max_path_independence_residual": 8.674679988926728e-12,
+    "max_G_orthogonality_residual": 3.701927653310122e-12,
+    "minimum_norm_violations_gt_1e-8": 0,
+    "path_violations_gt_1e-8": 0
+  },
+  "prior_art_boundary": "Weighted minimum-norm inverse, Moore-Penrose-type constructions, quotient norms and Hilbert-space orthogonal representatives are standard mathematics. No novelty is claimed for those facts.",
+  "pdt_consequence": "Cycle 103's fixed-shared-metric hypothesis can be weakened. One fine-level metric plus the minimum-cost quotient rule canonically transports metrics to all coarser resource levels and makes transport path independent. Arbitrary independent metrics are ruled out by the R^2->R witness.",
+  "surviving_obligations": [
+    "Derive or falsify the minimum-cost quotient rule from PDT's physical distinction/resource primitives rather than postulating it.",
+    "Test whether the resulting resource metric constrains three-history composition defects without assuming associativity.",
+    "No same-input PDT-vs-QM probability departure follows from this theorem."
+  ]
+}
