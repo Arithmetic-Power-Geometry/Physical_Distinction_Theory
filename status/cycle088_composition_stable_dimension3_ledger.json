@@ -1,0 +1,40 @@
+{
+  "cycle": 88,
+  "title": "Composition-stable dimension-3 no-go",
+  "targets": [1, 2],
+  "status": ["PROVED", "FALSIFIED", "NUMERICALLY_SUPPORTED", "IMPORTED/KNOWN"],
+  "breakthrough_candidate": false,
+  "proved": [
+    "If allowed finite Hilbert-space dimensions are closed under independent tensor composition and contain d>1, then d^k is allowed for every k>=1.",
+    "No singleton finite dimension class {d} with d>1 is closed under ordinary tensor composition.",
+    "If n=3 is reinterpreted as an elementary factor dimension, composition closure alone remains underdetermined because every prime p generates an analogous power family {p^k}."
+  ],
+  "falsified": [
+    "PDT-II can non-circularly derive that every allowed finite system, including composites, has Hilbert dimension exactly 3 while retaining ordinary independent tensor composition.",
+    "Tensor-composition closure alone selects elementary dimension 3 over other prime local dimensions."
+  ],
+  "smallest_decisive_counterexample": {
+    "local_dimension": 3,
+    "copies": 2,
+    "composite_dimension": 9
+  },
+  "numeric_audit": {
+    "dimensions": "1..12,16,24,32,48,64,96,128",
+    "nontrivial_singleton_closure_failures": 18,
+    "dimension_1": "degenerate closed singleton",
+    "power_stress_copies": 12,
+    "adversarial_elementary_primes": [2,3,5,7,11]
+  },
+  "prior_art_boundary": [
+    "Hardy, Reformulating and Reconstructing Quantum Theory, arXiv:1104.2066",
+    "Hardy, Reconstructing Quantum Theory, arXiv:1303.1538"
+  ],
+  "open_after_cycle": [
+    "PDT-native composition law beyond known tensor/operator-sector bookkeeping",
+    "non-circular derivation of elementary/indecomposable local dimension 3",
+    "same-input quantitative prediction differing from QM from a genuinely new physical variable or interaction",
+    "PDT-native resource-refinement/revelation/conservation law with new physical content",
+    "experimentally distinctive PDT inequality",
+    "gravity/capacity law only if independently derivable"
+  ]
+}
