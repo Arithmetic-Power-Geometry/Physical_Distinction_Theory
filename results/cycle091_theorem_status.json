@@ -1,0 +1,28 @@
+{
+  "cycle": 91,
+  "target": 2,
+  "title": "Determinant-twisted O(n) alternating closure selector",
+  "claims": [
+    {
+      "claim": "If B: Lambda^2(V) -> V tensor det is O(n)-equivariant and nonzero, then n=3; conversely n=3 admits the axial cross product.",
+      "status": ["PROVED", "IMPORTED/KNOWN"],
+      "novelty": "not claimed"
+    },
+    {
+      "claim": "Cycle 090 polar-vector no-go does not imply that an explicit global orientation is physically necessary; axial output covariance is compatible with full O(3).",
+      "status": ["PROVED"],
+      "novelty": "boundary clarification, not new mathematics"
+    },
+    {
+      "claim": "PDT primitives force primitive distinction closure to transform axially/parity-odd.",
+      "status": ["OPEN"],
+      "novelty": "decisive remaining PDT obligation"
+    },
+    {
+      "claim": "PDT has a completed non-circular derivation of physical n=3.",
+      "status": ["OPEN"],
+      "novelty": "must not be claimed"
+    }
+  ],
+  "breakthrough_candidate": false
+}
