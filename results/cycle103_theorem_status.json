@@ -1,0 +1,37 @@
+{
+  "cycle": 103,
+  "breakthrough_candidate": false,
+  "theorems": [
+    {
+      "name": "Cycle-033 record refinement implies no-erasure recoverability",
+      "status": ["PROVED", "IMPORTED/KNOWN"],
+      "claim": "row(A_coarse) subseteq row(A_fine) implies A_coarse=P A_fine for some linear P."
+    },
+    {
+      "name": "Canonical direction of nested resource quotients",
+      "status": ["PROVED", "IMPORTED/KNOWN"],
+      "claim": "N_fine subseteq N_coarse canonically induces the surjection V/N_fine -> V/N_coarse."
+    },
+    {
+      "name": "Quotient-only canonical reverse embedding",
+      "status": ["FALSIFIED"],
+      "claim": "Nested quotient data alone canonically determine a reverse section V/N_coarse -> V/N_fine.",
+      "smallest_counterexample": "V=R^2, q(x,y)=x; sections s_a(t)=(t,a t) are moved transitively by quotient-preserving shears T_b(x,y)=(x,y+b x)."
+    },
+    {
+      "name": "Fixed-metric orthogonal refinement split",
+      "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED"],
+      "claim": "With one fixed positive-definite inner product, minimum-norm representatives yield Q_fine = i(Q_coarse) orthogonal-direct-sum (N_coarse intersect N_fine^perp), and dim Q_fine=dim Q_coarse+dim N_coarse-dim N_fine."
+    },
+    {
+      "name": "PDT-native metric transport across resource windows",
+      "status": ["OPEN"],
+      "claim": "PDT primitives independently fix one shared metric or a compatible transport law across resource refinement."
+    },
+    {
+      "name": "Same-input PDT-vs-QM quantitative departure",
+      "status": ["OPEN"],
+      "claim": "P_PDT(O|I,R) differs from P_QM(O|I,R) for identical microscopic inputs and declared resource window."
+    }
+  ]
+}
