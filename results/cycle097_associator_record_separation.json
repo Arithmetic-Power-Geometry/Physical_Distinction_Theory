@@ -1,0 +1,72 @@
+{
+  "cycle": 97,
+  "target": "PDT-II targets (1)/(4): separating operational records for composition defects and resource-refinement revelation law",
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "exact_result": {
+    "separation_theorem": "For fixed finite-dimensional defect subspace W and scalar linear record map L_R:W->R^m, every nonzero defect is detected iff L_R|_W is injective, equivalently rank(L_R|_W)=dim(W). Therefore m>=dim(W) is necessary.",
+    "falsified_candidate": "A scalar readout or any subcomplete family of fewer than dim(W) scalar linear records can universally certify absence of composition defects on W.",
+    "rank_nullity_revelation_law": "rev_R+hid_R=dim(W), with rev_R=rank(L_R|_W) and hid_R=dim(W intersect ker L_R). If refinement only adds records while W stays fixed, rev is nondecreasing, hid is nonincreasing, and Delta rev=-Delta hid.",
+    "boundary": "If the admissible defect space W itself expands under resource refinement, hidden-defect monotonicity can fail without an additional compatibility axiom."
+  },
+  "octonion_exact_audit": {
+    "basis_triples": 512,
+    "nonzero_basis_associators": 168,
+    "associator_span_rank": 7,
+    "scalar_record_rank_on_associator_span": 0,
+    "minimum_independent_scalar_records_for_full_detection": 7,
+    "basis_direction_witnesses": {
+      "1": {"indices": [2, 4, 7], "associator": [0.0, -2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]},
+      "2": {"indices": [1, 4, 7], "associator": [0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0]},
+      "3": {"indices": [1, 4, 6], "associator": [0.0, 0.0, 0.0, -2.0, 0.0, 0.0, 0.0, 0.0]},
+      "4": {"indices": [1, 2, 7], "associator": [0.0, 0.0, 0.0, 0.0, -2.0, 0.0, 0.0, 0.0]},
+      "5": {"indices": [1, 2, 6], "associator": [0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0]},
+      "6": {"indices": [1, 2, 5], "associator": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -2.0, 0.0]},
+      "7": {"indices": [1, 2, 4], "associator": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0]}
+    }
+  },
+  "octonion_refinement_curve": [
+    {"defect_dimension": 7, "revealed_rank": 0, "hidden_dimension": 7, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 0},
+    {"defect_dimension": 7, "revealed_rank": 1, "hidden_dimension": 6, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 1},
+    {"defect_dimension": 7, "revealed_rank": 2, "hidden_dimension": 5, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 2},
+    {"defect_dimension": 7, "revealed_rank": 3, "hidden_dimension": 4, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 3},
+    {"defect_dimension": 7, "revealed_rank": 4, "hidden_dimension": 3, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 4},
+    {"defect_dimension": 7, "revealed_rank": 5, "hidden_dimension": 2, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 5},
+    {"defect_dimension": 7, "revealed_rank": 6, "hidden_dimension": 1, "rank_nullity_sum": 7, "separating": false, "imaginary_records": 6},
+    {"defect_dimension": 7, "revealed_rank": 7, "hidden_dimension": 0, "rank_nullity_sum": 7, "separating": true, "imaginary_records": 7}
+  ],
+  "dimension_stress": [
+    {"defect_dimension": 1, "revealed_rank": 0, "hidden_dimension": 1, "rank_nullity_sum": 1, "separating": false, "records": 0},
+    {"defect_dimension": 2, "revealed_rank": 1, "hidden_dimension": 1, "rank_nullity_sum": 2, "separating": false, "records": 1},
+    {"defect_dimension": 3, "revealed_rank": 2, "hidden_dimension": 1, "rank_nullity_sum": 3, "separating": false, "records": 2},
+    {"defect_dimension": 4, "revealed_rank": 3, "hidden_dimension": 1, "rank_nullity_sum": 4, "separating": false, "records": 3},
+    {"defect_dimension": 5, "revealed_rank": 4, "hidden_dimension": 1, "rank_nullity_sum": 5, "separating": false, "records": 4},
+    {"defect_dimension": 6, "revealed_rank": 5, "hidden_dimension": 1, "rank_nullity_sum": 6, "separating": false, "records": 5},
+    {"defect_dimension": 7, "revealed_rank": 6, "hidden_dimension": 1, "rank_nullity_sum": 7, "separating": false, "records": 6},
+    {"defect_dimension": 8, "revealed_rank": 7, "hidden_dimension": 1, "rank_nullity_sum": 8, "separating": false, "records": 7},
+    {"defect_dimension": 9, "revealed_rank": 8, "hidden_dimension": 1, "rank_nullity_sum": 9, "separating": false, "records": 8},
+    {"defect_dimension": 10, "revealed_rank": 9, "hidden_dimension": 1, "rank_nullity_sum": 10, "separating": false, "records": 9},
+    {"defect_dimension": 11, "revealed_rank": 10, "hidden_dimension": 1, "rank_nullity_sum": 11, "separating": false, "records": 10},
+    {"defect_dimension": 12, "revealed_rank": 11, "hidden_dimension": 1, "rank_nullity_sum": 12, "separating": false, "records": 11},
+    {"defect_dimension": 16, "revealed_rank": 15, "hidden_dimension": 1, "rank_nullity_sum": 16, "separating": false, "records": 15},
+    {"defect_dimension": 24, "revealed_rank": 23, "hidden_dimension": 1, "rank_nullity_sum": 24, "separating": false, "records": 23},
+    {"defect_dimension": 32, "revealed_rank": 31, "hidden_dimension": 1, "rank_nullity_sum": 32, "separating": false, "records": 31},
+    {"defect_dimension": 48, "revealed_rank": 47, "hidden_dimension": 1, "rank_nullity_sum": 48, "separating": false, "records": 47},
+    {"defect_dimension": 64, "revealed_rank": 63, "hidden_dimension": 1, "rank_nullity_sum": 64, "separating": false, "records": 63},
+    {"defect_dimension": 96, "revealed_rank": 95, "hidden_dimension": 1, "rank_nullity_sum": 96, "separating": false, "records": 95},
+    {"defect_dimension": 128, "revealed_rank": 127, "hidden_dimension": 1, "rank_nullity_sum": 128, "separating": false, "records": 127}
+  ],
+  "expanding_defect_space_counterexample": {
+    "coarse": {"defect_dimension": 1, "revealed_rank": 1, "hidden_dimension": 0, "rank_nullity_sum": 1, "separating": true},
+    "refined": {"defect_dimension": 2, "revealed_rank": 1, "hidden_dimension": 1, "rank_nullity_sum": 2, "separating": false},
+    "hidden_dimension_increases": true
+  },
+  "prior_art_boundary": "Injectivity/rank-nullity is standard finite-dimensional linear algebra and operationally parallels informational completeness and tomography. Octonion nonassociativity is classical. No PDT novelty is claimed for these mathematical ingredients.",
+  "open": "Derive from PDT primitives which record family is physically available at resource R, whether the defect space is fixed/nested under refinement, and whether record rank produces a same-input prediction distinct from quantum mechanics."
+}
