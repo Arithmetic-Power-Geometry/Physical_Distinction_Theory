@@ -1,0 +1,13 @@
+{
+  "cycle": 105,
+  "breakthrough_candidate": false,
+  "items": [
+    {"claim":"Infimal pushforward of an arbitrary extended-real cost is path independent under composition of resource maps.","status":["PROVED","IMPORTED/KNOWN"]},
+    {"claim":"Minimum-cost resource-refinement path independence forces quadratic/Hilbert geometry.","status":["FALSIFIED"],"smallest_useful_witness":"R^2 with l1 norm; parallelogram residual = 4."},
+    {"claim":"Resource-refinement path independence alone selects n=3.","status":["FALSIFIED"]},
+    {"claim":"Cycle-105 stress tests support the exact identities across stated dimensions/norms and arbitrary finite fibers.","status":["NUMERICALLY_SUPPORTED"]},
+    {"claim":"PDT physical primitives derive the infimal/minimum-cost coarse-graining rule.","status":["OPEN"]},
+    {"claim":"PDT independently derives a Hilbert-selecting parallelogram/polarization/interference law.","status":["OPEN"]},
+    {"claim":"A same-input PDT-vs-QM probability departure is established.","status":["OPEN"]}
+  ]
+}
