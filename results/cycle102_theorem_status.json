@@ -1,0 +1,30 @@
+{
+  "cycle": 102,
+  "items": [
+    {
+      "claim": "Orthogonal-generator commutators transform in so(n) ~= Lambda^2 V by conjugation.",
+      "status": "PROVED"
+    },
+    {
+      "claim": "Sequential commutators alone non-circularly force the determinant-twisted axial-vector closure used by the Cycle-091 n=3 selector.",
+      "status": "FALSIFIED"
+    },
+    {
+      "claim": "A full bivector-sector identification Lambda^2 V ~= V tensor det can be dimension-preserving only for positive n=3.",
+      "status": "PROVED"
+    },
+    {
+      "claim": "so(n), exterior bivectors, Hodge duality, and the 3D axial hat-map identity are established mathematics.",
+      "status": "IMPORTED/KNOWN"
+    },
+    {
+      "claim": "Random O(n) conjugation and O(3) axial-hat covariance checks agree with the exact identities.",
+      "status": "NUMERICALLY_SUPPORTED"
+    },
+    {
+      "claim": "PDT primitives independently require a vector-sized closed primitive generator sector rather than the generic bivector sector.",
+      "status": "OPEN"
+    }
+  ],
+  "breakthrough_candidate": false
+}
