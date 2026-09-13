@@ -1,0 +1,41 @@
+{
+  "cycle": 110,
+  "target": "PDT-II targets (1)/(2): test whether Jacobi coherence can be derived/used as a non-circular composition selector.",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY_SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "theorems": {
+    "akivis_identity_convention": {"status": "PROVED / IMPORTED-KNOWN", "statement": "For A=(xy)z-x(yz) and J_L=[x,[y,z]]+cyclic, J_L=-Alt(A)."},
+    "alternative_boundary": {"status": "PROVED / IMPORTED-KNOWN", "statement": "If A is alternating, Alt(A)=6A, hence J_L=-6A. Therefore in an alternative algebra the commutator satisfies Jacobi iff the product is associative."},
+    "jacobi_dimension_selector": {"status": "FALSIFIED", "statement": "Jacobi of the commutator does not select n=3. A nonassociative Lie-admissible algebra exists in dimension 2 and extends by an abelian zero-product summand to every n>=2."},
+    "weaker_than_associativity_in_alternative_branch": {"status": "FALSIFIED", "statement": "Within the alternative branch, Jacobi is not a weaker independent coherence axiom; it is equivalent to associativity."}
+  },
+  "smallest_counterexample": {
+    "dimension": 2,
+    "product": "e1*e2=e2; all other basis products zero",
+    "associator": "A(e1,e1,e2)=-e2 != 0",
+    "commutator": "[e1,e2]=e2, the 2D affine Lie algebra, so Jacobi holds identically."
+  },
+  "general_identity_exact_audit": {"checks": 720, "failures": 0, "max_abs_residual": 0},
+  "dimension_audit": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "n_2_through_12_basis_triple_failures": 0,
+    "all_n_ge_2_have_explicit_nonassociative_jacobi_coherent_extension": true,
+    "higher_dimension_certificate": "aff(1) direct-sum abelian zero-product coordinates"
+  },
+  "octonion_scaling_audit": {
+    "A_e1_e2_e4": [0,0,0,0,0,0,0,2],
+    "Jcomm_e1_e2_e4": [0,0,0,0,0,0,0,-12],
+    "Jcross_e1_e2_e4": [0,0,0,0,0,0,0,-3],
+    "ordered_imaginary_triples": 343,
+    "nonzero_associators": 168,
+    "Jcomm_plus_6A_failures": 0
+  },
+  "local_regression": {"tests_passed": 6, "tests_total": 6},
+  "prior_art_boundary": "Lie-admissible algebras, the Akivis identity, alternative algebras, and Malcev-admissibility of octonion commutators are established mathematics; no novelty is claimed for these algebraic facts.",
+  "pdt_consequence": "Cycle 109 cannot be made non-circular merely by postulating Jacobi. Without cross-product/alternative structure Jacobi is dimension-blind; with alternativity it collapses to associativity. PDT still needs an operationally derived law that is neither generic Jacobi nor associativity in disguise.",
+  "surviving_obligations": [
+    "Derive a composition constraint from PDT distinction/resource operations before choosing a Lie/cross-product algebraic representation.",
+    "Search for a measurable resource/revelation identity whose algebraic image excludes both the 2D Lie-admissible countermodel and the 7D octonionic branch.",
+    "Do not claim an n=3 derivation or PDT-vs-QM probability departure from Jacobi alone."
+  ]
+}
