@@ -1,0 +1,21 @@
+{
+  "cycle": 129,
+  "seed": 129,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "p_values": [1,2,4,"inf"],
+  "rank_one_checks": 564,
+  "rank_one_failures": 0,
+  "max_rank_one_relative_residual": 9.102237472961577e-16,
+  "local_orthogonal_invariance_checks": 564,
+  "local_orthogonal_invariance_failures": 0,
+  "max_invariance_relative_residual": 1.1187137799664875e-15,
+  "smallest_decisive_dimension": 2,
+  "n2_identity_values": {
+    "nuclear_p1": 2.0,
+    "frobenius_p2": 1.4142135623730951,
+    "schatten_p4": 1.189207115002721,
+    "operator_pinf": 1.0
+  },
+  "classification": ["PROVED","FALSIFIED","IMPORTED/KNOWN","NUMERICALLY SUPPORTED","OPEN"],
+  "breakthrough_candidate": false
+}
