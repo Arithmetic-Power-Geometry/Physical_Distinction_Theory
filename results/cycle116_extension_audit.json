@@ -1,0 +1,17 @@
+{
+  "cycle": 116,
+  "construction": "(a,m)*(b,n)=(a*b,a*n+m*b+lambda*a*b), coordinatewise",
+  "analytic_status": "Associativity and visible projection identity hold identically by direct expansion; primitive visible inputs generally produce a nonzero auxiliary-sector component.",
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "seed": 1160913,
+  "totals": {
+    "trials": 2960,
+    "associativity_failures": 0,
+    "projection_failures": 0,
+    "extra_sector_nonzero": 2839
+  },
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "OPEN"],
+  "falsified_claim": "Operational laws that depend only on the visible quotient force ontic same-sector closure.",
+  "surviving_requirement": "A PDT same-sector closure law must constrain physically real auxiliary sectors or otherwise make them operationally accessible; quotient-visible consistency alone cannot exclude them.",
+  "breakthrough_candidate": false
+}
