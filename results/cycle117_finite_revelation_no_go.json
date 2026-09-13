@@ -1,0 +1,26 @@
+{
+  "associativity_failures": 0,
+  "breakthrough_candidate": false,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "coarse_projection_failures": 0,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "nonzero_hidden_generated": 2883,
+  "refined_revelation_failures": 0,
+  "seed": 1170913,
+  "smallest_counterexample": {
+    "coarse_visible": [6],
+    "lambda": 1,
+    "n": 1,
+    "product": [[6],[6]],
+    "refined_visible": [[6],[6]],
+    "x": [[2],[0]],
+    "y": [[3],[0]]
+  },
+  "trials": 2960
+}
