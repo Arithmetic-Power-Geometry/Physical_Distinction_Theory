@@ -1,0 +1,14 @@
+{
+  "cycle": 119,
+  "seed": 119,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "trials": 1340,
+  "safe_failures": 0,
+  "unsafe_hidden_outputs": 1289,
+  "classification": {
+    "closure_theorem": "PROVED",
+    "resource_principle_as_PDT_native": "OPEN",
+    "abstract_mechanism_novelty": "IMPORTED/KNOWN",
+    "audit": "NUMERICALLY SUPPORTED"
+  }
+}
