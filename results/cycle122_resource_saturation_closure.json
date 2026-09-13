@@ -1,0 +1,15 @@
+{
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "randomized_trials": 950,
+  "saturation_failures": 0,
+  "leaking_total_conservation_witnesses": 934,
+  "smallest_leak_budget": 1,
+  "smallest_leak_visible": 0,
+  "smallest_leak_hidden": 1,
+  "classification": {
+    "saturation_closure_theorem": "PROVED / CONDITIONAL",
+    "total_conservation_implies_closure": "FALSIFIED",
+    "pdt_native_visible_saturation_derivation": "OPEN",
+    "breakthrough_candidate": false
+  }
+}
