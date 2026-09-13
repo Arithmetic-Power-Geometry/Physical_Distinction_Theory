@@ -1,0 +1,49 @@
+{
+  "cycle": 124,
+  "status": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED",
+    "FALSIFIED",
+    "OPEN"
+  ],
+  "theorem": "For n>=2, a nonzero SO(n)-equivariant bilinear map R^n x R^n -> R^n exists only for n=3. Under O(n), every such bilinear map is zero.",
+  "dimension_sweep": [
+    {"n": 1, "SO_dimension": 1, "O_dimension": 0},
+    {"n": 2, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 3, "SO_dimension": 1, "O_dimension": 0},
+    {"n": 4, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 5, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 6, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 7, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 8, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 9, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 10, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 11, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 12, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 16, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 24, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 32, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 48, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 64, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 96, "SO_dimension": 0, "O_dimension": 0},
+    {"n": 128, "SO_dimension": 0, "O_dimension": 0}
+  ],
+  "so3_random_audit": {
+    "seed": 124,
+    "trials": 1000,
+    "violations_at_1e-10": 0,
+    "max_residual": 4.070144838902081e-15
+  },
+  "reflection_counterexample": {
+    "R": "diag(-1,1,1)",
+    "x": "e2",
+    "y": "e3",
+    "lhs": [1, 0, 0],
+    "rhs": [-1, 0, 0],
+    "residual_norm": 2
+  },
+  "breakthrough_candidate": false,
+  "open_bottleneck": "PDT has not yet derived, from PDT primitives, a nonzero same-sector bilinear composition together with SO(n) rather than O(n) covariance."
+}
