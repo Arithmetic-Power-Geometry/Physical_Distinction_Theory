@@ -1,0 +1,54 @@
+{
+  "cycle": 111,
+  "target": "PDT-II (1)/(2): test whether Jacobi derived from smooth reversible composition can non-circularly select n=3.",
+  "classification": ["PROVED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "FALSIFIED", "OPEN"],
+  "breakthrough_candidate": false,
+  "validated_local_regression": {
+    "pytest": "5 passed",
+    "random_integer_audit": {
+      "trials": 250,
+      "seed": 111111,
+      "dimensions_sampled": [2,3,4,5,6,7,8,9,10,11,12,16,24],
+      "failures": 0,
+      "max_abs_jacobi_entry": 0.0,
+      "max_abs_skew_closure_entry": 0.0
+    }
+  },
+  "theorem_status": {
+    "matrix_commutator_jacobi": {
+      "status": "PROVED + IMPORTED/KNOWN",
+      "statement": "In every associative matrix algebra, the commutator satisfies Jacobi by direct expansion."
+    },
+    "so_n_closure": {
+      "status": "PROVED + IMPORTED/KNOWN",
+      "statement": "For skew-symmetric A,B, [A,B] is skew-symmetric, hence so(n) is closed under commutator for every n."
+    },
+    "jacobi_dimension_selector": {
+      "status": "FALSIFIED",
+      "statement": "Jacobi coherence inherited from reversible matrix composition is satisfied by so(n) for every n and cannot select n=3."
+    },
+    "generator_state_dimension_match": {
+      "status": "PROVED but EXTRA PREMISE",
+      "statement": "dim so(n)=n(n-1)/2 equals n only for positive n=3, but identifying the entire generator sector with an n-dimensional state/vector sector is not derived by Jacobi."
+    },
+    "pdt_native_closure": {
+      "status": "OPEN",
+      "statement": "PDT must derive why physically primitive reversible generators are exhausted by an n-dimensional state-like sector, or find another pre-Hodge dimension-sensitive principle."
+    }
+  },
+  "dimension_match_solutions_1_to_128": [3],
+  "dimension_ledger_summary": {
+    "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "jacobi_failures": 0,
+    "skew_closure_failures": 0,
+    "exact_exhaustive_through_n": 6,
+    "higher_dimension_check": "deterministic structured basis triples; theorem itself proved algebraically for all n"
+  },
+  "smallest_non3_counterexample": {
+    "n": 2,
+    "generator_dimension": 1,
+    "statement": "so(2) satisfies Jacobi, so Jacobi survives outside n=3 at the smallest nontrivial rotation dimension."
+  },
+  "prior_art_boundary": "Lie groups/Lie algebras, matrix-commutator Jacobi and dim so(n)=n(n-1)/2 are standard mathematics. No novelty is claimed.",
+  "surviving_obligation": "Find a PDT-native operational/resource derivation of generator-state closure or another dimension-sensitive principle."
+}
