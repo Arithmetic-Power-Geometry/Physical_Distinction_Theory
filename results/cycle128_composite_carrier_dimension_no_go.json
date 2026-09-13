@@ -1,0 +1,44 @@
+{
+  "cycle": 128,
+  "classification": {
+    "dimension_bound": "PROVED",
+    "same_carrier_for_n_gt_1_under_product_independence": "FALSIFIED",
+    "tensor_product_universal_property": "IMPORTED/KNOWN",
+    "pdt_native_composite_law": "OPEN"
+  },
+  "hypotheses": [
+    "finite-dimensional real vector spaces V_A, V_B, W",
+    "bilinear product map mu: V_A x V_B -> W",
+    "the product images mu(e_i,f_j) are linearly independent (product-distinguishability / no product-direction collapse)"
+  ],
+  "theorem": "dim(W) >= dim(V_A)*dim(V_B)",
+  "equal_dimension_corollary": "for dim(V_A)=dim(V_B)=n>1, W cannot also have dimension n",
+  "smallest_decisive_case": {
+    "n": 2,
+    "required": 4,
+    "same_carrier": 2,
+    "minimum_kernel": 2
+  },
+  "rows": [
+    {"n":1,"independent_product_directions_required":1,"same_carrier_dimension":1,"minimum_kernel_if_forced_into_same_carrier":0,"same_carrier_compatible_with_independence":true},
+    {"n":2,"independent_product_directions_required":4,"same_carrier_dimension":2,"minimum_kernel_if_forced_into_same_carrier":2,"same_carrier_compatible_with_independence":false},
+    {"n":3,"independent_product_directions_required":9,"same_carrier_dimension":3,"minimum_kernel_if_forced_into_same_carrier":6,"same_carrier_compatible_with_independence":false},
+    {"n":4,"independent_product_directions_required":16,"same_carrier_dimension":4,"minimum_kernel_if_forced_into_same_carrier":12,"same_carrier_compatible_with_independence":false},
+    {"n":5,"independent_product_directions_required":25,"same_carrier_dimension":5,"minimum_kernel_if_forced_into_same_carrier":20,"same_carrier_compatible_with_independence":false},
+    {"n":6,"independent_product_directions_required":36,"same_carrier_dimension":6,"minimum_kernel_if_forced_into_same_carrier":30,"same_carrier_compatible_with_independence":false},
+    {"n":7,"independent_product_directions_required":49,"same_carrier_dimension":7,"minimum_kernel_if_forced_into_same_carrier":42,"same_carrier_compatible_with_independence":false},
+    {"n":8,"independent_product_directions_required":64,"same_carrier_dimension":8,"minimum_kernel_if_forced_into_same_carrier":56,"same_carrier_compatible_with_independence":false},
+    {"n":9,"independent_product_directions_required":81,"same_carrier_dimension":9,"minimum_kernel_if_forced_into_same_carrier":72,"same_carrier_compatible_with_independence":false},
+    {"n":10,"independent_product_directions_required":100,"same_carrier_dimension":10,"minimum_kernel_if_forced_into_same_carrier":90,"same_carrier_compatible_with_independence":false},
+    {"n":11,"independent_product_directions_required":121,"same_carrier_dimension":11,"minimum_kernel_if_forced_into_same_carrier":110,"same_carrier_compatible_with_independence":false},
+    {"n":12,"independent_product_directions_required":144,"same_carrier_dimension":12,"minimum_kernel_if_forced_into_same_carrier":132,"same_carrier_compatible_with_independence":false},
+    {"n":16,"independent_product_directions_required":256,"same_carrier_dimension":16,"minimum_kernel_if_forced_into_same_carrier":240,"same_carrier_compatible_with_independence":false},
+    {"n":24,"independent_product_directions_required":576,"same_carrier_dimension":24,"minimum_kernel_if_forced_into_same_carrier":552,"same_carrier_compatible_with_independence":false},
+    {"n":32,"independent_product_directions_required":1024,"same_carrier_dimension":32,"minimum_kernel_if_forced_into_same_carrier":992,"same_carrier_compatible_with_independence":false},
+    {"n":48,"independent_product_directions_required":2304,"same_carrier_dimension":48,"minimum_kernel_if_forced_into_same_carrier":2256,"same_carrier_compatible_with_independence":false},
+    {"n":64,"independent_product_directions_required":4096,"same_carrier_dimension":64,"minimum_kernel_if_forced_into_same_carrier":4032,"same_carrier_compatible_with_independence":false},
+    {"n":96,"independent_product_directions_required":9216,"same_carrier_dimension":96,"minimum_kernel_if_forced_into_same_carrier":9120,"same_carrier_compatible_with_independence":false},
+    {"n":128,"independent_product_directions_required":16384,"same_carrier_dimension":128,"minimum_kernel_if_forced_into_same_carrier":16256,"same_carrier_compatible_with_independence":false}
+  ],
+  "guard_failures": []
+}
