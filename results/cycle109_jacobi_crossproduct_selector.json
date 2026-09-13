@@ -1,0 +1,84 @@
+{
+  "cycle": 109,
+  "target": "PDT-II (1)/(2): test Jacobi-coherent vector composition as an n=3 selector.",
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "exact": {
+    "cross3": {
+      "dimension": 3,
+      "ordered_basis_triples": 27,
+      "jacobi_failures": 0,
+      "max_jacobi_norm_sq": 0,
+      "first_failure": null
+    },
+    "cross7": {
+      "dimension": 7,
+      "ordered_basis_triples": 343,
+      "jacobi_failures": 168,
+      "max_jacobi_norm_sq": 9,
+      "first_failure": {
+        "triple": [1,2,4],
+        "jacobi": [0,0,0,0,0,0,-3],
+        "norm_sq": 9
+      }
+    },
+    "norm3": {
+      "dimension": 3,
+      "basis_pairs": 9,
+      "norm_identity_failures": 0
+    },
+    "norm7": {
+      "dimension": 7,
+      "basis_pairs": 49,
+      "norm_identity_failures": 0
+    }
+  },
+  "random": {
+    "3": {
+      "trials": 4000,
+      "nonzero_jacobi_gt_1e-9": 0,
+      "max_jacobi_norm": 5.0242958677880805e-15
+    },
+    "7": {
+      "trials": 4000,
+      "nonzero_jacobi_gt_1e-9": 3056,
+      "max_jacobi_norm": 80.049984384758
+    }
+  },
+  "dimension_ledger": [
+    {"n":1,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":2,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":3,"nontrivial_normed_binary_vector_cross_product_possible":true,"survives_cross_product_plus_jacobi":true,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":4,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":5,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":6,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":7,"nontrivial_normed_binary_vector_cross_product_possible":true,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":8,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":9,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":10,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":11,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":12,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":16,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":24,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":32,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":48,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":64,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":96,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"},
+    {"n":128,"nontrivial_normed_binary_vector_cross_product_possible":false,"survives_cross_product_plus_jacobi":false,"status":"IMPORTED/KNOWN classification boundary"}
+  ],
+  "conditional_selector": {
+    "status": "CONDITIONAL + IMPORTED/KNOWN",
+    "statement": "Among nontrivial Euclidean binary vector cross products, dimensions are 3 or 7; imposing Jacobi removes the standard 7D octonionic branch, leaving n=3."
+  },
+  "pdt_native_gap": {
+    "status": "OPEN",
+    "statement": "PDT has not derived from its own distinction/resource primitives that primitive composition must be a normed vector cross product or must satisfy Jacobi. Using those as axioms would not be a non-circular PDT-native derivation."
+  },
+  "prior_art_boundary": "Vector-cross-product dimension restriction and 7D Jacobi failure are established mathematics; no novelty claim."
+}
