@@ -1,0 +1,31 @@
+{
+  "cycle": 130,
+  "classification": [
+    "PROVED",
+    "CONDITIONAL",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "FALSIFIED(non-Hilbert Schatten alternatives under parallelogram law)",
+    "OPEN(PDT-native derivation of the composite parallelogram law)"
+  ],
+  "breakthrough_candidate": false,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "random_cases": 860,
+  "frobenius_parallelogram_failures": 0,
+  "frobenius_covariance_failures": 0,
+  "max_relative_parallelogram_gap": 1.794573123523998e-15,
+  "max_relative_covariance_error": 6.160050785910573e-16,
+  "n2_exact_witness_gaps": {
+    "1.0": 4.0,
+    "2.0": 8.881784197001252e-16,
+    "4.0": -1.1715728752538102,
+    "inf": -2.0
+  },
+  "exact_n2_gaps_symbolic": {
+    "p=1": "4",
+    "p=2": "0",
+    "p=4": "2*sqrt(2)-4",
+    "p=infinity": "-2"
+  },
+  "theorem": "parallelogram + O(n)xO(n) covariance + simple-tensor normalization uniquely selects Frobenius norm on M_n(R)"
+}
