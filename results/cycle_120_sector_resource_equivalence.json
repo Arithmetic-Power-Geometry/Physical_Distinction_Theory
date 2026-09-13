@@ -1,0 +1,20 @@
+{
+  "cycle": 120,
+  "title": "Sector-resource circularity guard",
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "OPEN"],
+  "breakthrough_candidate": false,
+  "theorem": "If H>=0 and H^{-1}(0)=V, then on visible inputs C(V,V) subset V iff H(C(x,y)) <= H(x)+H(y) for all x,y in V.",
+  "smallest_leak_dimension": 1,
+  "smallest_leak_witness": {"x": [1, 0], "y": [1, 0], "output": [1, 1], "H_inputs": [0, 0], "H_output": 1},
+  "stress_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "pair_checks": 5216,
+  "equivalence_mismatches": 0,
+  "leaking_nonzero_hidden_outputs": 1094,
+  "preserving_nonzero_hidden_outputs": 0,
+  "observation_separation": {
+    "nonseparating_family": "first n-1 coordinate observations; e_n remains invisible",
+    "separating_family": "all n coordinate observations",
+    "finite_dimensional_consequence": "a finite separating subfamily yields H(m)=sum ||O_j m||^2, faithful on M"
+  },
+  "open_target": "Derive an independent PDT-native dynamical law that constrains sector generation without merely restating invariance of V."
+}
