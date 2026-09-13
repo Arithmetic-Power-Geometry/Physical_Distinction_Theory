@@ -1,0 +1,24 @@
+{
+  "cycle": 121,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY SUPPORTED",
+    "OPEN"
+  ],
+  "breakthrough_candidate": false,
+  "stress_dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "visible_transcript_checks": 3040,
+  "visible_transcript_mismatches": 0,
+  "associativity_failures": 0,
+  "trials_with_hidden_leakage": 1472,
+  "smallest_leak_dimension": 1,
+  "smallest_leak_witness": {
+    "x": [1,0],
+    "y": [1,0],
+    "output": [1,1]
+  },
+  "theorem": "Any law expressible solely through a quotient homomorphism pi and functions of pi is inherited unchanged by an associative extension with the same quotient, so such visible-only laws cannot imply microscopic same-sector closure.",
+  "open_target": "Find a PDT-native law with microscopic/sector-sensitive content not factorizable through the visible quotient."
+}
