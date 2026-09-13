@@ -1,0 +1,26 @@
+{
+  "cycle": 131,
+  "seed": 131011,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "p_values": ["1","2","4","inf"],
+  "p_evaluations": 4540,
+  "p2_failures": 0,
+  "max_abs_p2_gap": 8.526512829121202e-14,
+  "rank_ge2_non2_cases": 2970,
+  "rank_ge2_non2_distinguished": 2970,
+  "rank_le1_indistinguishability_failures": 0,
+  "svd_reconstruction_cases": 924,
+  "max_relative_svd_residual": 7.404815150819283e-16,
+  "minimal_witness": {
+    "dimension": 2,
+    "matrix": "I_2 = E_11 + E_22",
+    "required_squared_resource": 2.0,
+    "p1_gap": 2.0,
+    "p2_gap": 4.440892098500626e-16,
+    "p4_gap": -0.5857864376269051,
+    "pinf_gap": -1.0
+  },
+  "status": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "FALSIFIED", "OPEN"],
+  "breakthrough_candidate": false,
+  "notes": "Exact proof: composite biorthogonal quadratic revelation plus product calibration forces Frobenius geometry by SVD. Exact counterexample: local quadratic revelation, rank-one calibration, and local orthogonal covariance alone do not imply the composite law; Schatten p != 2 violates it at rank 2. Numerical results are regression evidence only."
+}
