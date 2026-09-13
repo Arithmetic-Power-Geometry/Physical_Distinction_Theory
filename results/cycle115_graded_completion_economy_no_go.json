@@ -1,0 +1,48 @@
+{
+  "cycle": 115,
+  "target": "PDT-II targets (1)/(2): test whether generic compositional economy/minimal graded-carrier principles can force same-sector closure or select n=3.",
+  "breakthrough_candidate": false,
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "OPEN"],
+  "candidate_principle": {
+    "hypotheses": [
+      "A primitive n-dimensional sector may complete into a standard graded carrier needed for recursive composition.",
+      "Physical economy is represented by minimizing carrier dimension per primitive dimension.",
+      "No n-specific constant or target dimension is inserted into the cost."
+    ],
+    "claim_tested": "Minimizing standard completion overhead selects n=3 or supplies a non-circular reason for same-sector closure.",
+    "status": "FALSIFIED"
+  },
+  "costs": {
+    "full_exterior_or_clifford": "2^n/n",
+    "even_clifford": "2^(n-1)/n",
+    "scalar_vector_bivector": "(1+n+C(n,2))/n = (n+1)/2 + 1/n",
+    "vector_bivector": "(n+C(n,2))/n = (n+1)/2"
+  },
+  "analytic_minimizers": {
+    "full_exterior_or_clifford": {"minimum": "2", "n": [1, 2], "proof": "f(n+1)/f(n)=2n/(n+1); equality at n=1 and strict increase for n>1."},
+    "even_clifford": {"minimum": "1", "n": [1, 2], "proof": "Exactly one half of the full-completion overhead."},
+    "scalar_vector_bivector": {"minimum": "2", "n": [1, 2], "proof": "f(1)=f(2)=2 and f(n+1)-f(n)=1/2-1/(n(n+1))>0 for n>=2."},
+    "vector_bivector": {"minimum": "1", "n": [1], "proof": "f(n)=(n+1)/2 is strictly increasing."}
+  },
+  "n3_values": {
+    "full_exterior_or_clifford": "8/3",
+    "even_clifford": "4/3",
+    "scalar_vector_bivector": "7/3",
+    "vector_bivector": "2"
+  },
+  "dimension_stress": {
+    "tested": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+    "exact_arithmetic_failures": 0,
+    "analytic_extension": "The monotonicity proofs cover all positive integer n, not only the stress dimensions."
+  },
+  "validation": {
+    "local_pytest": "6 passed",
+    "theorem_checks": {"full_min_n1_n2": true, "even_min_n1_n2": true, "svb_min_n1_n2": true, "vb_min_n1": true}
+  },
+  "scope_guard": "This falsifies these canonical dimension-economy selectors, not every possible PDT-native resource functional. Norm, dynamics, thermodynamics, pure/mixed-state and Markovian distinctions are orthogonal to these particular costs because the costs depend only on carrier dimension.",
+  "prior_art_boundary": "The graded dimensions dim Lambda^k(V)=C(n,k), dim Lambda(V)=2^n, and dim Cl(V,Q)=2^n are standard mathematics and are not claimed as PDT novelty.",
+  "pdt_consequence": "A non-circular n=3 derivation cannot appeal merely to minimal dimension or relative overhead of these standard graded completions. PDT needs an independently derived operational/resource cost whose form is physically justified and whose n=3 minimum is not inserted by construction.",
+  "next_obligation": "Derive or falsify a PDT-native same-operational-type/resource law that distinguishes admissible output sectors operationally rather than by generic carrier size.",
+  "same_input_prediction_status": "OPEN: no P_PDT != P_QM prediction follows from this no-go.",
+  "gravity_capacity_status": "OPEN / NOT ATTACKED: no gravity law imported."
+}
