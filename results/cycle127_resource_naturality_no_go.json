@@ -1,0 +1,13 @@
+{
+  "breakthrough_candidate": false,
+  "cycle": 127,
+  "degree2_covariance_failures": 0,
+  "dimensions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 24, 32, 48, 64, 96, 128],
+  "exact_scaling_identity_failures": 0,
+  "lambdas": [0.25, 0.5, 0.75],
+  "naive_naturality_nonzero_residual_trials": 1140,
+  "random_trials": 1140,
+  "status": ["PROVED", "FALSIFIED", "NUMERICALLY SUPPORTED", "OPEN"],
+  "theorem": "For bilinear B and T_lambda=lambda I with lambda not in {0,1}, B(T_lambda x,T_lambda y)=T_lambda B(x,y) for all x,y iff B=0.",
+  "trials_per_dimension_lambda": 20
+}
