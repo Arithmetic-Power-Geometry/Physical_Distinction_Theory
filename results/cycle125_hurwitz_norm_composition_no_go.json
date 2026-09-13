@@ -1,0 +1,38 @@
+{
+  "cycle": 125,
+  "candidate": "unital bilinear positive-definite norm-multiplicative same-sector composition",
+  "status": ["FALSIFIED", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "OPEN"],
+  "known_theorem": "Hurwitz composition-algebra theorem",
+  "theorem_consequence": "finite-dimensional real positive-definite unital composition algebras have dimensions 1,2,4,8; n=3 is excluded",
+  "allowed_dimensions": [1, 2, 4, 8],
+  "dimension_audit": [
+    {"dimension": 1, "compatible_with_positive_definite_unital_bilinear_norm_composition": true, "n3_selected": false},
+    {"dimension": 2, "compatible_with_positive_definite_unital_bilinear_norm_composition": true, "n3_selected": false},
+    {"dimension": 3, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 4, "compatible_with_positive_definite_unital_bilinear_norm_composition": true, "n3_selected": false},
+    {"dimension": 5, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 6, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 7, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 8, "compatible_with_positive_definite_unital_bilinear_norm_composition": true, "n3_selected": false},
+    {"dimension": 9, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 10, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 11, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 12, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 16, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 24, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 32, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 48, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 64, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 96, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false},
+    {"dimension": 128, "compatible_with_positive_definite_unital_bilinear_norm_composition": false, "n3_selected": false}
+  ],
+  "explicit_construction_audits": [
+    {"basis": {"dimension": 1, "basis_product_checks": 1, "unit_failures": 0, "basis_norm_failures": 0}, "random": {"dimension": 1, "trials": 500, "failures_at_1e-12": 0, "max_relative_error": 3.212500316967653e-16}},
+    {"basis": {"dimension": 2, "basis_product_checks": 4, "unit_failures": 0, "basis_norm_failures": 0}, "random": {"dimension": 2, "trials": 500, "failures_at_1e-12": 0, "max_relative_error": 4.189169043469716e-16}},
+    {"basis": {"dimension": 4, "basis_product_checks": 16, "unit_failures": 0, "basis_norm_failures": 0}, "random": {"dimension": 4, "trials": 500, "failures_at_1e-12": 0, "max_relative_error": 5.58142749050318e-16}},
+    {"basis": {"dimension": 8, "basis_product_checks": 64, "unit_failures": 0, "basis_norm_failures": 0}, "random": {"dimension": 8, "trials": 500, "failures_at_1e-12": 0, "max_relative_error": 5.677666568157706e-16}}
+  ],
+  "smallest_counterdirection": {"dimension": 1, "algebra": "R", "reason": "all candidate axioms already hold, so they do not select n=3"},
+  "pdt_boundary": "Do not add exact norm multiplicativity plus a unit as an n=3 selector. The surviving SO(n)-equivariant bilinear route must remain non-unital/area-like unless a different PDT-native principle is derived.",
+  "breakthrough_candidate": false
+}
