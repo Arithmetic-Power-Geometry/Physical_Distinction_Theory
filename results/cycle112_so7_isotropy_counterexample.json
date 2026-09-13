@@ -1,0 +1,23 @@
+{
+  "cycle": 112,
+  "targets": [1, 2],
+  "classification": ["PROVED", "FALSIFIED", "IMPORTED/KNOWN", "OPEN"],
+  "breakthrough_candidate": false,
+  "decisive_counterexample": {
+    "status": "FALSIFIED",
+    "claim": "The standard 7D octonionic cross product is equivariant under the full SO(7) group.",
+    "witness": {
+      "det_R": 1.0,
+      "orthogonality_residual": 0.0,
+      "lhs_cross_Re1_Re2": [0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0],
+      "rhs_R_cross_e1_e2": [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0],
+      "covariance_residual": 2.0,
+      "is_SO7": true
+    }
+  },
+  "dimensions_audited": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "full_SO_n_vector_cross_product_candidate_under_cycle089_selector": [3],
+  "prior_art_boundary": "The imaginary-octonion cross product and its G2 symmetry group are imported/known mathematics. This is a counterexample artifact, not a novelty claim.",
+  "pdt_consequence": "The n=7 normed-cross-product branch cannot satisfy full SO(7) covariance. Full SO(n) covariance would eliminate n=7, but PDT has not derived that premise non-circularly.",
+  "next_obligation": "Derive or falsify full SO(n) covariance and vector-valued alternating closure from PDT primitives without cross-product, Hodge-star, or dimension-matching assumptions."
+}
