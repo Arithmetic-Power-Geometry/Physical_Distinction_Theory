@@ -1,0 +1,57 @@
+{
+  "cycle": 113,
+  "title": "Bivector-sector closure no-go for n=3 selection",
+  "primary_targets": [1, 2],
+  "breakthrough_candidate": false,
+  "classifications": ["PROVED", "FALSIFIED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED", "OPEN"],
+  "results": {
+    "bivector_countermodel": {
+      "status": "PROVED / IMPORTED/KNOWN",
+      "statement": "For every real Euclidean V, B(x,y)=x∧y in Λ²V is bilinear, alternating, O(n)-natural, and satisfies ||x∧y||²=||x||²||y||²-<x,y>²."
+    },
+    "dimension_selector_without_closure": {
+      "status": "FALSIFIED",
+      "statement": "Alternation + full rotational covariance + exact Euclidean area law do not imply n=3 when the composition codomain may be Λ²V.",
+      "smallest_nontrivial_dimension": 2
+    },
+    "vector_valued_closure": {
+      "status": "CONDITIONAL / OPEN",
+      "statement": "If PDT independently requires an isomorphic identification Λ²V≅V, dimension equality gives n=3 among positive nontrivial dimensions; deriving that closure is still open.",
+      "dimension_equation_solutions_nonnegative": [0, 3]
+    },
+    "non_hilbert_norm_boundary": {
+      "status": "FALSIFIED",
+      "statement": "The Euclidean Gram-area identity cannot simply be transplanted to arbitrary norms.",
+      "witness": {"x": [1.0, 1.0], "y": [1.0, -1.0], "wedge_coefficient_norm_squared": 4.0, "naive_l1_gram_rhs": 16.0, "equal": false}
+    }
+  },
+  "dimension_ledger": [
+    {"n":1,"bivector_dimension":0,"basis_pairs":1,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":2,"bivector_dimension":1,"basis_pairs":4,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":3,"bivector_dimension":3,"basis_pairs":9,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":4,"bivector_dimension":6,"basis_pairs":16,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":5,"bivector_dimension":10,"basis_pairs":25,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":6,"bivector_dimension":15,"basis_pairs":36,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":7,"bivector_dimension":21,"basis_pairs":49,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":8,"bivector_dimension":28,"basis_pairs":64,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":9,"bivector_dimension":36,"basis_pairs":81,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":10,"bivector_dimension":45,"basis_pairs":100,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":11,"bivector_dimension":55,"basis_pairs":121,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":12,"bivector_dimension":66,"basis_pairs":144,"gram_identity_failures":0,"mode":"exact exhaustive basis-pair audit"},
+    {"n":16,"bivector_dimension":120,"basis_pairs":256,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":24,"bivector_dimension":276,"basis_pairs":576,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":32,"bivector_dimension":496,"basis_pairs":1024,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":48,"bivector_dimension":1128,"basis_pairs":2304,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":64,"bivector_dimension":2016,"basis_pairs":4096,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":96,"bivector_dimension":4560,"basis_pairs":9216,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"},
+    {"n":128,"bivector_dimension":8128,"basis_pairs":16384,"gram_identity_failures":0,"mode":"analytic basis-pair certificate"}
+  ],
+  "randomized_audit": {"seed": 113113, "cases": 585, "gram_failures_gt_1e-9": 0, "equivariance_failures_gt_1e-9": 0, "max_gram_residual": 0.0, "max_equivariance_residual": 0.0},
+  "composite_audit": {"cases": 144, "failures": 0, "identity": "dim Λ²(A⊕B)=dim Λ²A + dim(A⊗B) + dim Λ²B"},
+  "prior_art_boundary": "Exterior powers, wedge naturality, induced Gram inner products, Hodge duality, and the 3D bivector-vector identification are standard mathematics. No mathematical novelty is claimed.",
+  "surviving_obligations": [
+    "Derive or falsify vector-valued closure of primitive PDT composition from distinction/resource primitives without importing cross-product or Hodge-star structure.",
+    "If closure survives, test whether the identification is physically canonical under the declared reversible group and resource window.",
+    "No same-input PDT-vs-QM probability departure follows from this cycle."
+  ]
+}
