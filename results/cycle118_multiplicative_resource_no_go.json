@@ -1,0 +1,22 @@
+{
+  "seed": 1180913,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "trials": 1480,
+  "scalar_associativity_cases": 21609,
+  "scalar_associativity_failures": 0,
+  "scalar_resource_failures": 0,
+  "vector_associativity_failures": 0,
+  "vector_resource_failures": 0,
+  "hidden_generation_trials": 1442,
+  "smallest_explicit_witness": {
+    "n": 1,
+    "x": [2,0],
+    "y": [3,0],
+    "product": [0,12],
+    "q_x": 8,
+    "q_y": 18,
+    "q_product": 144
+  },
+  "classification": ["PROVED","FALSIFIED","IMPORTED/KNOWN","NUMERICALLY_SUPPORTED","OPEN"],
+  "breakthrough_candidate": false
+}
