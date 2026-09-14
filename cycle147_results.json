@@ -1,0 +1,28 @@
+{
+  "cycle": 147,
+  "seed": 147,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "chains": 1320,
+  "endpoint_failures": 0,
+  "schur_convex_orientation_violations": 1240,
+  "schur_concave_orientation_violations": 1240,
+  "nonadditive_random_cases": 1240,
+  "max_endpoint_residual": 6.661338147750939e-16,
+  "exact_witness": {
+    "p": ["3/4","1/4"],
+    "phi": "25/28",
+    "pure_phi": "1",
+    "uniform_phi": "1",
+    "gap_from_endpoints": "-3/28"
+  },
+  "classification": {
+    "proved": "If a resource on each fixed-sum simplex is Schur-monotone (either orientation) and has equal pure and uniform endpoint calibration, it equals the common endpoint value everywhere.",
+    "falsified": "The Cycle-146 continuous multiplicative counterfamily can also satisfy majorization monotonicity.",
+    "conditional": "PDT additive composition follows if PDT-native axioms imply majorization monotonicity plus pure/uniform calibration.",
+    "imported_known": "Majorization/Schur monotonicity and endpoint ordering are classical.",
+    "open": "Derive the required monotonicity from PDT operational primitives without assuming additivity.",
+    "breakthrough_candidate": false
+  },
+  "prior_art_boundary": "Majorization and Schur monotonicity are classical; no PDT novelty claimed for the squeeze mechanism.",
+  "breakthrough_candidate": false
+}
