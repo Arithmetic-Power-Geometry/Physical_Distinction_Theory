@@ -1,0 +1,12 @@
+{
+  "cycle": 139,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "seed": 139,
+  "tolerance": 1e-10,
+  "cases_per_family": 1300,
+  "failures": {"degree2_covariance":0,"degree2_antisymmetry":0,"degree2_null":0,"degree2_scaling":0,"cubic_covariance":0,"cubic_antisymmetry":0,"cubic_null":0,"cubic_degree3_scaling":0},
+  "max_residuals": {"degree2_covariance":5.970161683235676e-16,"degree2_antisymmetry":0.0,"degree2_null":0.0,"degree2_scaling":1.4691860190132483e-15,"cubic_covariance":8.818804038212864e-16,"cubic_antisymmetry":0.0,"cubic_null":0.0,"cubic_degree3_scaling":7.72891374547005e-16},
+  "cubic_degree2_violations": 1300,
+  "exact_degree2_nonquadratic_witness": {"dimension":1,"u":[1,1],"v":[1,-1],"parallelogram_lhs":0,"parallelogram_rhs":4,"gap":-4},
+  "classification": {"derived_bridge":"CONDITIONAL/PROVED under stated hypotheses","degree2_without_C2":"FALSIFIED as sufficient","smooth_without_degree2":"FALSIFIED as sufficient","prior_art_math":"IMPORTED/KNOWN","stress_tests":"NUMERICALLY SUPPORTED","PDT_native_hypotheses":"OPEN","breakthrough_candidate":false}
+}
