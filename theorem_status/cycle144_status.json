@@ -1,0 +1,29 @@
+{
+  "cycle": 144,
+  "primary_target": "PDT-native composition law / unequal resolved refinement",
+  "results": [
+    {
+      "name": "Unequal-refinement quadratic selector",
+      "status": ["PROVED", "CONDITIONAL"],
+      "statement": "If a nonnegative resolved-channel resource g obeys g(r)=g(r*sqrt(lambda))+g(r*sqrt(1-lambda)) for every r>=0 and lambda in [0,1], then g(r)=c r^2; unit calibration gives g(r)=r^2."
+    },
+    {
+      "name": "All equal refinements determine full composition",
+      "status": ["FALSIFIED"],
+      "statement": "False even with permutation symmetry and zero-padding stability; explicit nonseparable counterfamily is frozen in the cycle-144 note and code."
+    },
+    {
+      "name": "Connection to frame-function/effect-additivity mathematics",
+      "status": ["IMPORTED/KNOWN"]
+    },
+    {
+      "name": "Dimension/refinement stress audit",
+      "status": ["NUMERICALLY SUPPORTED"]
+    },
+    {
+      "name": "PDT-native derivation of arbitrary unequal resolved additivity",
+      "status": ["OPEN"]
+    }
+  ],
+  "breakthrough_candidate": false
+}
