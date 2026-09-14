@@ -1,0 +1,23 @@
+{
+  "cycle": 140,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "cases": 830,
+  "covariance_failures": 0,
+  "homogeneity_failures": 0,
+  "antisymmetry_failures": 0,
+  "sector_null_failures": 0,
+  "max_covariance_residual": 1.054379253234475e-15,
+  "max_positive_quadratic_homogeneity_residual": 9.777686967753793e-16,
+  "smallest_non_hessian_witness": {
+    "n": 1,
+    "parallelogram_gap": [2.0],
+    "gap_squared": 4.0
+  },
+  "classification": {
+    "PROVED": "The explicit family B(x,y)=||y||x-||x||y satisfies continuity, alternation, sector-nullness, O(n) covariance and positive common degree-two homogeneity algebraically in every dimension.",
+    "FALSIFIED": "Raywise positive quadratic response, even in every direction, is enough to imply a joint Hessian/bilinearity or select n=3.",
+    "NUMERICALLY_SUPPORTED": "830 seeded regression cases across n=1..12,16,24,32,48,64,96,128 produced zero identity failures.",
+    "OPEN": "Derive genuinely joint second-order Frechet regularity, a polarization identity, or an equivalent two-direction response law from PDT-native primitives.",
+    "BREAKTHROUGH_CANDIDATE": false
+  }
+}
