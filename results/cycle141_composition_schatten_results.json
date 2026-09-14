@@ -1,0 +1,26 @@
+{
+  "cycle": 141,
+  "seed": 141,
+  "tolerance": 1e-10,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "p_values": [1,2,3,4],
+  "resource_definition": "R_p(A)=sum_i sigma_i(A)^p",
+  "total_p_cases": 664,
+  "orthogonal_invariance_failures": 0,
+  "direct_sum_additivity_failures": 0,
+  "tensor_multiplicativity_failures": 0,
+  "rank_one_formula_failures": 0,
+  "max_relative_orthogonal_residual": 2.881491765077634e-15,
+  "max_relative_direct_sum_residual": 1.290690224035546e-15,
+  "max_relative_tensor_residual": 2.806491110036608e-15,
+  "max_relative_rank_one_residual": 2.8102847592101746e-15,
+  "exact_distinguishing_witness": {
+    "A": [[1,0],[0,2]],
+    "R_1": 3.0,
+    "R_2": 5.0,
+    "R_3": 9.0,
+    "R_4": 17.0,
+    "conclusion": "Composition axioms tested here do not select p=2."
+  },
+  "local_pytest": "5 passed"
+}
