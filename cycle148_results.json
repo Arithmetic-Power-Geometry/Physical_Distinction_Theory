@@ -1,0 +1,29 @@
+{
+  "cycle": 148,
+  "seed": 148,
+  "dimensions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 24, 32, 48, 64, 96, 128],
+  "random_cases": 1320,
+  "failures": {
+    "uniformization_nonincrease": 0,
+    "permutation": 0,
+    "homogeneity": 0,
+    "zero_padding": 0
+  },
+  "max_relative_residual": 6.962723201180885e-16,
+  "exact_chain": {
+    "vertex": [1, 0],
+    "interior": [0.75, 0.25],
+    "uniform": [0.5, 0.5],
+    "F_vertex": 1.0,
+    "F_interior": 1.0211994179028314,
+    "F_uniform": 1.0,
+    "interior_excess": 0.02119941790283142
+  },
+  "classification": {
+    "PROVED": "The explicit counterfamily is continuous, symmetric, positively homogeneous, zero-padding stable, calibrated on every equal-support uniform vector, and nonincreasing under complete uniformization.",
+    "FALSIFIED": "Complete uniformization monotonicity plus endpoint/equal-split calibration implies global Schur monotonicity.",
+    "NUMERICALLY_SUPPORTED": "The dimension/random stress audit is a regression check; the counterexample itself is analytic.",
+    "OPEN": "Derive monotonicity under arbitrary partial T-transforms from PDT-native refinement/revelation operations.",
+    "BREAKTHROUGH_CANDIDATE": false
+  }
+}
