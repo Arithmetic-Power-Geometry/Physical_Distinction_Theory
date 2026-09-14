@@ -1,0 +1,27 @@
+{
+  "cycle": 140,
+  "results": [
+    {
+      "statement": "B(x,y)=||y||x-||x||y is continuous, alternating, sector-null, O(n)-equivariant, nonzero, and positively 2-homogeneous for every n>=1.",
+      "status": "PROVED"
+    },
+    {
+      "statement": "Positive-ray quadratic response plus continuity, alternation, sector-nullness and full rotational covariance implies a joint Hessian/bilinearity and hence n=3.",
+      "status": "FALSIFIED",
+      "smallest_counterexample_dimension": 1
+    },
+    {
+      "statement": "Directional/Gateaux-type information is weaker than joint Frechet differentiability.",
+      "status": "IMPORTED/KNOWN"
+    },
+    {
+      "statement": "Seeded dimension audit through n=128 agrees with the exact counterfamily identities.",
+      "status": "NUMERICALLY SUPPORTED"
+    },
+    {
+      "statement": "PDT primitives imply joint second-order Frechet regularity or an equivalent polarization law at the null state.",
+      "status": "OPEN"
+    }
+  ],
+  "breakthrough_candidate": false
+}
