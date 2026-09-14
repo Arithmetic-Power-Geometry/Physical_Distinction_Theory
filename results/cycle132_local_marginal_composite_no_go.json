@@ -1,0 +1,45 @@
+{
+  "cycle": 132,
+  "classification": [
+    "PROVED",
+    "FALSIFIED",
+    "IMPORTED/KNOWN",
+    "NUMERICALLY_SUPPORTED",
+    "OPEN"
+  ],
+  "claim": "Local row/column Euclidean revelation profiles do not determine composite unitarily invariant resource geometry.",
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "witness": {
+    "A_n": "I_n",
+    "B_n": "J_n/sqrt(n)",
+    "local_profile": "Every row and column of both witnesses has Euclidean norm 1.",
+    "singular_values_A": "(1,...,1)",
+    "singular_values_B": "(sqrt(n),0,...,0)"
+  },
+  "exact_schatten_formulas": {
+    "A_n_p_finite": "n^(1/p)",
+    "B_n_p_finite": "sqrt(n)",
+    "A_n_p_inf": "1",
+    "B_n_p_inf": "sqrt(n)"
+  },
+  "checks": {
+    "total_dimension_p_cases": 76,
+    "local_profile_failures": 0,
+    "max_local_profile_abs_gap": 7.771561172376096e-16,
+    "p1_distinguishes_for_all_n_gt_1": true,
+    "p2_distinguishes_for_any_n_gt_1": false,
+    "p4_distinguishes_for_all_n_gt_1": true,
+    "pinf_distinguishes_for_all_n_gt_1": true
+  },
+  "smallest_decisive_witness_n2": {
+    "S1_A": 2.0,
+    "S1_B": 1.414213562373095,
+    "S2_A": 1.4142135623730951,
+    "S2_B": 1.414213562373095,
+    "S4_A": 1.189207115002721,
+    "S4_B": 1.414213562373095,
+    "Sinf_A": 1.0,
+    "Sinf_B": 1.414213562373095
+  },
+  "interpretation": "Any PDT composite resource law determined only by single-party row/column quadratic revelation budgets is underdetermined. A correlation-sensitive composite invariant is necessary."
+}
