@@ -1,0 +1,38 @@
+{
+  "cycle": 142,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "seed": 142,
+  "tolerance": 1e-10,
+  "total_function_dimension_cases": 1320,
+  "stats": {
+    "quadratic": {
+      "binary_failures": 0,
+      "ternary_failures": 0,
+      "max_binary_relative_residual": 4.430352427104599e-16,
+      "max_ternary_relative_residual": 4.3860608312761276e-16
+    },
+    "binary_only_counterexample": {
+      "binary_failures": 0,
+      "ternary_failures": 583,
+      "max_binary_relative_residual": 1.2830088873597426e-15,
+      "max_ternary_relative_residual": 0.09202780348711417
+    }
+  },
+  "fixed_counterexample": {
+    "r": 1.23456789,
+    "g_r": 1.4763182360566625,
+    "binary_rhs": 1.4763182360566622,
+    "ternary_rhs": 1.5351562521586715,
+    "binary_relative_residual": 1.5040429597220596e-16,
+    "ternary_relative_residual": 0.03832705369194405
+  },
+  "classification": {
+    "PROVED": "Under continuity plus exact resolved equal-amplitude 2-way and 3-way splitter conservation, a radial rank-one resource is proportional to r^2; unit calibration fixes r^2.",
+    "CONDITIONAL": "The splitter conservation laws themselves are not yet derived from PDT-native primitives.",
+    "IMPORTED/KNOWN": "The dense-subgroup/incommensurate-period continuity argument is standard real analysis; quadratic frame-function territory has substantial prior art.",
+    "NUMERICALLY_SUPPORTED": "The frozen stress audit has zero quadratic-law failures across the declared grid.",
+    "FALSIFIED": "Binary equal-splitter conservation alone uniquely fixes the quadratic law.",
+    "OPEN": "Derive both equal-split conservation laws operationally from PDT without assuming Euclidean/quadratic resource accounting.",
+    "BREAKTHROUGH_CANDIDATE": false
+  }
+}
