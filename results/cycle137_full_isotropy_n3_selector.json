@@ -1,0 +1,73 @@
+{
+  "cycle": 137,
+  "claim": "full-SO(n)-equivariant nonzero alternating bilinear vector selector exists only at n=3",
+  "classification": {
+    "theorem": "PROVED (conditional on stated hypotheses)",
+    "mathematical_novelty": "IMPORTED/KNOWN boundary; not claimed novel",
+    "pdt_native_derivation": "OPEN: PDT must derive bilinearity, alternation, and full proper-rotation covariance",
+    "numerics": "NUMERICALLY SUPPORTED",
+    "breakthrough_candidate": "NO"
+  },
+  "dimensions": {
+    "1": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "2": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "3": "SURVIVES: standard cross product is nonzero, alternating, bilinear, SO(3)-equivariant",
+    "4": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "5": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "6": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "7": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "8": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "9": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "10": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "11": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "12": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "16": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "24": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "32": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "48": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "64": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "96": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V",
+    "128": "EXCLUDED by stabilizer theorem for nonzero fully SO(n)-equivariant alternating bilinear VxV->V"
+  },
+  "so3_random_audit": {
+    "samples": 500,
+    "failures": 0,
+    "max_abs_residual": 7.105427357601002e-15
+  },
+  "so7_decisive_counterexample": {
+    "rotation": "quarter-turn in (e1,e2): e1->e2, e2->-e1",
+    "input_pair": [
+      "e1",
+      "e4"
+    ],
+    "B(Re1,Re4)": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "R_B(e1,e4)": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "gap": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      1.0,
+      0.0
+    ],
+    "gap_norm2": 2.0,
+    "equivariant": false
+  }
+}
