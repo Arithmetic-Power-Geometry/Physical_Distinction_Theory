@@ -1,0 +1,45 @@
+{
+  "cycle": 145,
+  "seed": 145,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "tolerance": 1e-10,
+  "counts": {
+    "cases": 980,
+    "sparse_cases": 308,
+    "permutation_failures": 0,
+    "zero_padding_failures": 0,
+    "homogeneity_failures": 0,
+    "uniform_refinement_failures": 0,
+    "tensor_multiplicativity_failures": 0,
+    "unequal_composition_differences": 900
+  },
+  "maximum_relative_residuals": {
+    "permutation": 8.243001886226102e-16,
+    "zero_padding": 3.8793258524395967e-16,
+    "homogeneity": 7.348080447566169e-16,
+    "uniform_refinement": 5.678211357171623e-16,
+    "tensor_multiplicativity": 8.548756116750117e-16
+  },
+  "smallest_simple_unequal_witness": {
+    "q": [1.0,3.0],
+    "counterfamily_resource": 5.0,
+    "ordinary_additive_resource": 4.0,
+    "gap": 1.0
+  },
+  "vanishing_channel_boundary": [
+    {"epsilon":1.0,"resource":2.0},
+    {"epsilon":0.1,"resource":1.8363636363636362},
+    {"epsilon":0.001,"resource":1.9980039960039961},
+    {"epsilon":1e-6,"resource":1.9999980000040003},
+    {"epsilon":1e-9,"resource":1.9999999979999998},
+    {"epsilon":0.0,"resource":1.0}
+  ],
+  "classification": {
+    "candidate_package":"FALSIFIED",
+    "identities":"PROVED",
+    "stress_test":"NUMERICALLY_SUPPORTED",
+    "renyi2_collision_structure":"IMPORTED/KNOWN",
+    "pdt_native_full_composition_law":"OPEN",
+    "breakthrough_candidate":false
+  }
+}
