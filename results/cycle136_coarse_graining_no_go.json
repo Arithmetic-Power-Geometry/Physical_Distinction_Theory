@@ -1,0 +1,24 @@
+{
+  "alpha_half_violations": 1280,
+  "alpha_three_violations": 1280,
+  "alpha_two_violations": 1280,
+  "exact_witness": {
+    "coarse_merged": "1/2",
+    "fine_merged": "5/14",
+    "gap": "1/7",
+    "rule": "f(q)=q^2",
+    "weights": "(1,2,3)"
+  },
+  "largest_observed_nonlinear_gap": 0.3332205290256422,
+  "linear_failures": 0,
+  "max_linear_residual": 1.1102230246251565e-16,
+  "nonlinear_cases": 3840,
+  "nonlinear_scalar_route_status": "FALSIFIED",
+  "nonlinear_violations": 3840,
+  "outcome_counts": [3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "seed": 136,
+  "smallest_observed_nonlinear_gap": 0.0002546724775186471,
+  "theorem_status": "CONDITIONAL/PROVED",
+  "total_cases_per_alpha": 1280,
+  "tolerance": 1e-12
+}
