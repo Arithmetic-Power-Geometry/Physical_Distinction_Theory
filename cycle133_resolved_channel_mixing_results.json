@@ -1,0 +1,25 @@
+{
+  "cycle": 133,
+  "theorem": "resolved-channel additivity + SO(n)xSO(n) two-plane mixing + unit calibration => Frobenius-squared resource for n>=2",
+  "dimensions_tested": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "seed": 133,
+  "trials_per_dimension_n_ge_2": 50,
+  "quadratic_rotation_checks": 900,
+  "quadratic_rotation_failures": 0,
+  "max_relative_quadratic_residual": 4.342037026479508e-16,
+  "discrete_signed_permutation_checks": 2700,
+  "discrete_signed_permutation_failures": 0,
+  "exact_3_4_5_witness": {
+    "1": {"mixed_resource": "7/5", "difference_from_1": "2/5"},
+    "2": {"mixed_resource": "1/1", "difference_from_1": "0/1"},
+    "4": {"mixed_resource": "337/625", "difference_from_1": "-288/625"}
+  },
+  "edge_n1": "non-unique: |t| and |t|^4 both satisfy single-channel additivity/calibration because SO(1) has no two-plane mixing",
+  "classification": {
+    "resolved_channel_mixing_theorem": ["PROVED", "CONDITIONAL", "IMPORTED/KNOWN", "NUMERICALLY SUPPORTED"],
+    "discrete_symmetry_suffices": "FALSIFIED",
+    "n1_extension": "FALSIFIED",
+    "pdt_native_derivation_of_resolved_composite_additivity": "OPEN"
+  },
+  "breakthrough_candidate": false
+}
