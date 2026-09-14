@@ -1,0 +1,21 @@
+{
+  "cycle": 143,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "equal_split_cases": 3040,
+  "equal_split_failures": 0,
+  "max_equal_split_relative_residual": 8.254910645564363e-16,
+  "unequal_random_differences": 54,
+  "exact_witness": {
+    "x": [1,2],
+    "epsilon": 1.0,
+    "variance_term": 4.5,
+    "quadratic_resource": 5.0,
+    "deformed_resource": 9.5
+  },
+  "classification": {
+    "equal_split_conservation_all_k": "PROVED for the explicit counterfamily; NUMERICALLY SUPPORTED by the frozen audit",
+    "equal_split_implies_full_composition": "FALSIFIED",
+    "pdt_native_unequal_composition_bridge": "OPEN",
+    "breakthrough_candidate": false
+  }
+}
