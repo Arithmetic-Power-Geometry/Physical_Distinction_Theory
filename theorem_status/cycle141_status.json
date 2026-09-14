@@ -1,0 +1,27 @@
+{
+  "cycle": 141,
+  "results": [
+    {
+      "statement": "For every finite p>=1, R_p(A)=sum_i sigma_i(A)^p is nonnegative, left/right orthogonally invariant, direct-sum additive, tensor-product multiplicative, and has the rank-one power formula.",
+      "status": "PROVED"
+    },
+    {
+      "statement": "Direct-sum additivity + tensor-product multiplicativity + reversible invariance + rank-one calibration/formula uniquely select the quadratic p=2 resource.",
+      "status": "FALSIFIED",
+      "smallest_decisive_same_input_witness": "A=diag(1,2): R_1=3, R_2=5, R_3=9, R_4=17"
+    },
+    {
+      "statement": "Schatten p norms/power sums and singular-value direct-sum/tensor identities are established matrix-analysis results.",
+      "status": "IMPORTED/KNOWN"
+    },
+    {
+      "statement": "Seeded audit over n=1..12,16,24,32,48,64,96,128 and p=1,2,3,4 found zero failures in 664 p-cases.",
+      "status": "NUMERICALLY SUPPORTED"
+    },
+    {
+      "statement": "PDT primitives independently imply a degree-two scaling or continuous-mixing/resolved-channel law strong enough to exclude p!=2.",
+      "status": "OPEN"
+    }
+  ],
+  "breakthrough_candidate": false
+}
