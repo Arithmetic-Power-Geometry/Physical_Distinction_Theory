@@ -1,0 +1,26 @@
+{
+  "cycle": 150,
+  "classification": {
+    "recoverable_monotone_invariance_theorem": "PROVED",
+    "application_to_PDT_composition": "CONDITIONAL",
+    "recoverability_alone_implies_ledger_invariance": "FALSIFIED",
+    "resource_theory_monotonicity_mechanism": "IMPORTED/KNOWN",
+    "exact_regression": "NUMERICALLY_SUPPORTED",
+    "pdt_native_free_realization_of_both_maps": "OPEN",
+    "breakthrough_candidate": false
+  },
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "exact_random_cases": 740,
+  "exact_recovery_failures": 0,
+  "additive_invariance_failures": 0,
+  "cycle146_phi_changed_cases": 705,
+  "witness": {
+    "q": ["1", "3"],
+    "refined": ["1", "3/4", "9/4"],
+    "recovered": ["1", "3"],
+    "phi_before": "25/7",
+    "phi_after": "2809/820",
+    "phi_difference": "-837/5740"
+  },
+  "surviving_obligation": "derive from PDT primitives that the local refinement encoding and its exact merge are both admissible/free for the same operational resource monotone"
+}
