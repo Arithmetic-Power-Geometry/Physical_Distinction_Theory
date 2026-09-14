@@ -9,11 +9,11 @@ EPSILONS = [0.0, 0.01, 0.1, 1.0]
 
 def variance_term(x: np.ndarray) -> float:
     x = np.asarray(x, dtype=float)
-    m = x.size
-    if m <= 1:
+    if x.size <= 1:
         return 0.0
     q = x * x
-    return float(np.sum(q * q) - np.sum(q) ** 2 / m)
+    # Algebraically sum(q^2) - sum(q)^2/m; centered form avoids catastrophic cancellation.
+    return float(np.sum((q - np.mean(q)) ** 2))
 
 
 def resource(x: np.ndarray, epsilon: float) -> float:
