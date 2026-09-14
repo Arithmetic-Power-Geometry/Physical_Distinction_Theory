@@ -1,0 +1,21 @@
+{
+  "cycle": 138,
+  "target": "PDT-native n=3 bridge",
+  "results": [
+    {
+      "claim": "Nonzero alternating/self-null full-SO(n)-equivariant interactions exist only in n=3 without bilinearity.",
+      "status": "FALSIFIED",
+      "smallest_counterexample_dimension": 1,
+      "counterexample": "B(x,y)=||y||^2 x-||x||^2 y"
+    },
+    {
+      "claim": "The Cycle-137 bilinear + alternating + full-SO(n)-equivariant selector remains sufficient for n=3.",
+      "status": "CONDITIONAL"
+    },
+    {
+      "claim": "PDT primitives derive bilinearity or equivalent first-order linear response.",
+      "status": "OPEN"
+    }
+  ],
+  "breakthrough_candidate": false
+}
