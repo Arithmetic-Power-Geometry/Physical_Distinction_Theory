@@ -1,0 +1,13 @@
+{
+  "cycle": 152,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "cases": 570,
+  "coarse_record_failures": 0,
+  "fine_record_neutral_cases": 0,
+  "exact_recovery_failures": 0,
+  "classification": {
+    "nontrivial_refinement_neutral_for_all_resolving_windows": "FALSIFIED",
+    "coarse_window_neutrality": "NUMERICALLY_SUPPORTED",
+    "pdt_native_privileged_window_derivation": "OPEN"
+  }
+}
