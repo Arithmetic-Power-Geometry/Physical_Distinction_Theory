@@ -1,0 +1,13 @@
+{
+  "cycle": 151,
+  "dimensions": [1,2,3,4,5,6,7,8,9,10,11,12,16,24,32,48,64,96,128],
+  "cases": 570,
+  "recovery_failures": 0,
+  "additive_ledger_failures": 0,
+  "label_sensitive_ledger_changes": 570,
+  "classification": {
+    "operational_quotient_invariance": "PROVED_CONDITIONAL",
+    "recoverability_implies_all_ledgers_invariant": "FALSIFIED",
+    "pdt_native_free_map_bridge": "OPEN"
+  }
+}
