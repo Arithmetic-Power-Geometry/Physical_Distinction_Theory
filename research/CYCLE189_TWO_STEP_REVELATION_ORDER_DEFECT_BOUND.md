@@ -3,7 +3,6 @@
 ## Status
 
 - **PROVED (conditional):** for one nonzero scalar effect and two invertible reversible interventions, the two-order revelation-rank defect has absolute value at most 1.
-- **NUMERICALLY SUPPORTED:** exhaustive permutation checks for n=2..6 and randomized invertible-matrix checks; the analytic theorem covers every finite n, including n=1..12.
 - **IMPORTED/KNOWN boundary:** the proof is finite-dimensional linear algebra / switched-observability rank structure; no PDT novelty is claimed for the abstract rank fact.
 - **FALSIFIED:** any conjecture that the two-order defect can grow with dimension for a single scalar effect and exactly two reversible interventions.
 - **OPEN:** whether a PDT-native physical restriction yields a stronger multi-step/resource-cost inequality not reducible to observability rank theory.
@@ -45,14 +44,16 @@ Then eAB=(eA)B=a eB=b e. Hence D(B,A)=1. By symmetry, D(B,A)=1 implies D(A,B)=1.
 
 ### Sharp witness
 
-In dimension 3, take e=(1,0,0), A the transposition (12), and B the 3-cycle represented so that the Cycle-188 construction gives one order rank 2 and the reverse order rank 3. Hence |Delta|=1 is attainable. The witness embeds by identity on unused coordinates into every n>=3.
+In dimension 3, the Cycle-188 reversible permutation witness realizes ranks 2 and 3 under opposite orders, hence |Delta|=1. The witness embeds by identity on unused coordinates into every n>=3.
 
 ## Dimension stress implications
 
 - n=1: Delta=0 identically.
-- n=2: |Delta|<=1 analytically; for permutation reversibles the defect is 0.
-- n=3..12: |Delta|<=1 analytically, with the n=3 sharp witness embedded into all n>=3.
+- n=2: |Delta|<=1 analytically.
+- n=3..12: |Delta|<=1 analytically, with the Cycle-188 n=3 sharp witness embedded into all n>=3.
 - arbitrary finite n: same proof; no asymptotic growth with n is possible for this exact two-intervention/single-effect protocol.
+
+Because the theorem is analytic and dimension-independent, numerical tests are not used as evidence for the bound in this cycle.
 
 ## Degenerate and edge cases
 
