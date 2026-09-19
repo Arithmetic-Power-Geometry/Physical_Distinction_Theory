@@ -1,6 +1,6 @@
 from fractions import Fraction
 
-from pdt.cycle263_hereditary_selector import exact_embedding_regression
+from src.pdt.cycle263_hereditary_selector import exact_embedding_regression
 
 
 def test_exact_embedding_n1_to_n12():
