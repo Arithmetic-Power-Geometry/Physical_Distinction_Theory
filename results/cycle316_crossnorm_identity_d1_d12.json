@@ -1,0 +1,21 @@
+{
+  "cycle": 316,
+  "classification": "FALSIFIED",
+  "claim_tested": "product exactness plus associativity, symmetry and local contraction functoriality uniquely determines composite distinction",
+  "witness": "Z_d = I_d in Euclidean R^d tensor R^d",
+  "rows": [
+    {"d":1,"injective":1,"projective":1,"ratio":1},
+    {"d":2,"injective":1,"projective":2,"ratio":2},
+    {"d":3,"injective":1,"projective":3,"ratio":3},
+    {"d":4,"injective":1,"projective":4,"ratio":4},
+    {"d":5,"injective":1,"projective":5,"ratio":5},
+    {"d":6,"injective":1,"projective":6,"ratio":6},
+    {"d":7,"injective":1,"projective":7,"ratio":7},
+    {"d":8,"injective":1,"projective":8,"ratio":8},
+    {"d":9,"injective":1,"projective":9,"ratio":9},
+    {"d":10,"injective":1,"projective":10,"ratio":10},
+    {"d":11,"injective":1,"projective":11,"ratio":11},
+    {"d":12,"injective":1,"projective":12,"ratio":12}
+  ],
+  "note": "Rows are regression values; the singular-value formula proves epsilon(I_d)=1 and pi(I_d)=d for every finite d."
+}
