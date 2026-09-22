@@ -1,0 +1,13 @@
+n,purification_exists,selector_unique_to_n3,status,reason
+1,true,false,PROVED,trivial pure-state purification
+2,true,false,PROVED,spectral-Schmidt construction
+3,true,false,PROVED,spectral-Schmidt construction
+4,true,false,PROVED,spectral-Schmidt construction
+5,true,false,PROVED,spectral-Schmidt construction
+6,true,false,PROVED,spectral-Schmidt construction
+7,true,false,PROVED,spectral-Schmidt construction
+8,true,false,PROVED,spectral-Schmidt construction
+9,true,false,PROVED,spectral-Schmidt construction
+10,true,false,PROVED,spectral-Schmidt construction
+11,true,false,PROVED,spectral-Schmidt construction
+12,true,false,PROVED,spectral-Schmidt construction
