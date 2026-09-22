@@ -1,0 +1,13 @@
+n,normalized_uniform_erasure_cost,status,n3_special
+1,0,EXACT,false
+2,ln(2),EXACT,false
+3,ln(3),EXACT,false
+4,ln(4),EXACT,false
+5,ln(5),EXACT,false
+6,ln(6),EXACT,false
+7,ln(7),EXACT,false
+8,ln(8),EXACT,false
+9,ln(9),EXACT,false
+10,ln(10),EXACT,false
+11,ln(11),EXACT,false
+12,ln(12),EXACT,false
