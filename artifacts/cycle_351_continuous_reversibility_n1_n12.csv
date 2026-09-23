@@ -1,0 +1,13 @@
+n,case,CRT_holds,selects_n3,status,reason
+1,singleton,vacuous,false,EDGE,"one pure state; transitivity vacuous"
+2,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(2) path-connected and transitive on pure rays"
+3,complex_quantum,true,false,NONUNIQUE,"U(3) path-connected and transitive on pure rays"
+4,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(4) path-connected and transitive on pure rays"
+5,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(5) path-connected and transitive on pure rays"
+6,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(6) path-connected and transitive on pure rays"
+7,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(7) path-connected and transitive on pure rays"
+8,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(8) path-connected and transitive on pure rays"
+9,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(9) path-connected and transitive on pure rays"
+10,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(10) path-connected and transitive on pure rays"
+11,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(11) path-connected and transitive on pure rays"
+12,complex_quantum,true,false,FALSIFIED_SELECTOR,"U(12) path-connected and transitive on pure rays"
