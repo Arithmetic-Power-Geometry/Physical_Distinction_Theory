@@ -1,0 +1,13 @@
+n,degenerate_or_nontrivial,bell_outcomes,weyl_corrections,perfect_identity_channel,n3_unique
+1,degenerate,1,1,true,false
+2,nontrivial,4,4,true,false
+3,nontrivial,9,9,true,false
+4,nontrivial,16,16,true,false
+5,nontrivial,25,25,true,false
+6,nontrivial,36,36,true,false
+7,nontrivial,49,49,true,false
+8,nontrivial,64,64,true,false
+9,nontrivial,81,81,true,false
+10,nontrivial,100,100,true,false
+11,nontrivial,121,121,true,false
+12,nontrivial,144,144,true,false
