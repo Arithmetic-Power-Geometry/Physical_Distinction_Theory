@@ -1,0 +1,13 @@
+n,model,witness_exists,D_R1,D_R2,strict_set_refinement,strict_revelation,status
+1,degenerate,no,NA,NA,NA,NA,DEGENERATE
+2,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+3,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+4,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+5,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+6,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+7,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+8,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+9,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+10,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+11,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
+12,classical_or_quantum,yes,1,1,true,false,FALSIFIED_STRICT_REVELATION
