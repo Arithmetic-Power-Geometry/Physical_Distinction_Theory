@@ -1,0 +1,13 @@
+n,h1_h3_normed_vector_product,full_SO_n_equivariance,cycle370_classification,reason
+1,degenerate,degenerate,REJECT_NONTRIVIAL,No independent pair
+2,no,no,FALSIFIED,No vector orthogonal to every independent input pair with required norm
+3,yes,yes,CONDITIONAL_SURVIVOR,Hodge star maps Lambda2(V) equivariantly to V
+4,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+5,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+6,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+7,yes,no,FALSIFIED_BY_H4,Octonionic cross product stabilizer is G2 not full SO(7)
+8,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+9,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+10,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+11,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
+12,no,no,FALSIFIED,No nonzero SO(n) intertwiner Lambda2(V)->V satisfying norm law
