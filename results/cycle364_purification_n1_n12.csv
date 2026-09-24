@@ -1,0 +1,13 @@
+n,nontrivial_rank2_state,schmidt_rank,reduced_trace,reconstruction_error,n3_selected
+1,false,1,1,0,false
+2,true,2,1,0,false
+3,true,2,1,0,false
+4,true,2,1,0,false
+5,true,2,1,0,false
+6,true,2,1,0,false
+7,true,2,1,0,false
+8,true,2,1,0,false
+9,true,2,1,0,false
+10,true,2,1,0,false
+11,true,2,1,0,false
+12,true,2,1,0,false
