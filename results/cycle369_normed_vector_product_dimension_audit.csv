@@ -1,0 +1,13 @@
+n,nontrivial_normed_binary_vector_product,status,n3_unique
+1,false,trivial_classification_case,false
+2,false,excluded,false
+3,true,admissible,false
+4,false,excluded,false
+5,false,excluded,false
+6,false,excluded,false
+7,true,admissible_octonionic_countermodel,false
+8,false,excluded,false
+9,false,excluded,false
+10,false,excluded,false
+11,false,excluded,false
+12,false,excluded,false
