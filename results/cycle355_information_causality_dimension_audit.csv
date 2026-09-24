@@ -1,0 +1,13 @@
+n,quantum_IC_compatible,n3_selected,counterexample_role,status
+1,TRUE,FALSE,trivial_boundary,IMPORTED_KNOWN
+2,TRUE,FALSE,smallest_nontrivial_counterexample,PROVED
+3,TRUE,TRUE,target_but_not_unique,PROVED
+4,TRUE,FALSE,smallest_higher_dimension_counterexample,PROVED
+5,TRUE,FALSE,higher_dimension_counterexample,PROVED
+6,TRUE,FALSE,higher_dimension_counterexample,PROVED
+7,TRUE,FALSE,higher_dimension_counterexample,PROVED
+8,TRUE,FALSE,higher_dimension_counterexample,PROVED
+9,TRUE,FALSE,higher_dimension_counterexample,PROVED
+10,TRUE,FALSE,higher_dimension_counterexample,PROVED
+11,TRUE,FALSE,higher_dimension_counterexample,PROVED
+12,TRUE,FALSE,higher_dimension_counterexample,PROVED
