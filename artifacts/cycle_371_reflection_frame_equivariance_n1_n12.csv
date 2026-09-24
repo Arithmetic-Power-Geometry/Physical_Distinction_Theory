@@ -1,0 +1,13 @@
+n,h1_h3_normed_product,SO_n_equivariance,polar_O_n_equivariance,cycle371_status,reason
+1,degenerate,degenerate,degenerate,REJECT_NONTRIVIAL,No independent pair
+2,no,no,no,FALSIFIED,H1-H3 fail
+3,yes,yes,no,FALSIFIED_BY_REFLECTION,Cross product is axial; det=-1 gives determinant twist
+4,no,no,no,FALSIFIED,H1-H3 fail
+5,no,no,no,FALSIFIED,H1-H3 fail
+6,no,no,no,FALSIFIED,H1-H3 fail
+7,yes,no,no,FALSIFIED,Octonionic product already fails full SO(7) equivariance
+8,no,no,no,FALSIFIED,H1-H3 fail
+9,no,no,no,FALSIFIED,H1-H3 fail
+10,no,no,no,FALSIFIED,H1-H3 fail
+11,no,no,no,FALSIFIED,H1-H3 fail
+12,no,no,no,FALSIFIED,H1-H3 fail
