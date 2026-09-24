@@ -1,0 +1,13 @@
+dimension,qm_finite_dimensional,relative_entropy_DPI,tensor_additivity,asymmetric_distinction_resource_structure,n3_selected,status
+1,yes,yes,yes,trivial,no,IMPORTED_KNOWN
+2,yes,yes,yes,yes,no,DECISIVE_COUNTEREXAMPLE_LOWER
+3,yes,yes,yes,yes,no,ADMISSIBLE_NOT_UNIQUE
+4,yes,yes,yes,yes,no,DECISIVE_COUNTEREXAMPLE_HIGHER
+5,yes,yes,yes,yes,no,COUNTERFAMILY
+6,yes,yes,yes,yes,no,COUNTERFAMILY
+7,yes,yes,yes,yes,no,COUNTERFAMILY
+8,yes,yes,yes,yes,no,COUNTERFAMILY
+9,yes,yes,yes,yes,no,COUNTERFAMILY
+10,yes,yes,yes,yes,no,COUNTERFAMILY
+11,yes,yes,yes,yes,no,COUNTERFAMILY
+12,yes,yes,yes,yes,no,COUNTERFAMILY
