@@ -1,0 +1,13 @@
+n,message_count,ideal_success_probability,n3_unique
+1,1,1.0,false
+2,4,1.0,false
+3,9,1.0,false
+4,16,1.0,false
+5,25,1.0,false
+6,36,1.0,false
+7,49,1.0,false
+8,64,1.0,false
+9,81,1.0,false
+10,100,1.0,false
+11,121,1.0,false
+12,144,1.0,false
