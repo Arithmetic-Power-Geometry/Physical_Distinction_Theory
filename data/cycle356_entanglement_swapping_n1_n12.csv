@@ -1,0 +1,13 @@
+n,nontrivial_entanglement_swapping,bell_outcomes,selects_n3,status
+1,false,1,false,DEGENERATE
+2,true,4,false,COUNTEREXAMPLE
+3,true,9,false,ADMITTED_NOT_UNIQUE
+4,true,16,false,COUNTEREXAMPLE
+5,true,25,false,COUNTEREXAMPLE
+6,true,36,false,COUNTEREXAMPLE
+7,true,49,false,COUNTEREXAMPLE
+8,true,64,false,COUNTEREXAMPLE
+9,true,81,false,COUNTEREXAMPLE
+10,true,100,false,COUNTEREXAMPLE
+11,true,121,false,COUNTEREXAMPLE
+12,true,144,false,COUNTEREXAMPLE
