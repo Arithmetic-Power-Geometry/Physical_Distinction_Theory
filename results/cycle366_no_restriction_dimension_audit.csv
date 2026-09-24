@@ -1,0 +1,13 @@
+dimension,hermitian_real_dimension,state_cone_dual_effect_cone,nrh_holds,n3_singularity
+1,1,true,true,false
+2,4,true,true,false
+3,9,true,true,false
+4,16,true,true,false
+5,25,true,true,false
+6,36,true,true,false
+7,49,true,true,false
+8,64,true,true,false
+9,81,true,true,false
+10,100,true,true,false
+11,121,true,true,false
+12,144,true,true,false
